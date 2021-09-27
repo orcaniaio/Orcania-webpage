@@ -1,0 +1,19 @@
+@import '../../../scss/vars';
+
+// .apexcharts-legend {
+//
+//     @media (min-width: 769px){
+//         justify-content: center !important;
+//         top: 0 !important;
+//     }
+// }
+
+.apexcharts-legend-series{
+
+    &:hover {
+        .apexcharts-legend-text{
+            color: dodgerblue !important;
+        }
+    }
+
+}

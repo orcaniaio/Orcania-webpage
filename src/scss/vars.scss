@@ -1,0 +1,20 @@
+$primary:  #633778;
+$light-purple: #EFD0FF;
+$dark: #23213B;
+$contrast: #00E4A2;
+$light: #DEDEDE;
+$warning: #E4C000;
+
+$primary2dark: radial-gradient(88.89% 88.89% at 50% 50%, #633778 0%, #100F1E 100%);
+$d2p2d: linear-gradient(270deg, #23213B 0%, #432F4D 48.85%, #23213B 100%);
+
+$dark2primary-v: linear-gradient(180deg, #23213B 0%, #633778 250.85%);
+
+$navbar-item-img-max-height: 3.5rem;
+
+:export {
+    primary: $primary;
+    lightPurple: $light-purple;
+    dark: $dark;
+    contrast: $contrast;    
+}

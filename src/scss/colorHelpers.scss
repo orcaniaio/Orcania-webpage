@@ -1,0 +1,70 @@
+@import './vars';
+
+.has-background-transparent{
+    background: rgba(0,0,0,0) !important;
+}
+
+.has-no-border{
+    border: none !important;
+}
+
+.has-no-box-shadow{
+    box-shadow: none !important;
+
+}
+
+/* *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*~~* */
+
+.has-background-primary2dark{
+    background: $primary2dark !important;
+    background-blend-mode: color-dodge, overlay, difference, difference, normal;
+}
+
+.has-background-d2p2d{
+    background: $d2p2d !important;
+    background-blend-mode: color-dodge, overlay, difference, difference, normal;
+}
+
+.has-background-primary2dark-box{
+    background: radial-gradient(50% 50% at 50% 50%, #633778 0%, #23213B 100%);
+}
+
+.has-background-primary2dark-v{
+    background: linear-gradient(180deg, $primary 50%, $dark 50%);
+}
+
+.has-background-dark2primary-v{
+    background: linear-gradient(180deg, #23213B 0%, #633778 250.85%);
+}
+
+.has-background-primary2contrast{
+    background: linear-gradient(72.04deg, rgba($primary, 0.60) 0%, rgba($contrast, 0.60) 100%);
+    backdrop-filter: blur(8px);
+}
+
+.has-border-contrast{
+    border: 5px solid $contrast;
+}
+/* *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*~~* */
+.has-background-light-purple{
+    background-color: $light-purple!important;
+    color: $dark !important;
+}
+
+.is-light-purple{
+    background-color: $light-purple!important;
+    color: $dark !important;
+
+    &:hover{
+        background-color: $light-purple + 20 !important;
+    }
+}
+
+.has-text-light-purple{ color: $light-purple !important; }
+
+.has-background-contrast, .is-contrast{
+    background-color: $contrast!important;
+    color: $dark !important;
+}
+
+.has-text-contrast{ color: $contrast !important; }

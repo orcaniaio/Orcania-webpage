@@ -1,0 +1,67 @@
+@import './vars';
+
+.highway-slider {
+
+	display:flex;
+	justify-content:center;
+	width:100%;
+	height:150px;
+	.highway-barrier {
+		overflow:hidden;
+		position:relative;
+	}
+	ul.highway-lane {
+		display:flex;
+		height:100%;
+		li.highway-car {
+			flex:1;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			// background:rgba(black, 0.5);
+			color:#fff;
+		}
+	}
+}
+@keyframes translateinfinite {
+	100% { transform:translateX(calc(-250px * 8));  }
+}
+#infinite div.highway-barrier {
+	// background:#fff;
+	// box-shadow:0 3px 10px -3px rgba(0,0,0,0.3);
+	&::before,
+	&::after {
+		content: " ";
+		position:absolute;
+		z-index:9;
+		width:180px;
+		height:100%;
+	}
+	&::before {
+		top:0;left:0;
+		background: linear-gradient(to right, rgba($dark,1) 0%, rgba(255,255,255,0) 100%);
+		@media (max-width: 769px ){
+			display: none;
+		}
+	}
+	&::after {
+		top:0;right:0;
+		background: linear-gradient(to left, rgba($dark,1) 0%, rgba(255,255,255,0) 100%);
+		@media (max-width: 769px ){
+			display: none;
+		}
+	}
+	ul.highway-lane {
+		width:calc(250px * 16);
+		li.highway-car {
+			 width:250px;
+			animation:translateinfinite 25s linear infinite;
+            .box{
+                display: grid;
+                place-items: center;
+                border-radius: 80px;
+                // width: 250px;
+            }
+		}
+	}
+}

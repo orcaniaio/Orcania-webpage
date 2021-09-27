@@ -1,0 +1,28 @@
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    top: 0;
+
+    @media (max-width: 767px){
+        height: 1000px !important;
+    }
+
+}
+
+.bg-img {
+     background-image: url('./bg.png') ;
+     background-position: center center;
+     background-repeat:  no-repeat;
+     height: 100%;
+     //background-attachment: fixed;
+     background-size:  cover;
+
+     @media (max-width: 767px){
+         // background-size:  auto !important;
+     }
+
+     //background-color: #999;
+}

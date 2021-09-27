@@ -1,0 +1,33 @@
+@import '../../../scss/vars';
+.footer-logo{
+
+    // filter: drop-shadow(5px 7px 0px rgba($primary,0.75));
+
+    @media (min-width: 769px){
+        position: absolute;
+        left: 100%;
+        top: 0;
+        transform: translate(-100%, calc(-40% - 36px));
+        -webkit-filter: drop-shadow(5px 7px  rgba(black,0.5));
+    }
+
+    @media (max-width: 769px){
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, calc(-50% - 36px));
+        -webkit-filter: drop-shadow(5px 7px  rgba(black,0.5));
+    }
+
+    img{
+        width: 250px;
+        @media (max-width: 769px){
+            min-width: 250px;
+        }
+    }
+
+}
+
+.footer-logo2{
+
+}

@@ -1,0 +1,46 @@
+@import './vars';
+
+.has-text-distriute{
+
+
+
+    @media (min-width: 769px){
+        text-align: justify;
+    }
+
+    @media (max-width: 769px){
+        text-align: justify;
+        hyphens: auto;
+    }
+
+}
+
+.is-centered-mobile{
+    @media (max-width: 769){
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+/* width */
+.has-cool-scroll::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.has-cool-scroll::-webkit-scrollbar-track {
+  background: $primary;
+  border-radius: 50px;
+}
+
+/* Handle */
+.has-cool-scroll::-webkit-scrollbar-thumb {
+  background: $light-purple;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+.has-cool-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,83 @@
+@import '../../../scss/vars';
+
+.box{
+    &.odd{
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            height: 50px;
+            width: 2px;
+            left: 50%;
+            transform: translate(-50%, 0);
+
+            top: 100%;
+            border: 2px solid $dark;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            left: 50%;
+            top: calc(100% + 38px);
+            transform: translate(-50%, 0) rotate(45deg);
+
+            background: $dark;
+            z-index: 5;
+            // border-radius: 50%;
+        }
+    }
+    &.even{
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            height: 50px;
+            width: 2px;
+            left: 50%;
+            transform: translate(-50%, -100%);
+
+            top: 0;
+            border: 2px solid $dark;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            left: 50%;
+            top: -58px;
+            transform: translate(-50%, 0) rotate(45deg);
+
+            background: $dark;
+            z-index: 5;
+            // border-radius: 50%;
+        }
+    }
+
+}
+
+
+.scroll-container{
+    background: rgba($primary, 0.1);
+    cursor: grab;
+
+    .notify{
+        position: absolute;
+        right: 0;
+        transform: translate(-20px, 10px);
+    }
+}
+
+.timeline-line{
+
+    height: 100px;
+    background: $dark;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 87%;
+    height: 3px;
+}

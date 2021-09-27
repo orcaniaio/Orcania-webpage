@@ -1,0 +1,25 @@
+
+.sidebar-btn{
+    min-width: 40px !important;
+    border: none !important;
+
+    background: rgba(#39285A, 0) !important;
+    color: rgba(#e0e0e0, 0.5) !important;
+
+    svg path{
+        fill: #e0e0e0;
+    }
+
+    &:hover{
+        background: #39285A !important;
+        color: white !important;
+
+        svg path{
+            fill: white;
+        }
+
+    }
+
+
+
+}
