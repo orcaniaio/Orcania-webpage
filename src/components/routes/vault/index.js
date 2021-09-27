@@ -1,3 +1,4 @@
+import {useEffect} from 'react';
 import {
     baseURL,
     vaultBannerImg,
@@ -10,6 +11,13 @@ const style = {
 }
 
 const Vault = props => {
+
+    useEffect(
+        () => {
+            document.title = "Crypto Family | Vault";
+        }, []
+    );
+
     return(
         <div style={style}>
 

@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import {
     baseURL,
     homeBannerImg,
@@ -29,6 +29,11 @@ const Home = props => {
 
     const [videoVisible, setVideoVisible] = useState(false);
 
+    useEffect(
+        () => {
+            document.title = "Crypto Family | Home";
+        }, []
+    );
 
     return(
         <div style={style}>
@@ -113,7 +118,7 @@ const Home = props => {
                                     <span>Go back</span>
                                 </button>
                                     <figure class="image is-16by9">
-                                        <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/ZarGxO0iXkU" frameborder="0" allowfullscreen></iframe>
+                                        <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/APl2u2iqmQE" frameborder="0" allowfullscreen></iframe>
                                     </figure>
                                 </div>
                             </div>
@@ -125,7 +130,7 @@ const Home = props => {
 
 
             <div className="" style={{width: '100%', height: '100%', position: 'absolute', top: '0', left:'0'}}>
-                <iframe width="100%" height="100%"  src='https://www.youtube.com/embed/ZarGxO0iXkU?autoplay=1&mute=1&enablejsapi=1&loop=1&controls=1&playlist=ZarGxO0iXkU'
+                <iframe width="100%" height="100%"  src='https://www.youtube.com/embed/APl2u2iqmQE?autoplay=1&mute=1&enablejsapi=1&loop=1&controls=0'
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>

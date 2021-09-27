@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import {
     baseURL,
     bridgeBannerImg,
@@ -21,6 +21,13 @@ const style = {
 
 const Bridge = props => {
     const [videoVisible, setVideoVisible] = useState(false);
+
+    useEffect(
+        () => {
+            document.title = "Crypto Family | Bridge";
+        }, []
+    );
+
     return(
         <div style={style}>
 
@@ -36,7 +43,7 @@ const Bridge = props => {
                                 <br/>
                                 {/*}<button className="button is-light-purple mb-3" style={{width: '150px'}}>Launch App</button>&nbsp;&nbsp;
                                 <button className="button is-light-purple mb-3" style={{width: '150px'}}>Nodes presale</button>&nbsp;&nbsp;*/}
-                                <a href="https://drive.google.com/file/d/1tUOtMyCaZ_zjRLqPah2pfJwewVTz7C_h/view?usp=sharing" target="_blank" className="button is-light-purple mb-3" style={{width: '150px'}}>White paper</a>
+                                <a href="https://drive.google.com/file/d/10DtpsPxUw5GviQfhctAQEOf0GFeSYLP8/view?usp=sharing" target="_blank" className="button is-light-purple mb-3" style={{width: '150px'}}>White paper</a>
                             </div>
 
                             <div className="column is-7 has-text-centered" data-aos="fade-left">
@@ -77,7 +84,7 @@ const Bridge = props => {
                                         <span>Go back</span>
                                     </button>
                                         <figure class="image is-16by9">
-                                            <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/ZarGxO0iXkU" frameborder="0" allowfullscreen></iframe>
+                                            <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/APl2u2iqmQE" frameborder="0" allowfullscreen></iframe>
                                         </figure>
                                     </div>
                                 </div>
@@ -89,7 +96,7 @@ const Bridge = props => {
 
 
                 <div className="" style={{width: '100%', height: '100%', position: 'absolute', top: '0', left:'0'}}>
-                    <iframe width="100%" height="100%"  src='https://www.youtube.com/embed/ZarGxO0iXkU?autoplay=1&mute=1&enablejsapi=1&loop=1&controls=1&playlist=ZarGxO0iXkU'
+                    <iframe width="100%" height="100%"  src='https://www.youtube.com/embed/APl2u2iqmQE?autoplay=1&mute=1&enablejsapi=1&loop=1&controls=0&playlist=APl2u2iqmQE'
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>

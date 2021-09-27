@@ -32,6 +32,12 @@ const Token = props => {
         'The ICO will either be held on centralized services such as Binance with part of the ICO being held on DAPPs on the supported blockchains of the Crypto Family Bridge, or it will be fully held on DAPPs of the supported blockchains.'
     });
 
+    useEffect(
+        () => {
+            document.title = "Crypto Family | Token";
+        }, []
+    );
+
     return(
         <div style={style}>
 
