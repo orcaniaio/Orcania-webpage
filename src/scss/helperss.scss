@@ -42,5 +42,29 @@
 
 /* Handle on hover */
 .has-cool-scroll::-webkit-scrollbar-thumb:hover {
-  background: #555;
+   background: $light-purple;
+}
+
+
+
+
+.has-cool-scroll2::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.has-cool-scroll2::-webkit-scrollbar-track {
+  background: $primary;
+  //border-radius: 50px;
+}
+
+/* Handle */
+.has-cool-scroll2::-webkit-scrollbar-thumb {
+  background: $light-purple;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+.has-cool-scroll2::-webkit-scrollbar-thumb:hover {
+  background: $light-purple;
 }
