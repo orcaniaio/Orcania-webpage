@@ -9,6 +9,8 @@ import {
     homeArtwork1,
     homeArtwork2,
     homeArtwork3,
+    member1,
+    member3,
     tokenIcon,
     bridgeIcon,
     vaultIcon
@@ -16,9 +18,6 @@ import {
 
 import {Link} from 'react-router-dom';
 import TeamCard from '../../base/team-card';
-
-import ceo from '../../../media/ceo.png';
-import professor from '../../../media/professor.png';
 
 const style = {
     // height: '100%',
@@ -50,22 +49,22 @@ const Home = props => {
                                 <div className="columns is-mobile has-background is-centered-mobile" style={{width: '50%'}}>
                                     <div className="column">
                                         <figure className="image is-32x32 ">
-                                            <img src={baseURL+ethLogo} alt='' />
+                                            <img src={ethLogo} alt='' />
                                         </figure> &nbsp; &nbsp; &nbsp;
                                     </div>
                                     <div className="column">
                                         <figure className="image is-32x32 ">
-                                            <img src={baseURL+bscLogo} alt=''/>
+                                            <img src={bscLogo} alt=''/>
                                         </figure> &nbsp; &nbsp; &nbsp; &nbsp;
                                     </div>
                                     <div className="column">
                                         <figure className="image is-32x32 ">
-                                            <img src={baseURL+polygonLogo} alt='' style={{height:"32px"}}/>
+                                            <img src={polygonLogo} alt='' style={{height:"32px"}}/>
                                         </figure> &nbsp; &nbsp; &nbsp; &nbsp;
                                     </div>
                                     <div className="column">
                                         <figure className="image is-32x32 ">
-                                            <img src={baseURL+oneLogo} alt=''/>
+                                            <img src={oneLogo} alt=''/>
                                         </figure> &nbsp; &nbsp; &nbsp; &nbsp;
                                     </div>
                                 </div>
@@ -75,7 +74,7 @@ const Home = props => {
 
                             <div className="column">
 
-                                <img src={baseURL + homeBannerImg} alt='' data-aos="fade-left"/>
+                                <img src={homeBannerImg} alt='' data-aos="fade-left"/>
 
                             </div>
                         </div>
@@ -147,13 +146,13 @@ const Home = props => {
                             <div className="column" data-aos="fade-up">
                                 <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">About us</h1>
                                 <p className="has-text-light  has-text-distriute is-size-5">
-                                    Crypto Family is a technologically driven DAO (Decentralized Autonomous Organization), focused on building the most advanced of projects in the blockchain industry in order to break the limits of blockchain technology and improve upon the features it offers. We strive to achieve these goals through a series of technologically and logically advanced projects never like before, the most significant being the Crypto Family Bridge series. 
+                                    Crypto Family is a technologically driven DAO (Decentralized Autonomous Organization), focused on building the most advanced of projects in the blockchain industry in order to break the limits of blockchain technology and improve upon the features it offers. We strive to achieve these goals through a series of technologically and logically advanced projects never like before, the most significant being the Crypto Family Bridge series.
                                     <br/><br/>
                                     Our goals are many but are always focused on one concept... Building a better future for blockchain technology.
                                 </p>
                             </div>
                             <div className="column has-text-centered" data-aos="fade-right">
-                                <img src={baseURL + homeArtwork1} alt='' style={{width: '400px'}}/>
+                                <img src={homeArtwork1} alt='' style={{width: '400px'}}/>
                             </div>
                         </div>
                         <br/><br/>
@@ -161,7 +160,7 @@ const Home = props => {
                         <div className="columns is-reverse" >
 
                             <div className="column has-text-left" data-aos="fade-left">
-                                <img src={baseURL + homeArtwork2} alt='' style={{width: '500px'}}/>
+                                <img src={homeArtwork2} alt='' style={{width: '500px'}}/>
                             </div>
                             <div className="column" data-aos="fade-up">
                                 <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">Our work</h1>
@@ -192,7 +191,7 @@ const Home = props => {
                                 </p>
                             </div>
                             <div className="column has-text-centered" data-aos="fade-right">
-                                <img src={baseURL + homeArtwork3} alt='' style={{width: '400px'}}/>
+                                <img src={homeArtwork3} alt='' style={{width: '400px'}}/>
                             </div>
                         </div>
 
@@ -213,7 +212,7 @@ const Home = props => {
                         <div className="column">
                             <Link to="/token" className="box has-background-primary2dark-box has-text-centered" style={{minHeight: '280px'}} data-aos="fade-up">
                                 <h1 className="title is-4 has-text-light-purple ">Crypto Family Coin</h1>
-                                <img src={baseURL+tokenIcon} alt=''/>
+                                <img src={tokenIcon} alt=''/>
                                 <p className="has-text-light is-size-5">
                                     The technologically driven governance asset of the Crypto Family
                                 </p>
@@ -222,7 +221,7 @@ const Home = props => {
                         <div className="column">
                             <Link to="/temp"  className="box has-background-primary2dark-box has-text-centered" style={{minHeight: '280px'}} data-aos="fade-up">
                                 <h1 className="title is-4 has-text-light-purple ">Crypto Family Bridge</h1>
-                                <img src={baseURL+bridgeIcon} alt=''/>
+                                <img src={bridgeIcon} alt=''/>
                                 <p className="has-text-light is-size-5">
                                     Linking the world of blockchains together
                                 </p>
@@ -231,7 +230,7 @@ const Home = props => {
                         <div className="column">
                             <Link to="/temp" className="box has-background-primary2dark-box has-text-centered" style={{minHeight: '280px'}} data-aos="fade-up">
                                 <h1 className="title is-4 has-text-light-purple ">Crypto Family Vault</h1>
-                                <img src={baseURL+vaultIcon} alt=''/>
+                                <img src={vaultIcon} alt=''/>
                                 <p className="has-text-light is-size-5">
                                     Security at another level
                                 </p>
@@ -287,7 +286,7 @@ const Home = props => {
                     <div className="columns">
                         <div className="column has-text-centered" style={{display: 'grid', placeItems: 'center'}}>
                             <div style={{width: '300px'}} data-aos="fade-up">
-                                <TeamCard name="Edy Haddad" charge="Founder, Smart contracts & software dev" imgsrc={ceo}
+                                <TeamCard name="Edy Haddad" charge="Founder, Smart contracts & software dev" imgsrc={member1}
                                     chargeIcon={<i class="fas fa-user-tie"></i>}
                                     socialmedia={
                                         <div>
@@ -364,7 +363,7 @@ const Home = props => {
 
                         <div className="column has-text-centered" style={{display: 'grid', placeItems: 'center'}}>
                             <div style={{width: '300px'}} data-aos="fade-up">
-                                <TeamCard name="Professor Youakim Badr" charge="Advisor" imgsrc={professor}
+                                <TeamCard name="Professor Youakim Badr" charge="Advisor" imgsrc={member3}
                                     chargeIcon={<i class="fas fa-chalkboard-teacher"></i>}
                                     socialmedia={
                                         <div>

@@ -48,7 +48,7 @@ const Bridge = props => {
 
                             <div className="column is-7 has-text-centered" data-aos="fade-left">
 
-                                <img src={baseURL+bridgeBannerImg} alt=''/>
+                                <img src={bridgeBannerImg} alt=''/>
 
                             </div>
                         </div>
@@ -125,7 +125,7 @@ const Bridge = props => {
                                     </p>
                                 </div>
                                 <div className="column has-text-centered" data-aos="fade-right" >
-                                    <img src={baseURL + bridgeArtwork1} alt='' width="500px"/>
+                                    <img src={bridgeArtwork1} alt='' width="500px"/>
                                 </div>
                             </div>
                             <br/><br/>
@@ -133,7 +133,7 @@ const Bridge = props => {
                             <div className="columns is-reverse" >
 
                                 <div className="column has-text-centered" data-aos="fade-left">
-                                    <img src={baseURL + bridgeArtwork2} alt='' width="500px"/>
+                                    <img src={bridgeArtwork2} alt='' width="500px"/>
                                 </div>
                                 <div className="column" data-aos="fade-up">
                                     <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">Decentralization</h1>
@@ -170,7 +170,7 @@ const Bridge = props => {
                                     </p>
                                 </div>
                                 <div className="column has-text-centered" data-aos="fade-right">
-                                    <img src={baseURL + bridgeArtwork3} alt='' width="600px"/>
+                                    <img src={bridgeArtwork3} alt='' width="600px"/>
                                 </div>
                             </div>
                             <br/><br/>
@@ -178,7 +178,7 @@ const Bridge = props => {
                             <div className="columns is-reverse" >
 
                                 <div className="column has-text-centered" data-aos="fade-left">
-                                    <img src={baseURL + bridgeArtwork4} alt='' width="500px"/>
+                                    <img src={bridgeArtwork4} alt='' width="500px"/>
                                 </div>
                                 <div className="column" data-aos="fade-up">
                                     <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">Fees</h1>
@@ -222,22 +222,22 @@ const Bridge = props => {
                     <div className="container px-3">
                         <div className="columns">
                             <div className="column has-text-centered">
-                                <img src={baseURL + numberOne}/>
+                                <img src={numberOne}/>
                                 <h1 className="title has-text-contrast has-text-centered is-4">Decentralized</h1>
                                 <p className="has-text-white">Secured and run by many nodes </p>
                             </div>
                             <div className="column has-text-centered">
-                                <img src={baseURL + numberTwo}/>
+                                <img src={numberTwo}/>
                                 <h1 className="title has-text-contrast has-text-centered is-4">Permissionless</h1>
                                 <p className="has-text-white">Open for anyone to add any asset they want, transfer and develop </p>
                             </div>
                             <div className="column has-text-contrast has-text-centered">
-                                <img src={baseURL + numberThree}/>
+                                <img src={numberThree}/>
                                 <h1 className="title has-text-contrast has-text-centered is-4">Cheap</h1>
                                 <p className="has-text-white">Cheapest inter blockchain bridge ever with a fee less than 0.0001$</p>
                             </div>
                             <div className="column has-text-contrast has-text-centered">
-                                <img src={baseURL + numberFour}/>
+                                <img src={numberFour}/>
                                 <h1 className="title has-text-contrast has-text-centered is-4">Instant</h1>
                                 <p className="has-text-white">Transactions processed and finalized in less than 4 seconds</p>
                             </div>

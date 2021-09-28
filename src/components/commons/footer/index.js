@@ -37,7 +37,7 @@ const Footer = () => {
                             </div>
                             <div className="column is-hidden-desktop" style={{minHeight:' 100px'}}></div>
                             <div className="column is-3 p-0 footer-logo has-text-centered">
-                                <img src={baseURL + logoLight} alt='' />
+                                <img src={ logoLight} alt='' />
                             </div>
                         </div>
                     </div>

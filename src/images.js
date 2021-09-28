@@ -1,54 +1,102 @@
+import ethLogoSVG from 'media/chain-logos/eth.svg';
+import bscLogoSVG from 'media/chain-logos/bsc.svg';
+import polLogoSVG from 'media/chain-logos/pol.svg';
+import harmonyLogoSVG from 'media/chain-logos/harmony.svg';
+
+import logoDarkPNG from 'media/brand/cf-logo-black.png';
+import logoLightPNG from 'media/brand/cf-logo-white.png';
+
+import home_banner_svg from 'media/pages/home/home_banner.svg';
+import home_about_svg from 'media/pages/home/home_about.svg';
+import home_work_svg from 'media/pages/home/home_work.svg';
+import home_goals_svg from 'media/pages/home/home_goals.svg';
+
+import token_icon_png from 'media/pages/home/token.png';
+import bridge_icon_png from 'media/pages/home/bridge.png';
+import vault_icon_png from 'media/pages/home/vault.png';
+
+import member1_png from 'media/pages/home/member1.png';
+import member3_png from 'media/pages/home/member3.png';
+import memberAny_png from 'media/pages/home/memberAny.png';
+
+
+import token_logo_svg from 'media/pages/token/token_logo.svg';
+import token_about_svg from 'media/pages/token/token_about.svg';
+import token_governance_svg from 'media/pages/token/token_governance.svg';
+import token_security_svg from 'media/pages/token/token_security.svg';
+import token_ecosystem_svg from 'media/pages/token/token_ecosystem.svg';
+
+import bridge_banner_svg from 'media/pages/bridge/bridge_banner.svg';
+import bridge_about_svg from 'media/pages/bridge/bridge_about.svg';
+import bridge_decentralization_svg from 'media/pages/bridge/bridge_decentralization.svg';
+import bridge_devs_svg from 'media/pages/bridge/bridge_developers.svg';
+import bridge_fees_svg from 'media/pages/bridge/bridge_fees.svg';
+import num1_png from 'media/pages/bridge/num1.png';
+import num2_png from 'media/pages/bridge/num2.png';
+import num3_png from 'media/pages/bridge/num3.png';
+import num4_png from 'media/pages/bridge/num4.png';
+
+import vault_banner_svg from 'media/pages/vault/vault_banner.svg';
+import vault_about_svg from 'media/pages/vault/vault_about.svg';
+import vault_manage_svg from 'media/pages/vault/vault_manage.svg';
+import vault_security_svg from 'media/pages/vault/vault_security.svg';
+
 export const baseURL = "https://drive.google.com/uc?export=view&id=";
+export const memberAny = memberAny_png;
 
-export const logoLight = '1JzRtlzuZmGL28wJ741wzTKmcvVaIMkZv';
-export const logoDark = '15uyjiiuM6Kl4wqg62YqvZZKwhHQw9Ujt';
+/*~~*~~*~~*~~*~~*~~*~~*~~* LOGOS *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
 
-export const polygonLogo = '19kfRG8LhMkagw_n14T_GxxWyoyB9MPXa';
-export const ethLogo = '18Ktd97B2VRkVGVNay7XMQ0dhaHo72UqL';
-export const bscLogo = '1y-v0Ak7o-DzI7mlGeCCpWOibMKF04uId';
-export const oneLogo = '1PCzwqmpwPPmFxGDULKNxljnWkxTSBwcs';
+export const logoLight = logoLightPNG;
+export const logoDark = logoDarkPNG;
+
+export const polygonLogo = ethLogoSVG;
+export const ethLogo = bscLogoSVG;
+export const bscLogo = polLogoSVG;
+export const oneLogo = harmonyLogoSVG;
 
 /*~~*~~*~~*~~*~~*~~*~~*~~* ASSETS HOME *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
 
-export const homeBannerImg = '14UhuAga2IkmW4pizt2sWjbkjxA3_aHTb';
+export const homeBannerImg = home_banner_svg;
 
-export const homeArtwork1 = '1PFM1EPBfa1lXFR1w6lR4NHBnFXk6fm_P';
-export const homeArtwork2 = '1vWBkiKAG3yiFcmCMrrlYIfdIT-hKLcwi';
-export const homeArtwork3 = '1BoajCm-4mpeeDUeL80Z7-EzmSSf3QV_B';
+export const homeArtwork1 = home_about_svg;
+export const homeArtwork2 = home_work_svg;
+export const homeArtwork3 = home_goals_svg;
 
-export const tokenIcon = '1HJvQ3A_ZSxFulgf17VGyRJneap6x3rtZ';
-export const bridgeIcon = '1Y-vxsHAt5oTqXdiBlnGHArGuv77y6OVP';
-export const vaultIcon = '1AnhwmR5XwPyecINSvUpxQ3dn9BmxaNK7';
+export const tokenIcon = token_icon_png;
+export const bridgeIcon = bridge_icon_png;
+export const vaultIcon = vault_icon_png;
+
+export const member1 = member1_png;
+export const member3 = member3_png;
 
 
 /*~~*~~*~~*~~*~~*~~*~~*~~* ASSETS TOKEN *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
 
-export const tokenBannerImg  = '1Bna3XtxKFLArkrmlFctPLz_MjvvM4Ml1';
+export const tokenBannerImg  = token_logo_svg;
 
-export const tokenArtwork1 = '1lkRk5qBKL2girddDDNbC8JmRBYlxOClB';
-export const tokenArtwork2 = '10TS25Xk-1huZ_u3barAdNb7UyGvOAk0A';
-export const tokenArtwork3 = '1XdjnrZpBnwnDMGzO5TzK_gihOGACSB5l';
-export const tokenArtwork4 = '1emQYzYeGo1V9QP7MEUqkxWwEHShTxvRJ';
+export const tokenArtwork1 = token_about_svg;
+export const tokenArtwork2 = token_governance_svg;
+export const tokenArtwork3 = token_security_svg;
+export const tokenArtwork4 = token_ecosystem_svg;
 
 /*~~*~~*~~*~~*~~*~~*~~*~~* ASSETS BRIDGE *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
 
-export const bridgeBannerImg = '1NlZsu5KRxFLvSEJkT_ZCemzPimpmTroL';
+export const bridgeBannerImg = bridge_banner_svg;
 
-export const bridgeArtwork1 = '14sck7Tq-dlHRhhDjFFJ85hVY2ww0I6Y7';
-export const bridgeArtwork2 = '1yCD8bI2IQdCKVzcLDBV34GhyyIVSp-po';
-export const bridgeArtwork3 = '1Fi30GG7hp8TXLkIvY5V76p2NmtDjdhuf';
-export const bridgeArtwork4 = '1AFTKfvTG5qowLIhvBTo-H7xLpWoJIJ2K';
+export const bridgeArtwork1 = bridge_about_svg;
+export const bridgeArtwork2 = bridge_decentralization_svg;
+export const bridgeArtwork3 = bridge_devs_svg;
+export const bridgeArtwork4 = bridge_fees_svg;
 
-
-export const numberOne = '1XfB0KClW8r7eyIk8LaMmB4dVt3FaiZB4';
-export const numberTwo = '1fE1SHpivkZ0uVh3uNMxlx5XyvkC0lE7p';
-export const numberThree = '12SizGwRMewWkVeKS21w7fYsD1i-I1QQT';
-export const numberFour = '1rIQLuTKPiCXWW_Q-UmaIsd_Om6TTr0Lt';
+export const numberOne = num1_png;
+export const numberTwo = num2_png;
+export const numberThree = num3_png;
+export const numberFour = num4_png;
 
 /*~~*~~*~~*~~*~~*~~*~~*~~* ASSETS VAULT *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
 
-export const vaultBannerImg = '17i6XnR0cX4yZeCKp1XsOdQ-K7WxjNjql';
+export const vaultBannerImg = vault_banner_svg;
 
-export const vaultArtwork1 = '1drIxPWewvukmF612grXbwvqp0ZYmFuID';
-export const vaultArtwork2 = '1-nelpPj2G93RYXH40e0dI6eQsDlDeWRh';
-export const vaultArtwork3 = '18IIju1Wg6ve65OKsOhwI12jW4D4A02v5';
+export const vaultArtwork1 = vault_about_svg;
+export const vaultArtwork2 = vault_security_svg;
+export const vaultArtwork3 = vault_manage_svg;

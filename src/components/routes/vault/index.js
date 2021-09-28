@@ -36,7 +36,7 @@ const Vault = props => {
 
                             <div className="column" data-aos="fade-left">
 
-                                <img src={baseURL+vaultBannerImg} alt=''/>
+                                <img src={vaultBannerImg} alt=''/>
 
                             </div>
                         </div>
@@ -79,16 +79,16 @@ const Vault = props => {
                                         The Vault offers a wide range of security and management options a user can pick from and mix to better secure and manage their funds.
                                     </p>
                                 </div>
-                                <div className="column has-text-right" data-aos="fade-right">
-                                    <img src={baseURL+vaultArtwork1} alt=''/>
+                                <div className="column has-text-centered" data-aos="fade-right">
+                                    <img src={vaultArtwork1} alt='' width="500px"/>
                                 </div>
                             </div>
                             <br/><br/>
 
                             <div className="columns is-reverse" >
 
-                                <div className="column" data-aos="fade-left">
-                                    <img src={baseURL+vaultArtwork2} alt=''/>
+                                <div className="column has-text-centered" data-aos="fade-left">
+                                    <img src={vaultArtwork2} alt='' width="450px"/>
                                 </div>
                                 <div className="column" data-aos="fade-up">
                                     <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">Security Options</h1>
@@ -110,8 +110,8 @@ const Vault = props => {
                                         Some of the management features currently confirmed are: allowance clearance, funds locking, multiple transfers, smart contracts allowance through the vault.
                                     </p>
                                 </div>
-                                <div className="column has-text-right" data-aos="fade-right">
-                                    <img src={baseURL+vaultArtwork3} alt=''/>
+                                <div className="column has-text-centered" data-aos="fade-right">
+                                    <img src={vaultArtwork3} alt='' width="500px"/>
                                 </div>
                             </div>
 

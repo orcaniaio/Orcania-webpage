@@ -58,7 +58,7 @@ const Token = props => {
                             <div className="column" data-aos="flip-left">
 
                                 <figure className="image is-square" style={{transform: 'scale(0.8)'}}>
-                                    <img src={baseURL + tokenBannerImg} alt=''/>
+                                    <img src={tokenBannerImg} alt=''/>
                                 </figure>
 
                             </div>
@@ -124,7 +124,7 @@ const Token = props => {
                                     </p>
                                 </div>
                                 <div className="column has-text-centered" data-aos="fade-right" style={{display: 'grid', placeItems: 'center'}}>
-                                    <img src={baseURL+tokenArtwork1} alt='' width="500px"/>
+                                    <img src={tokenArtwork1} alt='' width="500px"/>
                                 </div>
                             </div>
                             <br/><br/>
@@ -132,7 +132,7 @@ const Token = props => {
                             <div className="columns is-reverse" >
 
                                 <div className="column has-text-centered" data-aos="fade-left" style={{display: 'grid', placeItems: 'center'}}>
-                                    <img src={baseURL+tokenArtwork2} alt='' width="500px"/>
+                                    <img src={tokenArtwork2} alt='' width="500px"/>
                                 </div>
                                 <div className="column" data-aos="fade-up">
                                     <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">Governance</h1>
@@ -162,7 +162,7 @@ const Token = props => {
                                     </p>
                                 </div>
                                 <div className="column has-text-centered" data-aos="fade-right" style={{display: 'grid', placeItems: 'center'}}>
-                                    <img src={baseURL+tokenArtwork3} alt='' width="500px"/>
+                                    <img src={tokenArtwork3} alt='' width="500px"/>
                                 </div>
                             </div>
                             <br/><br/>
@@ -170,7 +170,7 @@ const Token = props => {
                             <div className="columns is-reverse" >
 
                                 <div className="column" data-aos="fade-left" style={{display: 'grid', placeItems: 'center'}}>
-                                    <img src={baseURL+tokenArtwork4} alt='' width="600px"/>
+                                    <img src={tokenArtwork4} alt='' width="600px"/>
                                 </div>
                                 <div className="column" data-aos="fade-up">
                                     <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">Ecosystem</h1>

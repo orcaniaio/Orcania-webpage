@@ -1,5 +1,7 @@
 import {useState} from 'react';
 
+import {memberAny} from 'images';
+
 import './team-card.scss';
 
 const TeamCard = props => {
@@ -8,13 +10,13 @@ const TeamCard = props => {
     const [charge, setCharge] = useState(props.charge);
 
 
-    const tempsrc = "https://schooloflanguages.sa.edu.au/wp-content/uploads/2017/11/placeholder-profile-sq.jpg";
+
 
     return(
         <div class="card" style={{borderRadius: '0.25rem !important', overflow: 'hidden'}}>
             <div class="card-imagee has-background-primary2dark-v" style={{position: 'relative'}}>
                 <figure class="image is-square " style={{transform: 'scale(0.7)'}} >
-                    <img className="is-rounded has-border-contrast" src={props.imgsrc || tempsrc}  alt=""/>
+                    <img className="is-rounded has-border-contrast" src={props.imgsrc || memberAny}  alt=""/>
                 </figure>
                 <div className="charge-div " >
                     <span className="icon has-text-white">{props.chargeIcon}</span>
