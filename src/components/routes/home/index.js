@@ -224,6 +224,7 @@ const Home = props => {
                                 <img src={bridgeIcon} alt=''/>
                                 <p className="has-text-light is-size-5">
                                     Linking the world of blockchains together
+                                    <br/>
                                 </p>
                             </Link>
                         </div>
@@ -233,6 +234,7 @@ const Home = props => {
                                 <img src={vaultIcon} alt=''/>
                                 <p className="has-text-light is-size-5">
                                     Security at another level
+                                    <br/>
                                 </p>
                             </Link>
                         </div>
