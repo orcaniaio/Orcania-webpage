@@ -49,9 +49,9 @@ export const memberAny = memberAny_png;
 export const logoLight = logoLightPNG;
 export const logoDark = logoDarkPNG;
 
-export const polygonLogo = ethLogoSVG;
-export const ethLogo = bscLogoSVG;
-export const bscLogo = polLogoSVG;
+export const polygonLogo = polLogoSVG;
+export const ethLogo = ethLogoSVG;
+export const bscLogo = bscLogoSVG;
 export const oneLogo = harmonyLogoSVG;
 
 /*~~*~~*~~*~~*~~*~~*~~*~~* ASSETS HOME *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
