@@ -219,7 +219,7 @@ const Home = props => {
                             </Link>
                         </div>
                         <div className="column">
-                            <Link to="/temp"  className="box has-background-primary2dark-box has-text-centered" style={{minHeight: '280px'}} data-aos="fade-up">
+                            <Link to="/bridge"  className="box has-background-primary2dark-box has-text-centered" style={{minHeight: '280px'}} data-aos="fade-up">
                                 <h1 className="title is-4 has-text-light-purple ">Crypto Family Bridge</h1>
                                 <img src={bridgeIcon} alt=''/>
                                 <p className="has-text-light is-size-5">
@@ -228,7 +228,7 @@ const Home = props => {
                             </Link>
                         </div>
                         <div className="column">
-                            <Link to="/temp" className="box has-background-primary2dark-box has-text-centered" style={{minHeight: '280px'}} data-aos="fade-up">
+                            <Link to="/vault" className="box has-background-primary2dark-box has-text-centered" style={{minHeight: '280px'}} data-aos="fade-up">
                                 <h1 className="title is-4 has-text-light-purple ">Crypto Family Vault</h1>
                                 <img src={vaultIcon} alt=''/>
                                 <p className="has-text-light is-size-5">
