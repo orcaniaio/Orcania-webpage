@@ -141,7 +141,7 @@ const Bridge = props => {
                                         The bridge was built to be secure, decentralized, permissionless, cheap, and fast, it achieves that by operating on the blockchains it links and through hundreds of validator 
                                         nodes that help run and secure the bridge.
                                         <br/><br/>
-                                            The Bridge is run and secured by hundreds of validator nodes that process its transactions and prevent any cheating.The nodes take 
+                                            The Bridge is run and secured by hundreds of validator nodes that process its transactions and prevent any cheating. The nodes take 
                                             care of carrying transactions from one blockchain to another, they are what manages CFR-POS consensus, blocks, epochs, authenticity, 
                                             and the minting and burning of tokens on the blockchains through submission of validated blocks. 
                                         <br/><br/>      
