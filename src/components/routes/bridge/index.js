@@ -43,7 +43,7 @@ const Bridge = props => {
                                 <br/>
                                 {/*}<button className="button is-light-purple mb-3" style={{width: '150px'}}>Launch App</button>&nbsp;&nbsp;
                                 <button className="button is-light-purple mb-3" style={{width: '150px'}}>Nodes presale</button>&nbsp;&nbsp;*/}
-                                <a href="https://drive.google.com/file/d/1fo7TRcherbPTdujfEeUqJnpHjLa73dM0/view?usp=sharing" target="_blank" className="button is-light-purple mb-3" style={{width: '150px'}}>White paper</a>
+                                <a href="https://drive.google.com/file/d/1v8lToEO4aNNVBuRiiMJ6KWmvFEkdVKfm/view?usp=sharing" target="_blank" className="button is-light-purple mb-3" style={{width: '150px'}}>White paper</a>
                             </div>
 
                             <div className="column is-7 has-text-centered" data-aos="fade-left">
