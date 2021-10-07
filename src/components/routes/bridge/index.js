@@ -43,7 +43,7 @@ const Bridge = props => {
                                 <br/>
                                 {/*}<button className="button is-light-purple mb-3" style={{width: '150px'}}>Launch App</button>&nbsp;&nbsp;
                                 <button className="button is-light-purple mb-3" style={{width: '150px'}}>Nodes presale</button>&nbsp;&nbsp;*/}
-                                <a href="https://drive.google.com/file/d/1-pAYpYSuU19eLI56ytANvKCn5gFjvDYF/view?usp=sharing" target="_blank" className="button is-light-purple mb-3" style={{width: '150px'}}>White paper</a>
+                                <a href="https://drive.google.com/file/d/15-F4iFQh6kvUO9FTkNIjZ9sWu6GGZeL9/view?usp=sharing" target="_blank" className="button is-light-purple mb-3" style={{width: '150px'}}>White paper</a>
                             </div>
 
                             <div className="column is-7 has-text-centered" data-aos="fade-left">
@@ -138,17 +138,14 @@ const Bridge = props => {
                                 <div className="column" data-aos="fade-up">
                                     <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">Decentralization</h1>
                                     <p className="has-text-light  has-text-distriute is-size-5">
-                                        The Bridge is run and secured by hundreds of nodes that process its transactions and prevent any cheating.
+                                        The bridge was built to be secure, decentralized, permissionless, cheap, and fast, it achieves that by operating on the blockchains it links and through hundreds of validator 
+                                        nodes that help run and secure the bridge.
                                         <br/><br/>
-                                        The Crypto Family Bridge is run by 2 types of nodes.
-                                        <br/>
-                                        -Validator nodes, capture transactions from other blockchains, submit blocks of data to the blockchain they are operating on, sign the blocks, and prevent cheating.
-                                        <br/>
-                                        -Claimer nodes, finalization of transfer and transfer of funds to users.
-                                        <br/><br/>
-                                        The bridge operates on these nodes to properly split the flow of the data on the bridge and deliver the cheapest and fastest of transactions.
-                                        <br/>
-                                        More about these nodes, their roles, requirements, expenses, profit can be found on the white paper.
+                                            The Bridge is run and secured by hundreds of validator nodes that process its transactions and prevent any cheating. The nodes take 
+                                            care of carrying transactions from one blockchain to another, they are what manages CFR-POS consensus, blocks, epochs, authenticity, 
+                                            and the minting and burning of tokens on the blockchains through submission of validated blocks. 
+                                        <br/><br/>      
+                                        More about these nodes, their role, requirements, expenses, profit can be found on the white paper.
                                     </p>
                                 </div>
                             </div>
