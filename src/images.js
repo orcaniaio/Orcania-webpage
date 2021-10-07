@@ -11,6 +11,10 @@ import home_about_svg from 'media/pages/home/home_about.svg';
 import home_work_svg from 'media/pages/home/home_work.svg';
 import home_goals_svg from 'media/pages/home/home_goals.svg';
 
+import traf_svg from 'media/patners/traf.svg';
+import cc_svg from 'media/patners/cryptoclerks.svg';
+import bigtoys_svg from 'media/patners/bigtoys.svg';
+
 import token_icon_png from 'media/pages/home/token.png';
 import bridge_icon_png from 'media/pages/home/bridge.png';
 import vault_icon_png from 'media/pages/home/vault.png';
@@ -68,6 +72,10 @@ export const vaultIcon = vault_icon_png;
 
 export const member1 = member1_png;
 export const member3 = member3_png;
+
+export const traf = traf_svg;
+export const cc = cc_svg;
+export const bigtoys = bigtoys_svg;
 
 
 /*~~*~~*~~*~~*~~*~~*~~*~~* ASSETS TOKEN *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
