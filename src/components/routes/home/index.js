@@ -16,7 +16,9 @@ import {
     vaultIcon,
     traf,
     cc,
-    bigtoys
+    bigtoys,
+    polygon_logo,
+    harmony_logo
 } from '../../../images';
 
 import {Link} from 'react-router-dom';
@@ -255,23 +257,23 @@ const Home = props => {
                          <div id="infinite" class="highway-slider">
                              <div class="highway-barrier">
                                  <ul class="highway-lane">
-                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'15-QaVuFgso9i06Fg-qjxmEss5WXkCwBQ'}/></a></li>
-                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'1HpnfmLrbd1DMbPPa_AYxC_G8ILRWcUsw'}/></a></li>
-                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'15-QaVuFgso9i06Fg-qjxmEss5WXkCwBQ'}/></a></li>
-                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'1HpnfmLrbd1DMbPPa_AYxC_G8ILRWcUsw'}/></a></li>
-                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'15-QaVuFgso9i06Fg-qjxmEss5WXkCwBQ'}/></a></li>
-                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'1HpnfmLrbd1DMbPPa_AYxC_G8ILRWcUsw'}/></a></li>
-                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'15-QaVuFgso9i06Fg-qjxmEss5WXkCwBQ'}/></a></li>
-                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'1HpnfmLrbd1DMbPPa_AYxC_G8ILRWcUsw'}/></a></li>
+                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={polygon_logo}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={harmony_logo}/></a></li>
+                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={polygon_logo}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={harmony_logo}/></a></li>
+                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={polygon_logo}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={harmony_logo}/></a></li>
+                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={polygon_logo}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={harmony_logo}/></a></li>
 
-                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'15-QaVuFgso9i06Fg-qjxmEss5WXkCwBQ'}/></a></li>
-                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'1HpnfmLrbd1DMbPPa_AYxC_G8ILRWcUsw'}/></a></li>
-                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'15-QaVuFgso9i06Fg-qjxmEss5WXkCwBQ'}/></a></li>
-                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'1HpnfmLrbd1DMbPPa_AYxC_G8ILRWcUsw'}/></a></li>
-                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'15-QaVuFgso9i06Fg-qjxmEss5WXkCwBQ'}/></a></li>
-                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'1HpnfmLrbd1DMbPPa_AYxC_G8ILRWcUsw'}/></a></li>
-                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'15-QaVuFgso9i06Fg-qjxmEss5WXkCwBQ'}/></a></li>
-                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={baseURL+'1HpnfmLrbd1DMbPPa_AYxC_G8ILRWcUsw'}/></a></li>
+                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={polygon_logo}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={harmony_logo}/></a></li>
+                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={polygon_logo}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={harmony_logo}/></a></li>
+                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={polygon_logo}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={harmony_logo}/></a></li>
+                                     <li class="highway-car ml"><a href="https://polygon.technology/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={polygon_logo}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.harmony.one/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={harmony_logo}/></a></li>
 
                                  </ul>
                              </div>
