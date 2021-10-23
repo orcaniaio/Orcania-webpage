@@ -250,7 +250,7 @@ const Home = props => {
 
         <section className="has-background-d2p2d" >
                  <div className="head pt-6">
-                     <h1 className="title has-lina-text contrast is-3 has-text-contrast has-text-centered mb-6">Ecosystem and Patners</h1>
+                     <h1 className="title has-lina-text contrast is-3 has-text-contrast has-text-centered mb-6">Ecosystem and Partners</h1>
                  </div>
                  <div className="hero-body pb-6 px-0" style={{overflow: 'hidden'}}>
 
