@@ -19,8 +19,8 @@ tokenomicsData.set('Public sale', {
     'Any CFC left from the ICO will be utilized in securing the Crypto Family Bridge and will be equally delegated to across all validator nodes operating the Bridge.'
 });
 
-tokenomicsData.set('Team allocation', {
-    title: 'Team Allocation',
+tokenomicsData.set('Protocol development', {
+    title: 'Protocol Development',
     body: '15% of the CFC launch supply has been allocated to further fund the development of the Crypto Family projects. </br></br>' +
     'This allocation is to cover the hard work of our developers as well as the current and future expenses of development, tests, servers, nodes and others. </br></br>'
 });
@@ -107,7 +107,7 @@ const Tokenomics = props => {
         stroke: {
             colors: ["#DEDEDE"]
         },
-        labels: ['Nodes presale', 'Public sale', 'Team allocation', 'Ecosystem development', 'Crypto family node', 'Delegation to nodes'],
+        labels: ['Nodes presale', 'Public sale', 'Protocol development', 'Ecosystem development', 'Crypto family node', 'Delegation to nodes'],
         fill: {
             opacity: 0.8
         },
