@@ -15,31 +15,31 @@ tokenomicsData.set('Public sale', {
     title: 'Public Sale',
     body: 'The ICO will be held after the nodes presale has been concluded. </br></br>' +
     'Any CFC remaining from the nodes presale will be added to the public ICO, it will allow everyone to aquire CFC on multiple blockchains. <br/></br>' +
-    'The ICO will either be held on centralized services such as Binance with part of the ICO being held on DAPPs on the supported blockchains of the Crypto Family Bridge, or it will be fully held on DAPPs of the supported blockchains.'
+    'The ICO will either be held on DAPPs on the supported blockchains of the Crypto Family Bridge, giving everyone a chance to participate without any limitations or requirements. <br/><br/>' +
+    'Any CFC left from the ICO will be utilized in securing the Crypto Family Bridge and will be equally delegated to across all validator nodes operating the Bridge.'
 });
 
 tokenomicsData.set('Team allocation', {
     title: 'Team Allocation',
-    body: 'The Crypto Family has been allocated 1% of the CFC release supply to distribute to its partners, advisors, contributors, and team allocation.</br></br>' +
-    'In reality, to acquire more CFC the Crypto Family team will be participating in the ICO like any other community member, giving the Crypto Family no upper hand over CFC or the Crypto Family Bridge and ensuring these projects are fully decentralized and community driven, and that the Crypto Family is but a part of that community</br></br>'
+    body: '15% of the CFC launch supply has been allocated to further fund the development of the Crypto Family projects. </br></br>' +
+    'This allocation is to cover the hard work of our developers as well as the current and future expenses of development, tests, servers, nodes and others. </br></br>'
 });
 
-tokenomicsData.set('Hackathon', {
-    title: 'Hackathon',
-    body: 'After the mainnet release of the Crypto Family Bridge, a hackathon will be held to encourage and support developers on expanding their ideas beyond one blockchain and building multichain apps.</br></br>' +
-    '1% of the CFC release supply will be allocated to help fund such projects and push them forward on their journey, live development support from our team to the teams of these projects will be available to help them better grasp the architecture of the bridge and how to interact with it.</br></br>'
+tokenomicsData.set('Ecosystem development', {
+    title: 'Ecosystem Development',
+    body: 'After the mainnet release of the Crypto Family Bridge, the Crypto Family will be contributing to the growth of the ecosystem through grants, bounties and hackathons to encourage and support developers on expanding their ideas beyond one blockchain and building multichain apps.</br></br>' +
+    '5% of the CFC release supply will be allocated to help fund such projects and push them forward on their journey, live development support from our team to the teams of these projects will be available to help them better grasp the architecture of the bridge and how to interact with it.</br></br>'
 });
 
 tokenomicsData.set('Crypto family node', {
     title: 'Crypto Family Node',
-    body: 'The Crypto Family is gonna be running the first nodes of the Crypto Family Bridge, and to ensure a secure launch we have allocated 5% of the CFC release supply to these nodes.</br></br>' +
-    'These CFC will forever be allocated to running Crypto Family validator nodes on the bridge, never to be sold or even transfered.</br></br>' +
-    'Remaining CFC from the ICO might also be used to operate more nodes if deemed necessary.'
+    body: 'The Crypto Family is gonna be running the first nodes of the Crypto Family Bridge, and to ensure a secure launch we have allocated 2.5% of the CFC release supply to these nodes.</br></br>'+
+    'These CFC will forever be allocated to running Crypto Family validator nodes on the bridge, never to be sold or even transferred.'
 });
 
 tokenomicsData.set('Delegation to nodes', {
     title: 'Delegation To Nodes ',
-    body: 'lorem ipsum'
+    body: 'To ensure the Crypto Family Bridge is fully decentralized on release, and to make sure no node has the upper hand over other nodes. We have allocated 2.5% of the CFC total supply to be equally delegated among all validator nodes on the bridge.'
 });
 
 const Tokenomics = props => {
@@ -107,11 +107,11 @@ const Tokenomics = props => {
         stroke: {
             colors: ["#DEDEDE"]
         },
-        labels: ['Nodes presale', 'Public sale', 'Team allocation', 'Hackathon', 'Crypto family node', 'Delegation to nodes'],
+        labels: ['Nodes presale', 'Public sale', 'Team allocation', 'Ecosystem development', 'Crypto family node', 'Delegation to nodes'],
         fill: {
             opacity: 0.8
         },
-        colors: ['#FF775F', '#23DCF5', '#8A3FFC', '#16C784', '#3861FB', '#ffe121'],
+        colors: ['#FF775F', '#23DCF5', '#8A3FFC', '#16C784', '#3861FB', '#c4003e'],
         tooltip: {
             enabled: true,
             followCursor: false,
