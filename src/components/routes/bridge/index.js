@@ -119,7 +119,7 @@ const Bridge = props => {
                                         <br/><br/>
                                         The bridge is decentralized, it is run and secured by hundreds of nodes that forward its transactions and prevent any cheating, it is permissionless
                                         and anyone can add their assets to it using one simple transaction, it's flexible and allows developers to link any kind of assets to the bridge and
-                                        even utilize the bridge for custom tasks by customising the contracts they link to it, the bridge is very fast and can process up to 6400
+                                        even utilize the bridge for custom tasks by customizing the contracts they link to it, the bridge is very fast and can process up to 6400
                                         transaction per second on certain blockchains, it's cheaper than most bridges for it doesn't take a fee in % but only takes a fixed transaction
                                         fee, and thanks to the technology of the Crypto Family, transactions on the Bridge are even cheaper than an ERC20 token transfer.
                                     </p>
