@@ -107,7 +107,7 @@ const Tokenomics = props => {
         stroke: {
             colors: ["#DEDEDE"]
         },
-        labels: ['Nodes presale', 'Public sale', 'Protocol development', 'Ecosystem development', 'Crypto family node', 'Delegation to nodes'],
+        labels: ['Public sale', 'Nodes presale', 'Protocol development', 'Ecosystem development', 'Crypto family node', 'Delegation to nodes'],
         fill: {
             opacity: 0.8
         },
