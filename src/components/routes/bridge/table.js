@@ -22,7 +22,7 @@ const Table = () => {
                             <td>15</td>
                             <td>80</td>
                             <td>180</td>
-                            <td>60,000</td>
+                            <td>100</td>
                             <td className="has-text-contrast has-background-semi">60,000</td>    
                         </tr>
                         <tr>
