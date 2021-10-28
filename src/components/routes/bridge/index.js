@@ -15,6 +15,8 @@ import './bridge.scss';
 
 import TimeLine from '../../base/time-line';
 
+import Table from './table';
+
 const style = {
     // height: '100%'
 }
@@ -213,6 +215,15 @@ const Bridge = props => {
 
             <section className="has-background-d2p2d is-last-section">
                 <div className="head pt-6">
+                    <h1 className="title is-3 has-text-contrast has-text-centered mb-6">Bridge Features</h1>
+                </div>
+                <div className="hero-body pb-6" style={{overflow: 'hidden'}}>
+                    <Table/>
+                </div>
+            </section>
+
+            <section className="has-background-light is-last-section">
+                <div className="head pt-6">
                     <h1 className="title is-3 has-text-contrast has-text-centered mb-6"></h1>
                 </div>
                 <div className="hero-body pb-6" style={{overflow: 'hidden'}}>
@@ -221,27 +232,29 @@ const Bridge = props => {
                             <div className="column has-text-centered">
                                 <img src={numberOne}/>
                                 <h1 className="title has-text-contrast has-text-centered is-4">Decentralized</h1>
-                                <p className="has-text-white">Secured and run by many nodes </p>
+                                <p className="has-text-dark">Secured and run by many nodes </p>
                             </div>
                             <div className="column has-text-centered">
                                 <img src={numberTwo}/>
                                 <h1 className="title has-text-contrast has-text-centered is-4">Permissionless</h1>
-                                <p className="has-text-white">Open for anyone to add any asset they want, transfer and develop </p>
+                                <p className="has-text-dark">Open for anyone to add any asset they want, transfer and develop </p>
                             </div>
                             <div className="column has-text-contrast has-text-centered">
                                 <img src={numberThree}/>
                                 <h1 className="title has-text-contrast has-text-centered is-4">Cheap</h1>
-                                <p className="has-text-white">Cheapest inter blockchain bridge ever with a fee less than 0.0001$</p>
+                                <p className="has-text-dark">Cheapest inter blockchain bridge ever with a fee less than 0.0001$</p>
                             </div>
                             <div className="column has-text-contrast has-text-centered">
                                 <img src={numberFour}/>
                                 <h1 className="title has-text-contrast has-text-centered is-4">Instant</h1>
-                                <p className="has-text-white">Transactions processed and finalized in less than 4 seconds</p>
+                                <p className="has-text-dark">Transactions processed and finalized in less than 4 seconds</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+
 
             <section className="has-background-d2p2d is-last-section">
                 <div className="head pt-6">
