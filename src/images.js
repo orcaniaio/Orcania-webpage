@@ -2,6 +2,9 @@ import ethLogoSVG from 'media/chain-logos/eth.svg';
 import bscLogoSVG from 'media/chain-logos/bsc.svg';
 import polLogoSVG from 'media/chain-logos/pol.svg';
 import harmonyLogoSVG from 'media/chain-logos/harmony.svg';
+import avalancheLogoSVG from 'media/chain-logos/avalanche.svg';
+import kleytnLogoSVG from 'media/chain-logos/kleytn.svg';
+import moonbeamLogoPNG from 'media/chain-logos/moonbeam.png';
 
 import logoDarkPNG from 'media/brand/cf-logo-black.png';
 import logoLightPNG from 'media/brand/cf-logo-white.png';
@@ -60,6 +63,9 @@ export const polygonLogo = polLogoSVG;
 export const ethLogo = ethLogoSVG;
 export const bscLogo = bscLogoSVG;
 export const oneLogo = harmonyLogoSVG;
+export const avalancheLogo = avalancheLogoSVG;
+export const kleytnLogo = kleytnLogoSVG;
+export const moonbeamLogo = moonbeamLogoPNG;
 
 /*~~*~~*~~*~~*~~*~~*~~*~~* ASSETS HOME *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
 

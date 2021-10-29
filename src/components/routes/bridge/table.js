@@ -22,7 +22,7 @@ const Table = () => {
                             <td>15</td>
                             <td>80</td>
                             <td>180</td>
-                            <td>100</td>
+                            <td>1000</td>
                             <td className="has-text-contrast has-background-semi">60,000</td>    
                         </tr>
                         <tr>
@@ -55,7 +55,7 @@ const Table = () => {
                             <td>1 shard</td>
                             <td>1 shard</td>
                             <td>4 shards</td>
-                            <td className="has-text-contrast has-background-semi">15 shards</td> 
+                            <td className="has-text-contrast has-background-semi">15 blockchains </td> 
                         </tr>
                     </tbody>
                 </table>

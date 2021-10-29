@@ -117,13 +117,14 @@ const Bridge = props => {
                                 <div className="column" data-aos="fade-up">
                                     <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">About</h1>
                                     <p className="has-text-light  has-text-distriute is-size-5">
-                                        The Crypto Family Bridge is the first ever decentralized and permissionless inter blockchain bridge that allows the instant and cheap transfer of assets such as tokens and NFTs across multiple blockchains.
+                                        The Crypto Family Bridge is the first ever decentralized and permissionless inter blockchain data bridge that allows the instant and cheap transfer of assets such as tokens and NFTs, and data such as smart contracts interactions across multiple blockchains.
                                         <br/><br/>
-                                        The bridge is decentralized, it is run and secured by hundreds of nodes that forward its transactions and prevent any cheating, it is permissionless
-                                        and anyone can add their assets to it using one simple transaction, it's flexible and allows developers to link any kind of assets to the bridge and
-                                        even utilize the bridge for custom tasks by customizing the contracts they link to it, the bridge is very fast and can process up to 6400
-                                        transaction per second on certain blockchains, it's cheaper than most bridges for it doesn't take a fee in % but only takes a fixed transaction
-                                        fee, and thanks to the technology of the Crypto Family, transactions on the Bridge are even cheaper than an ERC20 token transfer.
+                                        The bridge is decentralized, it is run and secured by hundreds of nodes that forward its transactions and prevent any cheating,
+                                        it is permissionless and anyone can add their assets to it and develop on it, it's flexible and allows developers to link any
+                                        kind of assets and smart contrats to it and even utilize the bridge for custom tasks by customizing the contracts they link to it,
+                                        the bridge is very fast and can process up to 6400 transaction per second on certain blockchains, it's cheaper than most bridges
+                                        for it doesn't take a fee in % but only takes a fixed transaction fee, and thanks to the technology of the Crypto Family,
+                                        transactions on the Bridge are even cheaper than an ERC20 token transfer.
                                     </p>
                                 </div>
                                 <div className="column has-text-centered" data-aos="fade-right" >
@@ -132,7 +133,7 @@ const Bridge = props => {
                             </div>
                             <br/><br/>
 
-                            <div className="columns is-reverse" >
+                            <div className="columns is-reverse is-vcentered" >
 
                                 <div className="column has-text-centered" data-aos="fade-left">
                                     <img src={bridgeArtwork2} alt='' width="500px"/>
@@ -140,13 +141,17 @@ const Bridge = props => {
                                 <div className="column" data-aos="fade-up">
                                     <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">Decentralization</h1>
                                     <p className="has-text-light  has-text-distriute is-size-5">
-                                        The bridge was built to be secure, decentralized, permissionless, cheap, and fast, it achieves that by operating on the blockchains it links and through hundreds of validator 
-                                        nodes that help run and secure the bridge.
+                                        The bridge was built to be secure, decentralized, permissionless, cheap, and fast, it achieves that by operating on the blockchains
+                                        it links and through hundreds of validator nodes that help run and secure the bridge.
                                         <br/><br/>
-                                            The Bridge is run and secured by hundreds of validator nodes that process its transactions and prevent any cheating. The nodes take 
-                                            care of carrying transactions from one blockchain to another, they are what manages CFR-POS consensus, blocks, epochs, authenticity, 
-                                            and the minting and burning of tokens on the blockchains through submission of validated blocks. 
-                                        <br/><br/>      
+                                        The bridge is run and secured by hundreds of validator nodes that process its transactions and prevent any cheating. The nodes take
+                                        care of carrying transactions from one blockchain to another, they are what manages CFR-POS consensus, blocks, epochs, authenticity,
+                                        and the minting and burning of tokens on the blockchains through submission of validated blocks.
+                                        <br/><br/>
+                                        The bridge inherits the security of the blockchains it operates on and optimizes their performance. Bridge transactions are finalized
+                                        on these blockchains, and thanks to the Crypto Family Shared Processing Protocol, the bridge optimizes the finalization of these
+                                        transactions and decrease the cost of finalization the more transactions there is. 
+                                        <br/><br/>
                                         More about these nodes, their role, requirements, expenses, profit can be found on the white paper.
                                     </p>
                                 </div>
@@ -182,14 +187,17 @@ const Bridge = props => {
                                 <div className="column" data-aos="fade-up">
                                     <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">Fees</h1>
                                     <p className="has-text-light  has-text-distriute is-size-5">
-                                        The Crypto Family Bridge is optimized for optimal performance and the lowest of fees, and thanks to the bridge's Beacon Block Consensus protocol
-                                        and reverse congestive architecture, a transfer using the bridge costs less than an ERC20 token transfer on the blockchain, making the bridge very cheap even on blockchains such as Ethereum.
+                                        The Crypto Family Bridge is optimized for optimal performance and the lowest of fees, and thanks to the bridge's Beacon Block Protocol
+                                        and Shared Processing Protocol aka reverse congestive architecture, a transfer using the bridge costs less than an ERC20 token transfer
+                                        on the blockchain, making the bridge very cheap even on blockchains such as Ethereum.
                                         <br/><br/>
-                                        The transcation fee of the bridge is payed with the bridges governance coin CFC (Crypto Family Coin), this fee is payed to validator, signer and claimer nodes
-                                        to cover their expenses. In the case of custom contracts an extra fee might be needed for claimer nodes to cover their expenses and get the transaction finalized.
+                                        The transcation fee of the bridge is payed with the bridges governance coin CFC (Crypto Family Coin), this fee is payed to validator,
+                                        signer and claimer nodes to cover their expenses. In the case of custom contracts an extra fee might be needed for claimer nodes to cover
+                                        their expenses and get the transaction finalized.
                                         <br/><br/>
-                                        The reverse congestive architecture of the bridge means that the more transactions that the bridge has to process, the cheaper it becomes to process these
-                                        transactions, thus allowing users to set very low fees when the bridge usage is high and their transactions would still be finalized almost immediately.
+                                        The reverse congestive architecture of the bridge means that the more transactions that the bridge has to process, the cheaper it becomes
+                                        to process these transactions, thus allowing users to set very low fees when the bridge usage is high and their transactions would still
+                                        be finalized almost immediately.
                                     </p>
                                 </div>
                             </div>

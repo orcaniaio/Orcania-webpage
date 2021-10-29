@@ -6,6 +6,9 @@ import {
     ethLogo,
     oneLogo,
     polygonLogo,
+    avalancheLogo,
+    kleytnLogo,
+    moonbeamLogo,
     homeArtwork1,
     homeArtwork2,
     homeArtwork3,
@@ -18,7 +21,7 @@ import {
     cc,
     bigtoys,
     polygon_logo,
-    harmony_logo
+    harmony_logo,    
 } from '../../../images';
 
 import {Link} from 'react-router-dom';
@@ -51,26 +54,39 @@ const Home = props => {
                                 <h1 className="title has-text-light-purple is-2 mb-5">Welcome to the Crypto Family</h1>
                                 <h1 className="subtitle has-text-white is-4">Building the future of blockchain technology</h1>
 
-                                <div className="columns is-mobile has-background is-centered-mobile" style={{width: '50%'}}>
+                                <div className="columns is-mobile has-background is-centered-moabile is-maultiline" style={{width: '80%'}}>
                                     <div className="column">
                                         <figure className="image is-32x32 ">
                                             <img src={ethLogo} alt='' />
-                                        </figure> &nbsp; &nbsp; &nbsp;
+                                        </figure> 
                                     </div>
                                     <div className="column">
                                         <figure className="image is-32x32 ">
                                             <img src={bscLogo} alt=''/>
-                                        </figure> &nbsp; &nbsp; &nbsp; &nbsp;
+                                        </figure> 
                                     </div>
                                     <div className="column">
                                         <figure className="image is-32x32 ">
                                             <img src={polygonLogo} alt='' style={{height:"32px"}}/>
-                                        </figure> &nbsp; &nbsp; &nbsp; &nbsp;
+                                        </figure> 
                                     </div>
                                     <div className="column">
                                         <figure className="image is-32x32 ">
                                             <img src={oneLogo} alt=''/>
-                                        </figure> &nbsp; &nbsp; &nbsp; &nbsp;
+                                        </figure> 
+                                    </div>
+                                    <div className="column">
+                                        <figure className="image is-32x32 ">
+                                            <img src={avalancheLogo} alt=''/>
+                                        </figure> 
+                                    </div>
+                                    <div className="column">
+                                        <figure className="image is-32x32 ">
+                                            <img src={kleytnLogo} alt=''/>
+                                        </figure> 
+                                    </div>
+                                    <div className="column is-hidden">
+                                        <img src={moonbeamLogo} alt=''/>                                        
                                     </div>
                                 </div>
                                 <br/>
