@@ -54,23 +54,23 @@ const Home = props => {
                                 <h1 className="title has-text-light-purple is-2 mb-5">Welcome to the Crypto Family</h1>
                                 <h1 className="subtitle has-text-white is-4">Building the future of blockchain technology</h1>
 
-                                <div className="columns is-mobile has-background is-centered-mobile is-multiline" style={{width: '80%'}}>
-                                    <div className="column is-3-mobile">
+                                <div className="columns is-mobile has-background is-centered-a is-multailine" style={{width: '80%'}}>
+                                    <div className="column">
                                         <figure className="image is-32x32 ">
                                             <img src={ethLogo} alt='' />
                                         </figure> 
                                     </div>
-                                    <div className="column is-3-mobile">
+                                    <div className="column">
                                         <figure className="image is-32x32 ">
                                             <img src={bscLogo} alt=''/>
                                         </figure> 
                                     </div>
-                                    <div className="column is-3-mobile">
+                                    <div className="column">
                                         <figure className="image is-32x32 ">
                                             <img src={polygonLogo} alt='' style={{height:"32px"}}/>
                                         </figure> 
                                     </div>
-                                    <div className="column is-3-mobile">
+                                    <div className="column">
                                         <figure className="image is-32x32 ">
                                             <img src={oneLogo} alt=''/>
                                         </figure> 
@@ -80,18 +80,19 @@ const Home = props => {
                                             <img src={avalancheLogo} alt=''/>
                                         </figure> 
                                     </div>
-                                    <div className="column">
+                                    <div className="column is-hidden">
                                         <figure className="image is-32x32 ">
                                             <img src={kleytnLogo} alt=''/>
                                         </figure> 
                                     </div>
-                                    <div className="column is-4">
-                                        <img src={moonbeamLogo} alt='' width="150px"/>                                        
+                                    <div className="column">
+                                        <figure className="image is-32x32 ">
+                                            <img src={moonbeamLogo} alt='' width="150px"/>                                        
+                                        </figure> 
                                     </div>
                                 </div>
-                                <br/>
-                                <br/>
-                                {/*}<button className="button is-light-purple" style={{width: '150px'}}>Launch App</button>*/}
+                                <br/>                                
+                                {/* <a href="https://giveth.io/project/crypto-family-bridge" className="button is-light-purple" style={{width: '150px'}}><span className="is-size-5">Support us</span></a> */}
                             </div>
 
                             <div className="column">

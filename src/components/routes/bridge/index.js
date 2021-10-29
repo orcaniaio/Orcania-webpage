@@ -45,7 +45,10 @@ const Bridge = props => {
                                 <br/>
                                 {/*}<button className="button is-light-purple mb-3" style={{width: '150px'}}>Launch App</button>&nbsp;&nbsp;
                                 <button className="button is-light-purple mb-3" style={{width: '150px'}}>Nodes presale</button>&nbsp;&nbsp;*/}
-                                <a href="https://drive.google.com/file/d/15-F4iFQh6kvUO9FTkNIjZ9sWu6GGZeL9/view?usp=sharing" target="_blank" className="button is-light-purple mb-3" style={{width: '150px'}}>White paper</a>
+                                <div className="buttons">
+                                    <a href="https://drive.google.com/file/d/15-F4iFQh6kvUO9FTkNIjZ9sWu6GGZeL9/view?usp=sharing" target="_blank" className="button is-light-purple" style={{width: '150px'}}><span className="is-size-5">White paper</span></a>
+                                    <a href="https://giveth.io/project/crypto-family-bridge" className="button is-light-purple" target="_blank" style={{width: '150px'}}><span className="is-size-5">Giveth</span></a>
+                                </div>
                             </div>
 
                             <div className="column is-7 has-text-centered" data-aos="fade-left">
@@ -53,6 +56,7 @@ const Bridge = props => {
                                 <img src={bridgeBannerImg} alt=''/>
 
                             </div>
+                            
                         </div>
                     </div>
                 </div>
