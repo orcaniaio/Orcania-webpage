@@ -26,7 +26,7 @@ const Footer = () => {
                                 </a>
 
                                 &nbsp;&nbsp;&nbsp;&nbsp;
-                                <a href="https://t.me/joinchat/iLaqHCgNHc4xNjE0" target="_blank" rel="noreferrer">
+                                <a href="https://t.me/CryptoFamilyTechnology" target="_blank" rel="noreferrer">
                                     <span className="icon has-text-dark is-size-3"><i className="fab fa-telegram-plane"></i></span>
                                 </a>
 
