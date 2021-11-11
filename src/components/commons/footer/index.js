@@ -31,7 +31,7 @@ const Footer = () => {
                                 </a>
 
                                 &nbsp;&nbsp;&nbsp;&nbsp;
-                                <a href="https://discord.com/invite/XQSGzkC" target="_blank" rel="noreferrer">
+                                <a href="https://discord.gg/PH5DEQbKX7" target="_blank" rel="noreferrer">
                                     <span className="icon has-text-dark is-size-3"><i className="fab fa-discord"></i></span>
                                 </a>
                             </div>
