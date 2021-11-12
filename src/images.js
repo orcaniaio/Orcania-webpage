@@ -20,6 +20,7 @@ import harmony_logo_svg from 'media/patners/harmony.svg';
 import traf_svg from 'media/patners/traf.svg';
 import cc_svg from 'media/patners/cryptoclerks.svg';
 import bigtoys_svg from 'media/patners/bigtoys.svg';
+import meconcash_png from 'media/patners/meconcash.png';
 
 import token_icon_png from 'media/pages/home/token.png';
 import bridge_icon_png from 'media/pages/home/bridge.png';
@@ -85,6 +86,8 @@ export const member3 = member3_png;
 export const traf = traf_svg;
 export const cc = cc_svg;
 export const bigtoys = bigtoys_svg;
+export const meconcash = meconcash_png;
+
 
 export const polygon_logo = polygon_logo_svg;
 export const harmony_logo = harmony_logo_svg;

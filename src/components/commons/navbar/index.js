@@ -99,7 +99,7 @@ function NavBar() {
 
                         <Link to="/token" className={`navbar-item has-text-light  ${location.pathname == "/token" ? 'is-active' : ''}`} onClick={onBurgerIClicked}>
                             <span className="icon"><i className="fas fa-coin"></i></span>&nbsp;
-                            <h1>Token</h1>
+                            <h1>Coin</h1>
                         </Link>
 
                         <Link to="/bridge" className={`navbar-item has-text-light  ${location.pathname == "/bridge" ? 'is-active' : ''}`} onClick={onBurgerIClicked}>
