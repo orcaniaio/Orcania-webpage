@@ -25,7 +25,7 @@ const data = {
         {
 
         }, {
-            title: '20201 Q2',
+            title: '2021 Q2',
             subtitle: 'Software Development',
             body: "Development and testing of the node's software. This stage is focused on developing a fast and light software that can help users easily join the bridge as a validator, signer, or claimer node, it's center of attention is ensuring smooth work flow and interaction of nodes with the smart contracts and each other, secure and precise creation of blocks, voting of blocks, reading transactions from all linked blockchains, processing and finalizing requests, and keeping an up and healthy bridge."
         }, {
