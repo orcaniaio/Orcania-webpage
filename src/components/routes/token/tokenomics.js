@@ -5,10 +5,11 @@ import './chart.scss';
 const tokenomicsData = new Map();
 
 tokenomicsData.set('Nodes presale', {
-    title: 'Nodes presale',
+    title: 'Nodes sale',
     body: 'The nodes presale is to help early node operators aquire CFC to run validator nodes and secure the Crypto Family Bridge on mainnet release. </br></br>' +
-    'This presale will allow nodes to aquire CFC for 15% less than the ICO price to help increase the power of CFC securing the Crypto Family Bridge on release.</br></br>' +
-    'To join the nodes presale, a user has to have been an early node operator for the Crypto Family Bridge on the testnet release (Soon).'
+    'This presale will allow nodes to aquire CFC for 15% less than the IDO price to help increase the power of CFC securing the Crypto Family Bridge on release.</br></br>' +
+    'Nodes that aquire CFC from the nodes sale and put it all into running a node and securing the bridge will have a lock period of 1 year before they can move any of their CFC.<br><br>' +
+    'Nodes or users that aquire CFC from the nodes sale but does not use it to run a validator node will have a lock period of 2 years on their CFC.'
 });
 
 tokenomicsData.set('Public sale', {
