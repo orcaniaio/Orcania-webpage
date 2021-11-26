@@ -4,7 +4,7 @@ import './chart.scss';
 
 const tokenomicsData = new Map();
 
-tokenomicsData.set('Nodes presale', {
+tokenomicsData.set('Nodes sale', {
     title: 'Nodes sale',
     body: 'The nodes sale is to help early node operators aquire CFC to run validator nodes and secure the Crypto Family Bridge on mainnet release. </br></br>' +
     'This sale will allow nodes to aquire CFC for 15% less than the IDO price to help increase the power of CFC securing the Crypto Family Bridge on release.</br></br>' +
