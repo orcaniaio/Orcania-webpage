@@ -8,7 +8,7 @@ tokenomicsData.set('Nodes sale', {
     title: 'Nodes sale',
     body: 'The nodes sale is to help early node operators aquire CFC to run validator nodes and secure the Crypto Family Bridge on mainnet release. </br></br>' +
     'This sale will allow nodes to aquire CFC for 15% less than the IDO price to help increase the power of CFC securing the Crypto Family Bridge on release.</br></br>' +
-    'The nodes sale is intended to help validator node operators secure thr bridge, and as such certain terms are set to make sure CFC purchased from the nodes sale is used for its intended purpose.</br></br>'
+    'The nodes sale is intended to help validator node operators secure thr bridge, and as such certain terms are set to make sure CFC purchased from the nodes sale is used for its intended purpose.</br></br>' + 
     'Users that aquire CFC from the nodes sale but does not use it to run a validator node will have a lock period of 2 years on their CFC.</br>' + 
     'Nodes that aquire CFC from the nodes sale but does not put it all into running a validator node and securing the bridge, will have a lock period of 2 years on their CFC.</br>' +
     'Nodes that aquire CFC from the nodes sale and put it all into running a node and securing the bridge will have a lock period of 1 year on their CFC.'
