@@ -11,7 +11,7 @@ tokenomicsData.set('Nodes presale', {
     'The nodes sale is intended to help validator node operators secure thr bridge, and as such certain terms are set to make sure CFC purchased from the nodes sale is used for its intended purpose.</br></bt>'
     'Users that aquire CFC from the nodes sale but does not use it to run a validator node will have a lock period of 2 years on their CFC.</br>' + 
     'Nodes that aquire CFC from the nodes sale but does not put it all into running a validator node and securing the bridge, will have a lock period of 2 years on their CFC.</br>' +
-    'Nodes that aquire CFC from the nodes sale and put it all into running a node and securing the bridge will have a lock period of 1 year on their CFC.<br><br>'
+    'Nodes that aquire CFC from the nodes sale and put it all into running a node and securing the bridge will have a lock period of 1 year on their CFC.'
 });
 
 tokenomicsData.set('Public sale', {
