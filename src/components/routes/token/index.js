@@ -251,7 +251,7 @@ const Token = props => {
                             <div className="column has-text-centered" data-aos="fade-up">
                                 <div className="box has-background-dark2primary-v ">
                                     <h1 className=" subtitle has-text-center has-text-light-purple" >Total supply</h1>
-                                    <p className="has-text-white has-text-center">-</p>
+                                    <p className="has-text-white has-text-center">100,000,000</p>
                                 </div>
                             </div>
                             <div className="column has-text-centered" data-aos="fade-up">
