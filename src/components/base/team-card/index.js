@@ -19,7 +19,7 @@ const TeamCard = props => {
                     <img className="is-rounded has-border-contrast" src={props.imgsrc || memberAny}  alt=""/>
                 </figure>
                 <div className="charge-div " >
-                    <span className="icon has-text-white">{props.chargeIcon}</span>
+                    <span className="icon has-text-white is-size-5">{props.chargeIcon}</span>
                     <div className="charge-text p-1">
                         <h2 className="subtitle has-text-centered has-text-dark is-5">{charge}</h2>
                     </div>

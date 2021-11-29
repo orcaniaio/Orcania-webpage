@@ -14,6 +14,8 @@ import {
     homeArtwork3,
     member1,
     member3,
+    member4,
+    member5,
     tokenIcon,
     bridgeIcon,
     vaultIcon,
@@ -302,20 +304,20 @@ const Home = props => {
                                  <ul class="highway-lane phase2">
                                      <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
                                      <li class="highway-car ml"><a href="https://cryptoclerks.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={cc}/></a></li>
-                                     <li class="highway-car ml"><a href="https://bigtoys.io/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
                                      <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
                                      <li class="highway-car ml"><a href="https://cryptoclerks.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={cc}/></a></li>
-                                     <li class="highway-car ml"><a href="https://bigtoys.io/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
                                      <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
                                      <li class="highway-car ml"><a href="https://cryptoclerks.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={cc}/></a></li>
 
 
                                      <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
                                      <li class="highway-car ml"><a href="https://cryptoclerks.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={cc}/></a></li>
-                                     <li class="highway-car ml"><a href="https://bigtoys.io/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
                                      <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
                                      <li class="highway-car ml"><a href="https://cryptoclerks.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={cc}/></a></li>
-                                     <li class="highway-car ml"><a href="https://bigtoys.io/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
                                      <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
                                      <li class="highway-car ml"><a href="https://cryptoclerks.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={cc}/></a></li>
 
@@ -397,6 +399,47 @@ const Home = props => {
                                                 <i class="fab fa-discord"></i>
                                             </span>
                                         </a>&nbsp;
+                                        </div>
+
+                                    }
+                                />
+                            </div>
+                        </div>
+                        <div className="column has-text-centered" style={{display: 'grid', placeItems: 'center'}}>
+                            <div style={{width: '300px'}} data-aos="fade-up">
+                                <TeamCard name="Zero Two" charge="Hardware Manager / Testing helper" imgsrc={member5}
+                                    chargeIcon={<i class="fa-solid fa-microchip"></i>}
+                                    socialmedia={
+                                        <div>
+                                            <a className="has-text-white" href="" data-tooltip="Zero Two#0764">
+                                                <span className="icon">
+                                                    <i class="fab fa-discord"></i>
+                                                </span>
+                                            </a>&nbsp;
+                                        </div>
+
+                                    }
+                                />
+                            </div>
+                        </div>
+                        <div className="column has-text-centered" style={{display: 'grid', placeItems: 'center'}}>
+                            <div style={{width: '300px'}} data-aos="fade-up">
+                                <TeamCard name="Davide Ricciardi" charge="Marketing Manager" imgsrc={member4}
+                                    chargeIcon={<i class="fa-solid fa-bullhorn"></i>}
+                                    socialmedia={
+                                        <div>
+
+                                            <a className="has-text-white" href="https://t.me/PacScarlatti" target="_blank">
+                                                <span className="icon">
+                                                    <i class="fab fa-telegram-plane"></i>
+                                                </span>
+                                            </a>&nbsp;
+
+                                            <a className="has-text-white" href="" data-tooltip="Scarlatti#0173">
+                                                <span className="icon">
+                                                    <i class="fab fa-discord"></i>
+                                                </span>
+                                            </a>&nbsp;
                                         </div>
 
                                     }

@@ -28,7 +28,10 @@ import vault_icon_png from 'media/pages/home/vault.png';
 
 import member1_png from 'media/pages/home/member1.png';
 import member3_png from 'media/pages/home/member3.png';
+import member4_png from 'media/pages/home/member4.png';
+import member5_png from 'media/pages/home/member5.png';
 import memberAny_png from 'media/pages/home/memberAny.png';
+
 
 
 import token_logo_svg from 'media/pages/token/token_logo.svg';
@@ -82,6 +85,8 @@ export const vaultIcon = vault_icon_png;
 
 export const member1 = member1_png;
 export const member3 = member3_png;
+export const member4 = member4_png;
+export const member5 = member5_png;
 
 export const traf = traf_svg;
 export const cc = cc_svg;
