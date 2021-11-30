@@ -207,7 +207,7 @@ const Home = props => {
                             <div className="column" data-aos="fade-up">
                                 <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">Our goal</h1>
                                 <p className="has-text-light  has-text-distriute is-size-5">
-                                As daily crypto users we want to push the blockchain technology to its full, to offer the world not only a better financial and technological system but the best system possible, we want to improve upon blockchain technology to make it sci fi technology brought to reality, to build a future better than ever before
+                                As daily crypto users we want to push the blockchain technology to its fullest, to offer the world not only a better financial and technological system but the best system possible, we want to improve upon blockchain technology to make it sci-fi technology brought to reality, to build a future better than ever before
                                 </p>
                                 <br/>
                                 <br/>
