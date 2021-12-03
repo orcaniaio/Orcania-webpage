@@ -16,6 +16,7 @@ import './bridge.scss';
 import TimeLine from '../../base/time-line';
 
 import Table from './table';
+import Table2 from './table2';
 
 const style = {
     // height: '100%'
@@ -266,7 +267,14 @@ const Bridge = props => {
                 </div>
             </section>
 
-
+            <section className="has-background-d2p2d is-last-section">
+                <div className="head pt-6">
+                    <h1 className="title is-3 has-text-contrast has-text-centered mb-6">Bridge Features</h1>
+                </div>
+                <div className="hero-body pb-6" style={{overflow: 'hidden'}}>
+                    <Table2/>
+                </div>
+            </section>
 
             <section className="has-background-d2p2d is-last-section">
                 <div className="head pt-6">
