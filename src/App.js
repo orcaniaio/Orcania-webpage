@@ -38,8 +38,8 @@ function App() {
 
             <div className="hero is-dark is-small" style={{position: 'fixed', bottom: '0', zIndex: '10000', width: '100%'}} ref={banner}>
                 <div className="hero-body">
-                    <button class="delete is-pulled-right" onClick={onDeleteClicked}></button>  
-                    <div className="container">
+                    <button class="delete is-pulled-right" onClick={onDeleteClicked} style={{zIndex: '100'}}></button>  
+                    <div className="container px-2">
                         <h1 className="subtitle has-text-centered">Join the public testing on Dec 4th, visit our <a className="has-text-light-purple" href="https://discord.com/invite/PH5DEQbKX7" target="_blank">discord</a> for more info</h1>
                     </div>
                 </div>
