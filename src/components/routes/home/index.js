@@ -360,11 +360,11 @@ const Home = props => {
                                                 <i class="fab fa-telegram-plane"></i>
                                             </span>
                                         </a>&nbsp;
-                                        <a className="has-text-white" href="" data-tooltip="EAOE#3130">
+                                        <div className="has-text-white" href="" data-tooltip="EAOE#3130">
                                             <span className="icon">
                                                 <i class="fab fa-discord"></i>
                                             </span>
-                                        </a>&nbsp;
+                                        </div>&nbsp;
                                         </div>
 
                                     }
@@ -394,11 +394,11 @@ const Home = props => {
                                             </span>
                                         </a>&nbsp;
 
-                                        <a className="has-text-white" href="" data-tooltip="Loque#7657">
+                                        <div className="has-text-white" href="" data-tooltip="Loque#7657">
                                             <span className="icon">
                                                 <i class="fab fa-discord"></i>
                                             </span>
-                                        </a>&nbsp;
+                                        </div>&nbsp;
                                         </div>
 
                                     }
@@ -411,11 +411,17 @@ const Home = props => {
                                     chargeIcon={<i class="fa-solid fa-microchip"></i>}
                                     socialmedia={
                                         <div>
-                                            <a className="has-text-white" href="" data-tooltip="Zero Two#0764">
+                                            <a className="has-text-white" href="https://t.me/JaydenR_CF" target="_blank">
+                                                <span className="icon">
+                                                    <i class="fab fa-telegram-plane"></i>
+                                                </span>
+                                            </a>&nbsp;
+
+                                            <div className="has-text-white" href="" data-tooltip="Zero Two#0764">
                                                 <span className="icon">
                                                     <i class="fab fa-discord"></i>
                                                 </span>
-                                            </a>&nbsp;
+                                            </div>&nbsp;
                                         </div>
 
                                     }
@@ -435,11 +441,11 @@ const Home = props => {
                                                 </span>
                                             </a>&nbsp;
 
-                                            <a className="has-text-white" href="" data-tooltip="Scarlatti#0173">
+                                            <div className="has-text-white" href="" data-tooltip="Scarlatti#0173">
                                                 <span className="icon">
                                                     <i class="fab fa-discord"></i>
                                                 </span>
-                                            </a>&nbsp;
+                                            </div>&nbsp;
                                         </div>
 
                                     }
