@@ -1,4 +1,4 @@
-import {useEffect} from 'react';
+import {useEffect, useRef} from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,10 +25,25 @@ import './scss/styles.scss';
 
 function App() {
 
+    const banner = useRef(null);
+
+    const onDeleteClicked = () => {
+        banner.current.parentNode.removeChild(banner.current);
+    }
+
     return (
 
 
         <Router>
+
+            <div className="hero is-dark is-small" style={{position: 'fixed', bottom: '0', zIndex: '10000', width: '100%'}} ref={banner}>
+                <div className="hero-body">
+                    <button class="delete is-pulled-right" onClick={onDeleteClicked}></button>  
+                    <div className="container">
+                        <h1 className="subtitle has-text-centered">Join the public testing on Dec 4th, visit our <a className="has-text-light-purple" href="https://discord.com/invite/PH5DEQbKX7" target="_blank">discord</a> for more info</h1>
+                    </div>
+                </div>
+            </div>
 
             <ScrollToTop/>
             <Navbar/>
