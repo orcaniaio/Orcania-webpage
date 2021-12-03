@@ -231,7 +231,7 @@ const Bridge = props => {
                     <h1 className="title is-3 has-text-contrast has-text-centered mb-6">Bridge Features</h1>
                 </div>
                 <div className="hero-body pb-6" style={{overflow: 'hidden'}}>
-                    <Table/>
+                    <Table2/>
                 </div>
             </section>
 
@@ -265,16 +265,7 @@ const Bridge = props => {
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section className="has-background-d2p2d is-last-section">
-                <div className="head pt-6">
-                    <h1 className="title is-3 has-text-contrast has-text-centered mb-6">Bridge Features</h1>
-                </div>
-                <div className="hero-body pb-6" style={{overflow: 'hidden'}}>
-                    <Table2/>
-                </div>
-            </section>
+            </section>            
 
             <section className="has-background-d2p2d is-last-section">
                 <div className="head pt-6">
