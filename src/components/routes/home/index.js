@@ -360,7 +360,7 @@ const Home = props => {
                                                 <i class="fab fa-telegram-plane"></i>
                                             </span>
                                         </a>&nbsp;
-                                        <div className="has-text-white" href="" data-tooltip="EAOE#3130">
+                                        <div className="has-text-white" href="" data-tooltip="EAOE#3130" style={{display: 'inline-block'}}>
                                             <span className="icon">
                                                 <i class="fab fa-discord"></i>
                                             </span>
@@ -394,7 +394,7 @@ const Home = props => {
                                             </span>
                                         </a>&nbsp;
 
-                                        <div className="has-text-white" href="" data-tooltip="Loque#7657">
+                                        <div className="has-text-white" href="" data-tooltip="Loque#7657" style={{display: 'inline-block'}}>
                                             <span className="icon">
                                                 <i class="fab fa-discord"></i>
                                             </span>
@@ -417,7 +417,7 @@ const Home = props => {
                                                 </span>
                                             </a>&nbsp;
 
-                                            <div className="has-text-white" href="" data-tooltip="Zero Two#0764">
+                                            <div className="has-text-white" href="" data-tooltip="Zero Two#0764" style={{display: 'inline-block'}}>
                                                 <span className="icon">
                                                     <i class="fab fa-discord"></i>
                                                 </span>
@@ -441,7 +441,7 @@ const Home = props => {
                                                 </span>
                                             </a>&nbsp;
 
-                                            <div className="has-text-white" href="" data-tooltip="Scarlatti#0173">
+                                            <div className="has-text-white" href="" data-tooltip="Scarlatti#0173" style={{display: 'inline-block'}}>
                                                 <span className="icon">
                                                     <i class="fab fa-discord"></i>
                                                 </span>

@@ -55,6 +55,8 @@ import vault_about_svg from 'media/pages/vault/vault_about.svg';
 import vault_manage_svg from 'media/pages/vault/vault_manage.svg';
 import vault_security_svg from 'media/pages/vault/vault_security.svg';
 
+import astronaut_logo_svg from 'media/pages/bridge/astronaut.svg';
+
 export const baseURL = "https://drive.google.com/uc?export=view&id=";
 export const memberAny = memberAny_png;
 
@@ -128,3 +130,7 @@ export const vaultBannerImg = vault_banner_svg;
 export const vaultArtwork1 = vault_about_svg;
 export const vaultArtwork2 = vault_security_svg;
 export const vaultArtwork3 = vault_manage_svg;
+
+
+/*~~*~~*~~*~~*~~*~~*~~*~~* ASSETS DOWNLOADS *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
+export const astronautLogo = astronaut_logo_svg;
