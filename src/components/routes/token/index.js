@@ -325,7 +325,7 @@ const Token = props => {
                                         <h1 className="subtitle has-text-white has-text-centered is-3">Bridge</h1>
                                         <ul className="px-5" style={{listStyle: 'disc', color: 'white'}}>
                                             <li><h1 className="subtitle has-text-white is-5">Staking, governance and security for the Crypto Family Bridge</h1></li> <br/>
-                                            <li><h1 className="subtitle has-text-white is-5">Staking, governance and security for the Crypto Family Bridge</h1></li>
+                                            <li><h1 className="subtitle has-text-white is-5">Fees payment on the Crypto Family Bridge</h1></li>
                                         </ul>
                                     </div>                                    
                                 </div>
@@ -340,7 +340,7 @@ const Token = props => {
                                         <h1 className="subtitle has-text-white has-text-centered is-3">Multichain</h1>
                                         <ul className="px-5" style={{listStyle: 'disc', color: 'white'}}>
                                             <li><h1 className="subtitle has-text-white is-5">Staking, governance and security for the Crypto Family Multichain</h1></li> <br/>
-                                            <li><h1 className="subtitle has-text-white is-5">Staking, governance and security for the Crypto Family Multichain</h1></li>
+                                            <li><h1 className="subtitle has-text-white is-5">Fees payment on the Crypto Family Multichain</h1></li>
                                         </ul>
                                     </div>                                    
                                 </div>
@@ -355,7 +355,7 @@ const Token = props => {
                                         <h1 className="subtitle has-text-white has-text-centered is-3">Chain</h1>
                                         <ul className="px-5" style={{listStyle: 'disc', color: 'white'}}>
                                             <li><h1 className="subtitle has-text-white is-5">Staking, governance and security for the Crypto Family Chain</h1></li> <br/>
-                                            <li><h1 className="subtitle has-text-white is-5">Staking, governance and security for the Crypto Family Chain</h1></li>
+                                            <li><h1 className="subtitle has-text-white is-5">Fees payment on the Crypto Family Chain</h1></li>
                                         </ul>
                                     </div>                                    
                                 </div>
