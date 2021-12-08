@@ -5,8 +5,10 @@ import {
     tokenArtwork1,
     tokenArtwork2,
     tokenArtwork3,
-    tokenArtwork4
-
+    tokenArtwork4,
+    bridgeIcon2,
+    blockchainIcon,
+    multichainIcon
 } from '../../../images';
 
 import bscscan from './bscscan.svg';
@@ -282,7 +284,7 @@ const Token = props => {
                 </div>
             </section>
 
-        {/*}    <section className="has-background-light">
+            {/* <section className="has-background-light">
                 <div className="head">
 
                 </div>
@@ -305,6 +307,63 @@ const Token = props => {
 
                 </div>
             </section> */}
+
+            <section className="has-background-light">
+                <div className="head pt-6">
+                    <h1 className="title is-3 has-text-primary has-text-centered mb-6">Utilities</h1>
+                    <div className="hero-body pb-6" style={{overflow: 'hidden'}}>
+                        <div className="container px-3">
+                            <div className="columns">
+                                <div className="column">
+                                    <div className="box has-background-primary2dark-v py-6">
+                                        <div style={{display: 'grid', placeItems: 'center'}}>
+                                            <div className="has-background-light-purple" style={{width: '128px', height: '128px', borderRadius: '50%', display: 'grid', placeItems: 'center'}}> 
+                                                <img src={bridgeIcon2} alt='' width="100"/>
+                                            </div>
+                                        </div>
+                                        <br/>
+                                        <h1 className="subtitle has-text-white has-text-centered is-3">Bridge</h1>
+                                        <ul className="px-5" style={{listStyle: 'disc', color: 'white'}}>
+                                            <li><h1 className="subtitle has-text-white is-5">Staking, governance and security for the Crypto Family Bridge</h1></li> <br/>
+                                            <li><h1 className="subtitle has-text-white is-5">Staking, governance and security for the Crypto Family Bridge</h1></li>
+                                        </ul>
+                                    </div>                                    
+                                </div>
+                                <div className="column">
+                                    <div className="box has-background-primary2dark-v py-6">
+                                        <div style={{display: 'grid', placeItems: 'center'}}>
+                                        <div className="has-background-light-purple" style={{width: '128px', height: '128px', borderRadius: '50%', display: 'grid', placeItems: 'center'}}> 
+                                                <img src={multichainIcon} alt='' width="100" />
+                                            </div>
+                                        </div>
+                                        <br/>
+                                        <h1 className="subtitle has-text-white has-text-centered is-3">Multichain</h1>
+                                        <ul className="px-5" style={{listStyle: 'disc', color: 'white'}}>
+                                            <li><h1 className="subtitle has-text-white is-5">Staking, governance and security for the Crypto Family Multichain</h1></li> <br/>
+                                            <li><h1 className="subtitle has-text-white is-5">Staking, governance and security for the Crypto Family Multichain</h1></li>
+                                        </ul>
+                                    </div>                                    
+                                </div>
+                                <div className="column">
+                                    <div className="box has-background-primary2dark-v py-6">
+                                        <div style={{display: 'grid', placeItems: 'center'}}>
+                                            <div className="has-background-light-purple" style={{width: '128px', height: '128px', borderRadius: '50%', display: 'grid', placeItems: 'center'}}> 
+                                                <img src={blockchainIcon} alt='' width="80"/>
+                                            </div>
+                                        </div>
+                                        <br/>
+                                        <h1 className="subtitle has-text-white has-text-centered is-3">Chain</h1>
+                                        <ul className="px-5" style={{listStyle: 'disc', color: 'white'}}>
+                                            <li><h1 className="subtitle has-text-white is-5">Staking, governance and security for the Crypto Family Chain</h1></li> <br/>
+                                            <li><h1 className="subtitle has-text-white is-5">Staking, governance and security for the Crypto Family Chain</h1></li>
+                                        </ul>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section className="has-background-d2p2d is-last-section">
                 <div className="head pt-6">

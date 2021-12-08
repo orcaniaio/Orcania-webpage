@@ -26,6 +26,7 @@ import token_icon_png from 'media/pages/home/token.png';
 import bridge_icon_png from 'media/pages/home/bridge.png';
 import vault_icon_png from 'media/pages/home/vault.png';
 
+
 import member1_png from 'media/pages/home/member1.png';
 import member3_png from 'media/pages/home/member3.png';
 import member4_png from 'media/pages/home/member4.png';
@@ -108,6 +109,10 @@ export const tokenArtwork1 = token_about_svg;
 export const tokenArtwork2 = token_governance_svg;
 export const tokenArtwork3 = token_security_svg;
 export const tokenArtwork4 = token_ecosystem_svg;
+
+export const bridgeIcon2 = baseURL + "1PqnTHGxxm2XT2YAkwWh-RNbEysbFxZuS";
+export const multichainIcon = baseURL + "1_a6a0G54WcGo09taAIE7RFqr_fGvfR_s";
+export const blockchainIcon = baseURL + "1N3-_dYnGpKzyHRsqsFY1fPpca8uPnRCM";
 
 /*~~*~~*~~*~~*~~*~~*~~*~~* ASSETS BRIDGE *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
 

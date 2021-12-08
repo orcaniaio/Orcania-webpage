@@ -15,6 +15,10 @@
 
 /* *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*~~* */
 
+.has-background-primary2dark-v {
+    background: linear-gradient(to bottom, $primary 0%, $dark 100%) !important;
+}
+
 .has-background-primary2dark{
     background: $primary2dark !important;
     background-blend-mode: color-dodge, overlay, difference, difference, normal;
