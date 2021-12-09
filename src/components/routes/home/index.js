@@ -428,7 +428,7 @@ const Home = props => {
                                 />
                             </div>
                         </div>
-                        <div className="column has-text-centered" style={{display: 'grid', placeItems: 'center'}}>
+                       {/* <div className="column has-text-centered" style={{display: 'grid', placeItems: 'center'}}>
                             <div style={{width: '300px'}} data-aos="fade-up">
                                 <TeamCard name="Davide Ricciardi" charge="Marketing Manager" imgsrc={member4}
                                     chargeIcon={<i class="fa-solid fa-bullhorn"></i>}
@@ -451,7 +451,7 @@ const Home = props => {
                                     }
                                 />
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>
