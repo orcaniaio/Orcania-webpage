@@ -1,0 +1,22 @@
+{
+
+"description": "Friendly OpenSea Creature that enjoys long swims in the ocean.", 
+"external_url": "https://openseacreatures.io/3", 
+"image": "https://storage.googleapis.com/opensea-prod.appspot.com/puffs/3.png", 
+"name": "Dave Starbelly",
+
+"attributes":
+[
+{"trait_type":"Material","value":"gold"},
+{"trait_type":"Color","value":"red"},
+{"trait_type":"Sole","value":"something"},
+{"trait_type":"Pattern","value":"something"},
+
+{"trait_type":"Gravity level","value":1.4},
+{"trait_type":"Speed","value":"5"},
+{"trait_type":"Acceleration ","value":1.4},
+{"trait_type":"Stability","value":"5"},
+
+]
+
+}
