@@ -10,16 +10,13 @@
 {"trait_type":"Material","value":"gold"},
 {"trait_type":"Color","value":"red"},
 {"trait_type":"Sole","value":"something"},
-{"trait_type":"Pattern","value":"something"}
-],
+{"trait_type":"Pattern","value":"something"},
   
-"traits":
-[
 {"trait_type":"Gravity level","value":1.4},
-{"trait_type":"Speed","value":"1.4"},
+{"trait_type":"Speed","value":1.4},
 {"trait_type":"Acceleration ","value":1.4},
-{"trait_type":"Stability","value":"1.4"}
-
+{"trait_type":"Stability","value":1.4}
 ]
+  
 
 }
