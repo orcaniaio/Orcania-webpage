@@ -34,7 +34,11 @@ const Footer = () => {
                                 <a href="https://discord.gg/PH5DEQbKX7" target="_blank" rel="noreferrer">
                                     <span className="icon has-text-dark is-size-3"><i className="fab fa-discord"></i></span>
                                 </a>
+                                
+
+                                <h1 className="subtitle has-text-dark is-5">cryptofamily@cryptofamily.tech</h1>
                             </div>
+                            
                             <div className="column is-hidden-desktop" style={{minHeight:' 100px'}}></div>
                             <div className="column is-3 p-0 footer-logo has-text-centered">
                                 <img src={ logoLight} alt='' />
