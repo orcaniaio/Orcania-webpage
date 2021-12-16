@@ -303,23 +303,23 @@ const Home = props => {
                              <div class="highway-barrier">
                                  <ul class="highway-lane phase2">
                                      <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
-                                     <li class="highway-car ml"><a href="https://cryptoclerks.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={cc}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
+                                     <li class="highway-car ml"><a href="https://theredapefamily.com/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
                                      <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
                                      <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
-                                     <li class="highway-car ml"><a href="https://cryptoclerks.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={cc}/></a></li>
                                      <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
-                                     <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
-                                     <li class="highway-car ml"><a href="https://cryptoclerks.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={cc}/></a></li>
+                                     <li class="highway-car ml"><a href="https://theredapefamily.com/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
 
 
                                      <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
-                                     <li class="highway-car ml"><a href="https://cryptoclerks.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={cc}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
+                                     <li class="highway-car ml"><a href="https://theredapefamily.com/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
                                      <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
                                      <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
-                                     <li class="highway-car ml"><a href="https://cryptoclerks.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={cc}/></a></li>
                                      <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
-                                     <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
-                                     <li class="highway-car ml"><a href="https://cryptoclerks.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={cc}/></a></li>
+                                     <li class="highway-car ml"><a href="https://theredapefamily.com/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
+                                     <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
 
 
 
