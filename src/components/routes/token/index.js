@@ -118,7 +118,7 @@ const Token = props => {
                                     <p className="has-text-light  has-text-distriute is-size-5">
                                         Crypto Family Coin, or CFC, is a multichain technologically driven asset, used for the governance, security and payment of all the current and future projects of the Crypto Family.
                                         <br/><br/>
-                                        It is moslty used for governance, security, and fees on the multichain Beacons of the crypto Family Bridge, to secure all of its transactions and pay its fees.
+                                        It is mostly used for governance, security, and fees on the multichain Beacons of the crypto Family Bridge, to secure all of its transactions and pay its fees.
                                         <br/>
                                         Future use cases will also include CFC being the governance asset for the Crypto Family Bridge V2.0, voting asset for project ideas and recommendations, and payment asset for all services provided by the Crypto Family.
                                         <br/><br/>
