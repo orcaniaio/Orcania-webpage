@@ -20,7 +20,7 @@ import {
     bridgeIcon,
     vaultIcon,
     traf,
-    cc,
+    surreal,
     meconcash,
     polygon_logo,
     harmony_logo,    
@@ -28,6 +28,7 @@ import {
 
 import {Link} from 'react-router-dom';
 import TeamCard from '../../base/team-card';
+import PatnersSection from './patners.section';
 
 const style = {
     // height: '100%',
@@ -273,7 +274,8 @@ const Home = props => {
                      <h1 className="title has-lina-text contrast is-3 has-text-contrast has-text-centered mb-6">Ecosystem and Partners</h1>
                  </div>
                  <div className="hero-body pb-6 px-0" style={{overflow: 'hidden'}}>
-
+                    
+                       
                          <div id="infinite" class="highway-slider">
                              <div class="highway-barrier">
                                  <ul class="highway-lane">
@@ -304,28 +306,29 @@ const Home = props => {
                                  <ul class="highway-lane phase2">
                                      <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
                                      <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
-                                     <li class="highway-car ml"><a href="https://theredapefamily.com/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
-                                     <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
+                                     <li class="highway-car ml"><a href="https://surrealsociety.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={surreal}/></a></li>
                                      <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
                                      <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
-                                     <li class="highway-car ml"><a href="https://theredapefamily.com/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
+                                     <li class="highway-car ml"><a href="https://surrealsociety.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={surreal}/></a></li>
+                                     <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
                                      <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
+                                     
 
 
+                                     <li class="highway-car ml"><a href="https://surrealsociety.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={surreal}/></a></li>
                                      <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
                                      <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
-                                     <li class="highway-car ml"><a href="https://theredapefamily.com/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
-                                     <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
+                                     <li class="highway-car ml"><a href="https://surrealsociety.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={surreal}/></a></li>
                                      <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
                                      <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
-                                     <li class="highway-car ml"><a href="https://theredapefamily.com/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
-                                     <li class="highway-car ml"><a href="https://www.meconcash.com/index_en.html" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={meconcash}/></a></li>
+                                     <li class="highway-car ml"><a href="https://surrealsociety.io/" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={surreal}/></a></li>
+                                     <li class="highway-car ml"><a href="https://theredapefamily.com/home" target="_blank" className="box has-background-dark has-no-box-shadow"><img src={traf}/></a></li>
 
 
 
                                  </ul>
                              </div>
-                         </div>
+                        </div> 
 
                  </div>
         </section>

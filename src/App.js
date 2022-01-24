@@ -20,6 +20,7 @@ import Downloads from './components/routes/downloads';
 import ScrollToTop from './components/base/scroll-to-top';
 import BridgeApp from './components/routes/app';
 
+import '@splidejs/splide/dist/css/splide.min.css';
 import './scss/styles.scss';
 
 function App() {   
