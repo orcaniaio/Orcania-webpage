@@ -1,73 +1,58 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-} from "react-router-dom";
+// import Sidebar from "./components/base/sidebar";
+// import Background from "./components/base/background";
 
-import Sidebar from './components/base/sidebar';
-import Background from './components/base/background';
+// import Timeline from "./components/base/time-line";
+import Navbar from "./components/commons/navbar";
+import Footer from "./components/commons/footer";
+import Home from "./components/routes/home";
+import Token from "./components/routes/token";
+import Bridge from "./components/routes/bridge";
+// import Vault from "./components/routes/vault";
+import Dex from "./components/routes/dex";
+import Downloads from "./components/routes/downloads";
+import ScrollToTop from "./components/base/scroll-to-top";
+import BridgeApp from "./components/routes/app";
 
-import Timeline from './components/base/time-line';
-import Navbar from './components/commons/navbar';
-import Footer from './components/commons/footer';
-import Home from './components/routes/home';
-import Token from './components/routes/token';
-import Bridge from './components/routes/bridge';
-import Vault from './components/routes/vault';
-import Downloads from './components/routes/downloads';
-import ScrollToTop from './components/base/scroll-to-top';
-import BridgeApp from './components/routes/app';
+//import '@splidejs/splide/dist/css/splide.min.css';
+import "./scss/styles.scss";
 
-import '@splidejs/splide/dist/css/splide.min.css';
-import './scss/styles.scss';
+function App() {
+  return (
+    <Router>
+      <ScrollToTop />
+      <Navbar />
 
-function App() {   
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
 
-    return (
+        <Route exact path="/token">
+          <Token />
+        </Route>
 
+        <Route exact path="/bridge">
+          <Bridge />
+        </Route>
 
-        <Router>           
+        <Route exact path="/dex">
+          <Dex />
+        </Route>
 
-            <ScrollToTop/>
-            <Navbar/>
+        <Route exact path="/app">
+          <BridgeApp />
+        </Route>
 
-            <Switch>
+        <Route exact path="/downloads">
+          <Downloads />
+        </Route>
+      </Switch>
 
-                <Route exact path="/">
-                    <Home/>
-                </Route>
-
-                <Route exact path="/token">
-
-                    <Token/>
-                </Route>
-
-                <Route exact path="/bridge">
-                    <Bridge/>
-                </Route>
-
-                <Route exact path="/vault">
-                    <Vault/>
-                </Route>
-
-                <Route exact path="/app">
-                    <BridgeApp/>
-                </Route>
-
-                <Route exact path="/downloads">
-                    <Downloads/>
-                </Route>
-
-            </Switch>
-
-            <Footer/>
-
-        </Router>
-
-
-    );
+      <Footer />
+    </Router>
+  );
 }
 
 export default App;

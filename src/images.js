@@ -1,63 +1,65 @@
-import ethLogoSVG from 'media/chain-logos/eth.svg';
-import bscLogoSVG from 'media/chain-logos/bsc.svg';
-import polLogoSVG from 'media/chain-logos/pol.svg';
-import harmonyLogoSVG from 'media/chain-logos/harmony.svg';
-import avalancheLogoSVG from 'media/chain-logos/avalanche.svg';
-import kleytnLogoSVG from 'media/chain-logos/kleytn.svg';
-import moonbeamLogoPNG from 'media/chain-logos/moonbeam.png';
+import ethLogoSVG from "media/chain-logos/eth.svg";
+import bscLogoSVG from "media/chain-logos/bsc.svg";
+import polLogoSVG from "media/chain-logos/pol.svg";
+import harmonyLogoSVG from "media/chain-logos/harmony.svg";
+import avalancheLogoSVG from "media/chain-logos/avalanche.svg";
+import kleytnLogoSVG from "media/chain-logos/kleytn.svg";
+import moonbeamLogoPNG from "media/chain-logos/moonbeam.png";
 
-import logoDarkPNG from 'media/brand/cf-logo-black.png';
-import logoLightPNG from 'media/brand/cf-logo-white.png';
+import logoDarkPNG from "media/brand/cf-logo-black.png";
+import logoLightPNG from "media/brand/cf-logo-white.png";
 
-import home_banner_svg from 'media/pages/home/home_banner.svg';
-import home_about_svg from 'media/pages/home/home_about.svg';
-import home_work_svg from 'media/pages/home/home_work.svg';
-import home_goals_svg from 'media/pages/home/home_goals.svg';
+import home_banner_svg from "media/pages/home/home_banner.svg";
+import home_about_svg from "media/pages/home/home_about.svg";
+import home_work_svg from "media/pages/home/home_work.svg";
+import home_goals_svg from "media/pages/home/home_goals.svg";
 
-import polygon_logo_svg from 'media/patners/polygon.svg';
-import harmony_logo_svg from 'media/patners/harmony.svg';
+import polygon_logo_svg from "media/patners/polygon.svg";
+import harmony_logo_svg from "media/patners/harmony.svg";
 
-import traf_svg from 'media/patners/traf.svg';
-import cc_svg from 'media/patners/cryptoclerks.svg';
-import bigtoys_svg from 'media/patners/bigtoys.svg';
-import meconcash_png from 'media/patners/meconcash.png';
-import surreal_svg from 'media/patners/surreal.svg';
+import traf_svg from "media/patners/traf.svg";
+import cc_svg from "media/patners/cryptoclerks.svg";
+import bigtoys_svg from "media/patners/bigtoys.svg";
+import meconcash_png from "media/patners/meconcash.png";
+import surreal_svg from "media/patners/surreal.svg";
 
-import token_icon_png from 'media/pages/home/token.png';
-import bridge_icon_png from 'media/pages/home/bridge.png';
-import vault_icon_png from 'media/pages/home/vault.png';
+import token_icon_png from "media/pages/home/token.png";
+import bridge_icon_png from "media/pages/home/bridge.png";
+import vault_icon_png from "media/pages/home/vault.png";
+import exchange_icon_png from "media/pages/home/exchange.png";
 
+import member1_png from "media/pages/home/member1.png";
+import member3_png from "media/pages/home/member3.png";
+import member4_png from "media/pages/home/member4.png";
+import member5_png from "media/pages/home/member5.png";
+import member6_jpeg from "media/pages/home/member6.jpeg";
+import memberAny_png from "media/pages/home/memberAny.png";
 
-import member1_png from 'media/pages/home/member1.png';
-import member3_png from 'media/pages/home/member3.png';
-import member4_png from 'media/pages/home/member4.png';
-import member5_png from 'media/pages/home/member5.png';
-import memberAny_png from 'media/pages/home/memberAny.png';
+import token_logo_svg from "media/pages/token/token_logo.svg";
+import token_about_svg from "media/pages/token/token_about.svg";
+import token_governance_svg from "media/pages/token/token_governance.svg";
+import token_security_svg from "media/pages/token/token_security.svg";
+import token_ecosystem_svg from "media/pages/token/token_ecosystem.svg";
 
+import bridge_banner_svg from "media/pages/bridge/bridge_banner.svg";
+import bridge_about_svg from "media/pages/bridge/bridge_about.svg";
+import bridge_decentralization_svg from "media/pages/bridge/bridge_decentralization.svg";
+import bridge_devs_svg from "media/pages/bridge/bridge_developers.svg";
+import bridge_fees_svg from "media/pages/bridge/bridge_fees.svg";
+import num1_png from "media/pages/bridge/num1.png";
+import num2_png from "media/pages/bridge/num2.png";
+import num3_png from "media/pages/bridge/num3.png";
+import num4_png from "media/pages/bridge/num4.png";
 
+import vault_banner_svg from "media/pages/vault/vault_banner.svg";
+import vault_about_svg from "media/pages/vault/vault_about.svg";
+import vault_manage_svg from "media/pages/vault/vault_manage.svg";
+import vault_security_svg from "media/pages/vault/vault_security.svg";
 
-import token_logo_svg from 'media/pages/token/token_logo.svg';
-import token_about_svg from 'media/pages/token/token_about.svg';
-import token_governance_svg from 'media/pages/token/token_governance.svg';
-import token_security_svg from 'media/pages/token/token_security.svg';
-import token_ecosystem_svg from 'media/pages/token/token_ecosystem.svg';
+import astronaut_logo_svg from "media/pages/bridge/astronaut.svg";
 
-import bridge_banner_svg from 'media/pages/bridge/bridge_banner.svg';
-import bridge_about_svg from 'media/pages/bridge/bridge_about.svg';
-import bridge_decentralization_svg from 'media/pages/bridge/bridge_decentralization.svg';
-import bridge_devs_svg from 'media/pages/bridge/bridge_developers.svg';
-import bridge_fees_svg from 'media/pages/bridge/bridge_fees.svg';
-import num1_png from 'media/pages/bridge/num1.png';
-import num2_png from 'media/pages/bridge/num2.png';
-import num3_png from 'media/pages/bridge/num3.png';
-import num4_png from 'media/pages/bridge/num4.png';
-
-import vault_banner_svg from 'media/pages/vault/vault_banner.svg';
-import vault_about_svg from 'media/pages/vault/vault_about.svg';
-import vault_manage_svg from 'media/pages/vault/vault_manage.svg';
-import vault_security_svg from 'media/pages/vault/vault_security.svg';
-
-import astronaut_logo_svg from 'media/pages/bridge/astronaut.svg';
+import cf_dex_png from "media/pages/dex/cf_dex.png";
+import cf_liquidity_protocol from "media/pages/dex/cf_liquidity_protocol.svg";
 
 export const baseURL = "https://drive.google.com/uc?export=view&id=";
 export const memberAny = memberAny_png;
@@ -86,11 +88,13 @@ export const homeArtwork3 = home_goals_svg;
 export const tokenIcon = token_icon_png;
 export const bridgeIcon = bridge_icon_png;
 export const vaultIcon = vault_icon_png;
+export const exchangeIcon = exchange_icon_png;
 
 export const member1 = member1_png;
 export const member3 = member3_png;
 export const member4 = member4_png;
 export const member5 = member5_png;
+export const member6 = member6_jpeg;
 
 export const traf = traf_svg;
 export const cc = cc_svg;
@@ -98,14 +102,12 @@ export const bigtoys = bigtoys_svg;
 export const meconcash = meconcash_png;
 export const surreal = surreal_svg;
 
-
 export const polygon_logo = polygon_logo_svg;
 export const harmony_logo = harmony_logo_svg;
 
-
 /*~~*~~*~~*~~*~~*~~*~~*~~* ASSETS TOKEN *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
 
-export const tokenBannerImg  = token_logo_svg;
+export const tokenBannerImg = token_logo_svg;
 
 export const tokenArtwork1 = token_about_svg;
 export const tokenArtwork2 = token_governance_svg;
@@ -138,6 +140,10 @@ export const vaultArtwork1 = vault_about_svg;
 export const vaultArtwork2 = vault_security_svg;
 export const vaultArtwork3 = vault_manage_svg;
 
-
 /*~~*~~*~~*~~*~~*~~*~~*~~* ASSETS DOWNLOADS *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
 export const astronautLogo = astronaut_logo_svg;
+
+/*~~*~~*~~*~~*~~*~~*~~*~~* ASSETS DEX *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
+
+export const cfDex = cf_dex_png;
+export const cfLiquidityProtocol = cf_liquidity_protocol;

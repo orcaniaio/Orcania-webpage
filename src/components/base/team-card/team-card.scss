@@ -1,40 +1,39 @@
-@import '../../../scss/vars';
-.charge-div{
+@import "../../../scss/vars";
+.charge-div {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 1;
+  display: grid;
+  place-items: center;
 
-    position: absolute;
-    bottom: 0;
-    left: 50%;
+  transform: translate(-50%, -50%);
 
-    display: grid;
-    place-items: center;
+  border: 5px solid $dark;
+  border-radius: 50%;
 
-    transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
 
-    border: 5px solid $dark;
-    border-radius: 50%;
+  background: #71707c;
+  cursor: pointer;
 
-    width: 50px;
-    height: 50px;
-
-    background: #71707C;
-    cursor: pointer;
-
-    &:hover{
-        .charge-text{
-            display: block;
-        }
+  &:hover {
+    .charge-text {
+      display: block;
     }
+  }
 }
 
-.charge-text{
-    display: none;
-    position: absolute;
-    width: 150px;   
-    background: rgba($light-purple, 1);
-    border-radius: 8px;
-    top: calc(100% + 10px;);
+.charge-text {
+  display: none;
+  position: absolute;
+  width: 150px;
+  background: rgba($light-purple, 1);
+  border-radius: 8px;
+  top: calc(100% + 10px);
 
-    &:after{
-        content: '',
-    }
+  &:after {
+    content: "";
+  }
 }
