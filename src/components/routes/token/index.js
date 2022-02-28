@@ -16,7 +16,7 @@ import cmc from "./cmc.svg";
 
 import Tokenomics from "./tokenomics";
 
-import ReactHtml from "raw-html-react";
+// import ReactHtml from "raw-html-react";
 
 const style = {
   // height: '100%'
@@ -25,10 +25,21 @@ const style = {
 const Token = (props) => {
   const [showData, setShowData] = useState({
     title: "ICO",
-    body:
-      "The ICO will be held after the nodes presale has been concluded. </br></br>" +
-      "Any OCA remaining from the nodes presale will be added to the public ICO, it will allow everyone to aquire OCA on multiple blockchains. <br/></br>" +
-      "The ICO will either be held on centralized services such as Binance with part of the ICO being held on DAPPs on the supported blockchains of the Orcania Bridge, or it will be fully held on DAPPs of the supported blockchains.",
+    body: () => (
+      <p>
+        The ICO will be held after the nodes presale has been concluded.
+        <br />
+        <br />
+        Any OCA remaining from the nodes presale will be added to the public
+        ICO, it will allow everyone to aquire OCA on multiple blockchains.{" "}
+        <br />
+        <br />
+        The ICO will either be held on centralized services such as Binance with
+        part of the ICO being held on DAPPs on the supported blockchains of the
+        Orcania Bridge, or it will be fully held on DAPPs of the supported
+        blockchains.
+      </p>
+    ),
   });
 
   useEffect(() => {
@@ -90,9 +101,8 @@ const Token = (props) => {
                   <h1 className="subtitle has-text-centered has-text-primary">
                     {showData.title}
                   </h1>
-                  <p>
-                    <ReactHtml html={showData.body} />
-                  </p>
+
+                  <showData.body />
                 </div>
               </div>
             </div>
