@@ -5,6 +5,11 @@ import harmonyLogoSVG from "media/chain-logos/harmony.svg";
 import avalancheLogoSVG from "media/chain-logos/avalanche.svg";
 import kleytnLogoSVG from "media/chain-logos/kleytn.svg";
 import moonbeamLogoPNG from "media/chain-logos/moonbeam.png";
+import celoLogoSVG from "media/chain-logos/celo-logo.svg";
+import fantomLogoSVG from "media/chain-logos/fantom.svg";
+import gnosisLogoSVG from "media/chain-logos/gnosis.svg";
+import vechainLogoSVG from "media/chain-logos/vechain-logo.svg";
+import xdcLogoPNG from "media/chain-logos/xdc.png";
 
 import logoDarkPNG from "media/brand/cf-logo-black.png";
 import logoLightPNG from "media/brand/cf-logo-white.png";
@@ -60,6 +65,7 @@ import astronaut_logo_svg from "media/pages/bridge/astronaut.svg";
 
 import cf_dex_png from "media/pages/dex/cf_dex.png";
 import cf_liquidity_protocol from "media/pages/dex/cf_liquidity_protocol.svg";
+import homeGif from "media/pages/home/CF-home-v3_1.gif";
 
 export const baseURL = "https://drive.google.com/uc?export=view&id=";
 export const memberAny = memberAny_png;
@@ -76,6 +82,11 @@ export const oneLogo = harmonyLogoSVG;
 export const avalancheLogo = avalancheLogoSVG;
 export const kleytnLogo = kleytnLogoSVG;
 export const moonbeamLogo = moonbeamLogoPNG;
+export const celoLogo = celoLogoSVG;
+export const fantomLogo = fantomLogoSVG;
+export const gnosisLogo = gnosisLogoSVG;
+export const vechainLogo = vechainLogoSVG;
+export const xdcLogo = xdcLogoPNG;
 
 /*~~*~~*~~*~~*~~*~~*~~*~~* ASSETS HOME *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
 
@@ -105,6 +116,7 @@ export const surreal = surreal_svg;
 export const polygon_logo = polygon_logo_svg;
 export const harmony_logo = harmony_logo_svg;
 
+export const welcomeScreenHome = homeGif;
 /*~~*~~*~~*~~*~~*~~*~~*~~* ASSETS TOKEN *~~*~~*~~*~~*~~*~~*~~*~~*~~*~~*/
 
 export const tokenBannerImg = token_logo_svg;

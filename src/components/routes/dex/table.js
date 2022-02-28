@@ -17,7 +17,7 @@ const Table = () => {
               <th>
                 <h1 className="subtitle is-4 has-text-contrast">
                   {" "}
-                  Crypto Family DEX{" "}
+                  Orcania DEX{" "}
                 </h1>
               </th>
             </tr>

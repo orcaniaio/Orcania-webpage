@@ -2,13 +2,6 @@ import { useState, useEffect } from "react";
 import {
   //baseURL,
   homeBannerImg,
-  bscLogo,
-  ethLogo,
-  oneLogo,
-  polygonLogo,
-  avalancheLogo,
-  kleytnLogo,
-  moonbeamLogo,
   homeArtwork1,
   homeArtwork2,
   homeArtwork3,
@@ -26,8 +19,9 @@ import {
   meconcash,
   polygon_logo,
   harmony_logo,
+  //welcomeScreenHome,
 } from "../../../images";
-
+import brandLogos from "static/home/brand-logos";
 import { Link } from "react-router-dom";
 import TeamCard from "../../base/team-card";
 //import PatnersSection from './patners.section';
@@ -41,7 +35,7 @@ const Home = (props) => {
   const [videoVisible, setVideoVisible] = useState(false);
 
   useEffect(() => {
-    document.title = "Crypto Family | Home";
+    document.title = "Orcania | Home";
   }, []);
 
   return (
@@ -56,62 +50,51 @@ const Home = (props) => {
                 data-aos="fade-right"
               >
                 <h1 className="title has-text-light-purple is-2 mb-5">
-                  Welcome to the Crypto Family
+                  Welcome to the Orcania
                 </h1>
                 <h1 className="subtitle has-text-white is-4">
                   Building the future of blockchain technology
                 </h1>
-
                 <div
                   className="columns is-mobile has-background is-centered-a is-multiline"
                   style={{ width: "80%" }}
                 >
-                  <div className="column">
-                    <figure className="image is-32x32 ">
-                      <img src={ethLogo} alt="" />
-                    </figure>
-                  </div>
-                  <div className="column">
-                    <figure className="image is-32x32 ">
-                      <img src={bscLogo} alt="" />
-                    </figure>
-                  </div>
-                  <div className="column">
-                    <figure className="image is-32x32 ">
-                      <img
-                        src={polygonLogo}
-                        alt=""
-                        style={{ height: "32px" }}
-                      />
-                    </figure>
-                  </div>
-                  <div className="column">
-                    <figure className="image is-32x32 ">
-                      <img src={oneLogo} alt="" />
-                    </figure>
-                  </div>
-                  <div className="column">
-                    <figure className="image is-32x32 ">
-                      <img src={avalancheLogo} alt="" />
-                    </figure>
-                  </div>
-                  <div className="column is-hidden">
-                    <figure className="image is-32x32 ">
-                      <img src={kleytnLogo} alt="" />
-                    </figure>
-                  </div>
-                  <div className="column">
-                    <figure className="image is-32x32 ">
-                      <img src={moonbeamLogo} alt="" width="150px" />
-                    </figure>
-                  </div>
+                  {brandLogos.slice(0, 6).map((e) => (
+                    <div className="column is-mobile" key={e.id}>
+                      <figure className="image is-32x32 ">
+                        <img src={e.logo} alt="" />
+                      </figure>
+                    </div>
+                  ))}
+                </div>
+                <div
+                  className="columns is-mobile has-background is-centered-a is-multiline"
+                  style={{ width: "80%" }}
+                >
+                  {brandLogos.slice(6, 12).map((e) => (
+                    <div className="column is-mobile" key={e.id}>
+                      <figure className="image is-32x32 ">
+                        <img src={e.logo} alt="" />
+                      </figure>
+                    </div>
+                  ))}
                 </div>
                 <br />
-                {/* <a href="https://giveth.io/project/crypto-family-bridge" className="button is-light-purple" style={{width: '150px'}}><span className="is-size-5">Support us</span></a> */}
               </div>
 
               <div className="column">
-                <img src={homeBannerImg} alt="" data-aos="fade-left" />
+                <img
+                  src={homeBannerImg}
+                  alt=""
+                  data-aos="fade-left"
+                  width="auto"
+                  height="auto"
+                  style={{
+                    backgroundColor: "transparent",
+                    border: "none",
+                    boxShadow: "none",
+                  }}
+                />
               </div>
             </div>
           </div>
@@ -131,7 +114,7 @@ const Home = (props) => {
               <div className="columns ">
                 <div className="column has-text-right has-text-centered-mobile">
                   <h1 className="title is-3 primary has-text-white mb-5">
-                    Crypto Family
+                    Orcania
                   </h1>
                 </div>
                 <div className="column is-1-desktop has-text-centered">
@@ -140,7 +123,7 @@ const Home = (props) => {
                     onClick={(e) => setVideoVisible(!videoVisible)}
                   >
                     <span className="icon">
-                      <i class="far fa-play-circle"></i>
+                      <i className="far fa-play-circle"></i>
                     </span>
                   </a>
                 </div>
@@ -179,22 +162,23 @@ const Home = (props) => {
                 >
                   <div className="container px-3">
                     <button
-                      class="button has-background-transparent has-no-border has-text-white "
+                      className="button has-background-transparent has-no-border has-text-white "
                       onClick={(e) => setVideoVisible(false)}
                     >
                       <span className="icon">
-                        <i class="fas fa-chevron-left"></i>
+                        <i className="fas fa-chevron-left"></i>
                       </span>
                       <span>Go back</span>
                     </button>
-                    <figure class="image is-16by9">
+                    <figure className="image is-16by9">
                       <iframe
-                        class="has-ratio"
+                        title="Orcania"
+                        className="has-ratio"
                         width="640"
                         height="360"
                         src="https://www.youtube.com/embed/APl2u2iqmQE"
-                        frameborder="0"
-                        allowfullscreen
+                        frameBorder="0"
+                        allowFullScreen
                       ></iframe>
                     </figure>
                   </div>
@@ -219,9 +203,9 @@ const Home = (props) => {
             height="100%"
             src="https://www.youtube.com/embed/APl2u2iqmQE?autoplay=1&mute=1&enablejsapi=1&loop=1&controls=0&playlist=APl2u2iqmQE"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         <div
@@ -246,14 +230,14 @@ const Home = (props) => {
                   About us
                 </h1>
                 <p className="has-text-light  has-text-distriute is-size-5">
-                  Crypto Family is a technologically driven DAO (Decentralized
+                  Orcania is a technologically driven DAO (Decentralized
                   Autonomous Organization), focused on building the most
                   advanced of projects in the blockchain industry in order to
                   break the limits of blockchain technology and improve upon the
                   features it offers. We strive to achieve these goals through a
                   series of technologically and logically advanced projects
-                  never like before, the most significant being the Crypto
-                  Family Bridge series.
+                  never like before, the most significant being the Orcania
+                  Bridge series.
                   <br />
                   <br />
                   Our goals are many but are always focused on one concept...
@@ -275,9 +259,9 @@ const Home = (props) => {
                 <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">
                   Our work
                 </h1>
-                <p className="has-text-light  has-text-distriute is-size-5">
-                  Crypto Family is all about hard and smart work. We want what's
-                  best for the world and we know that no dream can be fulfilled
+                <p className="has-text-light  has-text-distribute is-size-5">
+                  Orcania is all about hard and smart work. We want what's best
+                  for the world and we know that no dream can be fulfilled
                   without an ambitious mind and a strong body willing to give it
                   all for the dream.
                 </p>
@@ -348,12 +332,11 @@ const Home = (props) => {
                   data-aos="fade-up"
                 >
                   <h1 className="title is-4 has-text-light-purple ">
-                    Crypto Family Coin
+                    Orcania Coin
                   </h1>
                   <img src={tokenIcon} alt="" />
                   <p className="has-text-light is-size-5">
-                    The technologically driven governance asset of the Crypto
-                    Family
+                    The technologically driven governance asset of Orcania
                   </p>
                 </Link>
               </div>
@@ -365,7 +348,7 @@ const Home = (props) => {
                   data-aos="fade-up"
                 >
                   <h1 className="title is-4 has-text-light-purple ">
-                    Crypto Family Bridge
+                    Orcania Bridge
                   </h1>
                   <img src={bridgeIcon} alt="" />
                   <p className="has-text-light is-size-5">
@@ -382,7 +365,7 @@ const Home = (props) => {
                   data-aos="fade-up"
                 >
                   <h1 className="title is-4 has-text-light-purple ">
-                    Crypto Family DEX
+                    Orcania DEX
                   </h1>
                   <img src={exchangeIcon} alt="" />
                   <p className="has-text-light is-size-5">
@@ -403,10 +386,10 @@ const Home = (props) => {
           </h1>
         </div>
         <div className="hero-body pb-6 px-0" style={{ overflow: "hidden" }}>
-          <div id="infinite" class="highway-slider">
-            <div class="highway-barrier">
-              <ul class="highway-lane">
-                <li class="highway-car ml">
+          <div id="infinite" className="highway-slider">
+            <div className="highway-barrier">
+              <ul className="highway-lane">
+                <li className="highway-car ml">
                   <a
                     href="https://polygon.technology/"
                     target="_blank"
@@ -416,7 +399,7 @@ const Home = (props) => {
                     <img src={polygon_logo} alt="Polygon" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.harmony.one/"
                     target="_blank"
@@ -426,7 +409,7 @@ const Home = (props) => {
                     <img src={harmony_logo} alt="Harmony" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://polygon.technology/"
                     target="_blank"
@@ -436,7 +419,7 @@ const Home = (props) => {
                     <img src={polygon_logo} alt="Polygon" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.harmony.one/"
                     target="_blank"
@@ -446,7 +429,7 @@ const Home = (props) => {
                     <img src={harmony_logo} alt="Harmony" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://polygon.technology/"
                     target="_blank"
@@ -456,7 +439,7 @@ const Home = (props) => {
                     <img src={polygon_logo} alt="Polygon" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.harmony.one/"
                     target="_blank"
@@ -466,7 +449,7 @@ const Home = (props) => {
                     <img src={harmony_logo} alt="Harmony" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://polygon.technology/"
                     target="_blank"
@@ -476,7 +459,7 @@ const Home = (props) => {
                     <img src={polygon_logo} alt="Polygon" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.harmony.one/"
                     target="_blank"
@@ -487,7 +470,7 @@ const Home = (props) => {
                   </a>
                 </li>
 
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://polygon.technology/"
                     target="_blank"
@@ -497,7 +480,7 @@ const Home = (props) => {
                     <img src={polygon_logo} alt="Polygon" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.harmony.one/"
                     target="_blank"
@@ -507,7 +490,7 @@ const Home = (props) => {
                     <img src={harmony_logo} alt="Harmony" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://polygon.technology/"
                     target="_blank"
@@ -517,7 +500,7 @@ const Home = (props) => {
                     <img src={polygon_logo} alt="Polygon" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.harmony.one/"
                     target="_blank"
@@ -527,7 +510,7 @@ const Home = (props) => {
                     <img src={harmony_logo} alt="Harmony" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://polygon.technology/"
                     target="_blank"
@@ -537,7 +520,7 @@ const Home = (props) => {
                     <img src={polygon_logo} alt="Polygon" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.harmony.one/"
                     target="_blank"
@@ -547,7 +530,7 @@ const Home = (props) => {
                     <img src={harmony_logo} alt="Harmony" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://polygon.technology/"
                     target="_blank"
@@ -557,7 +540,7 @@ const Home = (props) => {
                     <img src={polygon_logo} alt="Polygon" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.harmony.one/"
                     target="_blank"
@@ -571,10 +554,10 @@ const Home = (props) => {
             </div>
           </div>
 
-          <div id="infinite" class="highway-slider">
-            <div class="highway-barrier">
-              <ul class="highway-lane phase2">
-                <li class="highway-car ml">
+          <div id="infinite" className="highway-slider">
+            <div className="highway-barrier">
+              <ul className="highway-lane phase2">
+                <li className="highway-car ml">
                   <a
                     href="https://theredapefamily.com/home"
                     target="_blank"
@@ -584,7 +567,7 @@ const Home = (props) => {
                     <img src={traf} alt="The red ape family" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.meconcash.com/index_en.html"
                     target="_blank"
@@ -595,7 +578,7 @@ const Home = (props) => {
                   </a>
                 </li>
 
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://theredapefamily.com/home"
                     target="_blank"
@@ -605,7 +588,7 @@ const Home = (props) => {
                     <img src={traf} alt="The red ape family" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.meconcash.com/index_en.html"
                     target="_blank"
@@ -615,7 +598,7 @@ const Home = (props) => {
                     <img src={meconcash} alt="Meconcash" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://theredapefamily.com/home"
                     target="_blank"
@@ -625,7 +608,7 @@ const Home = (props) => {
                     <img src={traf} alt="The red ape family" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.meconcash.com/index_en.html"
                     target="_blank"
@@ -635,7 +618,7 @@ const Home = (props) => {
                     <img src={meconcash} alt="Meconcash" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://theredapefamily.com/home"
                     target="_blank"
@@ -645,7 +628,7 @@ const Home = (props) => {
                     <img src={traf} alt="the red ape family" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.meconcash.com/index_en.html"
                     target="_blank"
@@ -655,7 +638,7 @@ const Home = (props) => {
                     <img src={meconcash} alt="meconcash" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://theredapefamily.com/home"
                     target="_blank"
@@ -665,7 +648,7 @@ const Home = (props) => {
                     <img src={traf} alt="the red ape family" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.meconcash.com/index_en.html"
                     target="_blank"
@@ -676,7 +659,7 @@ const Home = (props) => {
                   </a>
                 </li>
 
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://theredapefamily.com/home"
                     target="_blank"
@@ -686,7 +669,7 @@ const Home = (props) => {
                     <img src={traf} alt="The red ape family" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.meconcash.com/index_en.html"
                     target="_blank"
@@ -696,7 +679,7 @@ const Home = (props) => {
                     <img src={meconcash} alt="meconcash" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://theredapefamily.com/home"
                     target="_blank"
@@ -706,7 +689,7 @@ const Home = (props) => {
                     <img src={traf} alt="The red ape family" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.meconcash.com/index_en.html"
                     target="_blank"
@@ -716,7 +699,7 @@ const Home = (props) => {
                     <img src={meconcash} alt="meconcash" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://theredapefamily.com/home"
                     target="_blank"
@@ -726,7 +709,7 @@ const Home = (props) => {
                     <img src={traf} alt="The red ape family" />
                   </a>
                 </li>
-                <li class="highway-car ml">
+                <li className="highway-car ml">
                   <a
                     href="https://www.meconcash.com/index_en.html"
                     target="_blank"
@@ -762,7 +745,7 @@ const Home = (props) => {
                     name="Edy Haddad"
                     charge="Founder, Blockchain, software and smart contracts developer"
                     imgsrc={member1}
-                    chargeIcon={<i class="fas fa-user-tie"></i>}
+                    chargeIcon={<i className="fas fa-user-tie"></i>}
                     socialmedia={
                       <div>
                         <a
@@ -772,7 +755,7 @@ const Home = (props) => {
                           rel="noopener noreferrer"
                         >
                           <span className="icon hide">
-                            <i class="fab fa-linkedin-in"></i>
+                            <i className="fab fa-linkedin-in"></i>
                           </span>
                         </a>
                         &nbsp;
@@ -783,7 +766,7 @@ const Home = (props) => {
                           rel="noopener noreferrer"
                         >
                           <span className="icon">
-                            <i class="fab fa-twitter"></i>
+                            <i className="fab fa-twitter"></i>
                           </span>
                         </a>
                         &nbsp;
@@ -794,7 +777,7 @@ const Home = (props) => {
                           rel="noopener noreferrer"
                         >
                           <span className="icon">
-                            <i class="fab fa-telegram-plane"></i>
+                            <i className="fab fa-telegram-plane"></i>
                           </span>
                         </a>
                         &nbsp;
@@ -806,7 +789,7 @@ const Home = (props) => {
                           }}
                         >
                           <span className="icon">
-                            <i class="fab fa-discord"></i>
+                            <i className="fab fa-discord"></i>
                           </span>
                         </div>
                         &nbsp;
@@ -824,7 +807,7 @@ const Home = (props) => {
                     name="Sebastian Madrid"
                     charge="Web and DAPP dev"
                     imgsrc="https://drive.google.com/uc?export=view&id=1TibjOvHroE9R9K0MT-T_Ejv6JccaS9YV"
-                    chargeIcon={<i class="fas fa-code"></i>}
+                    chargeIcon={<i className="fas fa-code"></i>}
                     socialmedia={
                       <div>
                         <a
@@ -834,7 +817,7 @@ const Home = (props) => {
                           rel="noopener noreferrer"
                         >
                           <span className="icon">
-                            <i class="fab fa-linkedin-in"></i>
+                            <i className="fab fa-linkedin-in"></i>
                           </span>
                         </a>
                         &nbsp;
@@ -845,7 +828,7 @@ const Home = (props) => {
                           rel="noopener noreferrer"
                         >
                           <span className="icon">
-                            <i class="fab fa-twitter"></i>
+                            <i className="fab fa-twitter"></i>
                           </span>
                         </a>
                         &nbsp;
@@ -856,7 +839,7 @@ const Home = (props) => {
                           rel="noopener noreferrer"
                         >
                           <span className="icon">
-                            <i class="fab fa-telegram-plane"></i>
+                            <i className="fab fa-telegram-plane"></i>
                           </span>
                         </a>
                         &nbsp;
@@ -867,7 +850,7 @@ const Home = (props) => {
                           style={{ display: "inline-block" }}
                         >
                           <span className="icon">
-                            <i class="fab fa-discord"></i>
+                            <i className="fab fa-discord"></i>
                           </span>
                         </div>
                         &nbsp;
@@ -885,7 +868,7 @@ const Home = (props) => {
                     name="Zero Two"
                     charge="Hardware Manager / Testing helper"
                     imgsrc={member5}
-                    chargeIcon={<i class="fa-solid fa-microchip"></i>}
+                    chargeIcon={<i className="fa-solid fa-microchip"></i>}
                     socialmedia={
                       <div>
                         <a
@@ -895,7 +878,7 @@ const Home = (props) => {
                           rel="noopener noreferrer"
                         >
                           <span className="icon">
-                            <i class="fab fa-telegram-plane"></i>
+                            <i className="fab fa-telegram-plane"></i>
                           </span>
                         </a>
                         &nbsp;
@@ -906,7 +889,7 @@ const Home = (props) => {
                           style={{ display: "inline-block" }}
                         >
                           <span className="icon">
-                            <i class="fab fa-discord"></i>
+                            <i className="fab fa-discord"></i>
                           </span>
                         </div>
                         &nbsp;
@@ -918,19 +901,19 @@ const Home = (props) => {
               {/* <div className="column has-text-centered" style={{display: 'grid', placeItems: 'center'}}>
                             <div style={{width: '300px'}} data-aos="fade-up">
                                 <TeamCard name="Davide Ricciardi" charge="Marketing Manager" imgsrc={member4}
-                                    chargeIcon={<i class="fa-solid fa-bullhorn"></i>}
+                                    chargeIcon={<i className="fa-solid fa-bullhorn"></i>}
                                     socialmedia={
                                         <div>
 
                                             <a className="has-text-white" href="https://t.me/PacScarlatti" target="_blank">
                                                 <span className="icon">
-                                                    <i class="fab fa-telegram-plane"></i>
+                                                    <i className="fab fa-telegram-plane"></i>
                                                 </span>
                                             </a>&nbsp;
 
                                             <div className="has-text-white" href="" data-tooltip="Scarlatti#0173" style={{display: 'inline-block'}}>
                                                 <span className="icon">
-                                                    <i class="fab fa-discord"></i>
+                                                    <i className="fab fa-discord"></i>
                                                 </span>
                                             </div>&nbsp;
                                         </div>
@@ -949,7 +932,7 @@ const Home = (props) => {
                   name="Bechara Maalouf"
                   charge="Web Developer"
                   imgsrc={member6}
-                  chargeIcon={<i class="fas fa-code"></i>}
+                  chargeIcon={<i className="fas fa-code"></i>}
                   socialmedia={
                     <div>
                       <a
@@ -959,7 +942,7 @@ const Home = (props) => {
                         rel="noopener noreferrer"
                       >
                         <span className="icon">
-                          <i class="fab fa-linkedin-in"></i>
+                          <i className="fab fa-linkedin-in"></i>
                         </span>
                       </a>
                       &nbsp;
@@ -970,7 +953,7 @@ const Home = (props) => {
                         rel="noopener noreferrer"
                       >
                         <span className="icon">
-                          <i class="fab fa-twitter"></i>
+                          <i className="fab fa-twitter"></i>
                         </span>
                       </a>
                       &nbsp;
@@ -981,7 +964,7 @@ const Home = (props) => {
                         rel="noopener noreferrer"
                       >
                         <span className="icon">
-                          <i class="fab fa-telegram-plane"></i>
+                          <i className="fab fa-telegram-plane"></i>
                         </span>
                       </a>
                       &nbsp;
@@ -992,7 +975,7 @@ const Home = (props) => {
                         style={{ display: "inline-block" }}
                       >
                         <span className="icon">
-                          <i class="fab fa-discord"></i>
+                          <i className="fab fa-discord"></i>
                         </span>
                       </div>
                       &nbsp;
@@ -1019,7 +1002,7 @@ const Home = (props) => {
                     name="Professor Youakim Badr"
                     charge="Advisor"
                     imgsrc={member3}
-                    chargeIcon={<i class="fas fa-chalkboard-teacher"></i>}
+                    chargeIcon={<i className="fas fa-chalkboard-teacher"></i>}
                     socialmedia={
                       <div>
                         <a
@@ -1029,7 +1012,7 @@ const Home = (props) => {
                           rel="noopener noreferrer"
                         >
                           <span className="icon">
-                            <i class="fab fa-linkedin-in"></i>
+                            <i className="fab fa-linkedin-in"></i>
                           </span>
                         </a>
                         &nbsp;
@@ -1040,7 +1023,7 @@ const Home = (props) => {
                           rel="noopener noreferrer"
                         >
                           <span className="icon">
-                            <i class="fas fa-globe"></i>
+                            <i className="fas fa-globe"></i>
                           </span>
                         </a>
                         &nbsp;
@@ -1068,7 +1051,7 @@ const Home = (props) => {
                   <TeamCard
                     name="Glomp"
                     charge="Graphic designer"
-                    chargeIcon={<i class="fas fa-paint-brush"></i>}
+                    chargeIcon={<i className="fas fa-paint-brush"></i>}
                   />
                 </div>
               </div>
@@ -1080,7 +1063,7 @@ const Home = (props) => {
                   <TeamCard
                     name="Rusty"
                     charge="Graphic designer"
-                    chargeIcon={<i class="fas fa-paint-brush"></i>}
+                    chargeIcon={<i className="fas fa-paint-brush"></i>}
                   />
                 </div>
               </div>
@@ -1121,10 +1104,10 @@ const Home = (props) => {
                 What are you focusing on?
               </h1>
               <p className="has-text-light  has-text-distriute is-size-5">
-                Right now our focus is on the release of the Crypto Family
-                Bridge V1.0 and spreading it across multiple blockchains and
-                multiple communities, linking the world of blockchain finance
-                and technology all together in a decentralized, permisionless,
+                Right now our focus is on the release of the Orcania Bridge V1.0
+                and spreading it across multiple blockchains and multiple
+                communities, linking the world of blockchain finance and
+                technology all together in a decentralized, permisionless,
                 secure, cheap, and fast fashion.
               </p>
             </div>
