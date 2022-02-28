@@ -43,7 +43,7 @@ const Dex = (props) => {
                 <br />
                 <div className="buttons">
                   <a
-                    href="https://drive.google.com/file/d/1xMG1lsReiY0fUOYbIQeUe8WIhVgUIvKn/view"
+                    href="https://drive.google.com/file/d/16xNf1W65dzVRxJRfjylwpXpXU2PeQXZ3/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="button is-light-purple"
