@@ -321,29 +321,13 @@ const Bridge = (props) => {
                     Fees
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
-                    The Crypto Family Bridge is optimized for optimal
-                    performance and the lowest of fees, and thanks to the
-                    bridge's Beacon Block Protocol and Shared Processing
-                    Protocol aka reverse congestive architecture, a transfer
-                    using the bridge costs less than an ERC20 token transfer on
-                    the blockchain, making the bridge very cheap even on
-                    blockchains such as Ethereum.
-                    <br />
-                    <br />
-                    The transcation fee of the bridge is payed with the bridges
-                    governance coin CFC (Crypto Family Coin), this fee is payed
-                    to validator, signer and claimer nodes to cover their
-                    expenses. In the case of custom contracts an extra fee might
-                    be needed for claimer nodes to cover their expenses and get
-                    the transaction finalized.
-                    <br />
-                    <br />
-                    The reverse congestive architecture of the bridge means that
-                    the more transactions that the bridge has to process, the
-                    cheaper it becomes to process these transactions, thus
-                    allowing users to set very low fees when the bridge usage is
-                    high and their transactions would still be finalized almost
-                    immediately.
+                    The Crypto Family Bridge is optimized for optimal performance and the lowest of fees, and thanks to the bridge's Beacon Block Protocol and Shared Processing Protocol aka reverse congestive architecture, a transfer using the bridge costs less than an ERC20 token transfer on the blockchain, making the bridge very cheap even on blockchains such as Ethereum.
+                    <br/>
+                    <br/>
+The transcation fee of the bridge is payed with the bridges governance coin CFC (Crypto Family Coin), this fee is payed to validator nodes to cover their expenses. In the case of custom contracts an extra fee might be needed for transactions to cover their expenses and get the transaction finalized.
+                    <br/>
+                    <br/>
+The reverse congestive architecture of the bridge means that the more transactions that the bridge has to process, the cheaper it becomes to process these transactions, thus allowing users to set very low fees when the bridge usage is high and their transactions would still be finalized almost immediately.
                   </p>
                 </div>
               </div>
