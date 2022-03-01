@@ -8,12 +8,14 @@ import Navbar from "./components/commons/navbar";
 import Footer from "./components/commons/footer";
 import Home from "./components/routes/home";
 import Token from "./components/routes/token";
-import Bridge from "./components/routes/bridge";
+// import Bridge from "./components/routes/bridge";
 // import Vault from "./components/routes/vault";
-import Dex from "./components/routes/dex";
+// import Dex from "./components/routes/dex";
 import Downloads from "./components/routes/downloads";
 import ScrollToTop from "./components/base/scroll-to-top";
 import BridgeApp from "./components/routes/app";
+import UnderWorkDex from "./components/routes/under-work-dex";
+import UnderWorkBridge from "./components/routes/under-work-bridge";
 
 //import '@splidejs/splide/dist/css/splide.min.css';
 import "./scss/styles.scss";
@@ -34,11 +36,11 @@ function App() {
         </Route>
 
         <Route exact path="/bridge">
-          <Bridge />
+          <UnderWorkBridge />
         </Route>
 
         <Route exact path="/dex">
-          <Dex />
+          <UnderWorkDex />
         </Route>
 
         <Route exact path="/app">
