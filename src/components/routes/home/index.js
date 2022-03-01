@@ -101,7 +101,7 @@ const Home = (props) => {
         </div>
       </section>
 
-      <section
+      {/* <section
         className="hero is-fullheight py-0"
         style={{ position: "relative" }}
       >
@@ -218,7 +218,7 @@ const Home = (props) => {
             left: "0",
           }}
         ></div>
-      </section>
+      </section> */}
 
       <section className="has-background-d2p2d">
         <div className="head pt-6"></div>
