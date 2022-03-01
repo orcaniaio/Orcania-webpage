@@ -13,7 +13,7 @@ import Bridge from "./components/routes/bridge";
 import Dex from "./components/routes/dex";
 import Downloads from "./components/routes/downloads";
 import ScrollToTop from "./components/base/scroll-to-top";
-import BridgeApp from "./components/routes/app";
+// import BridgeApp from "./components/routes/app";
 
 //import '@splidejs/splide/dist/css/splide.min.css';
 import "./scss/styles.scss";
@@ -41,9 +41,9 @@ function App() {
           <Dex />
         </Route>
 
-        <Route exact path="/app">
+        {/* <Route exact path="/app">
           <BridgeApp />
-        </Route>
+        </Route> */}
 
         <Route exact path="/downloads">
           <Downloads />

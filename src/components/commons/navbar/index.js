@@ -152,13 +152,13 @@ function NavBar() {
               <h1>DEX</h1>
             </Link>
 
-            <Link to="/app" className="navbar-item has-text-light">
+            {/* <Link to="/app" className="navbar-item has-text-light">
               <span className="icon">
                 <i className="fad fa-browser"></i>
               </span>
               &nbsp;
               <h1>App</h1>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
