@@ -4,12 +4,12 @@ const Data = [
     title: "About us",
     description: () => {
       <p className="has-text-light  has-text-distriute is-size-5">
-        Crypto Family is a technologically driven DAO (Decentralized Autonomous
+        Orcania is a technologically driven DAO (Decentralized Autonomous
         Organization), focused on building the most advanced of projects in the
         blockchain industry in order to break the limits of blockchain
         technology and improve upon the features it offers. We strive to achieve
         these goals through a series of technologically and logically advanced
-        projects never like before, the most significant being the Crypto Family
+        projects never like before, the most significant being the Orcania
         Bridge series.
         <br />
         <br />
@@ -23,9 +23,9 @@ const Data = [
     title: "Our Vision",
     description: () => {
       <p className="has-text-light  has-text-distribute is-size-5">
-        Crypto Family is all about hard and smart work. We want what's best for
-        the world and we know that no dream can be fulfilled without an
-        ambitious mind and a strong body willing to give it all for the dream.
+        Orcania is all about hard and smart work. We want what's best for the
+        world and we know that no dream can be fulfilled without an ambitious
+        mind and a strong body willing to give it all for the dream.
         <br />
         <br />
         Our work focuses on advanced logical design and implementation to offer

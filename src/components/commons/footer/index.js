@@ -20,10 +20,10 @@ const Footer = () => {
               <div className="column has-text-centered-mobile" style={{}}>
                 <h1 className="title has-text-white mb-6 has-line-text-right primary is-3">
                   {" "}
-                  <strong className="has-text-primary">Crypto Family</strong>
+                  <strong className="has-text-primary">Orcania</strong>
                 </h1>
                 <h1 className="subtitle has-text-dark is-5">
-                  © Copyright Crypto Family. All Rights Reserved
+                  © Copyright Orcania. All Rights Reserved
                 </h1>
                 <a
                   href="https://twitter.com/cryptofamily3?lang=es"

@@ -35,7 +35,7 @@ const Home = (props) => {
   const [videoVisible, setVideoVisible] = useState(false);
 
   useEffect(() => {
-    document.title = "Crypto Family | Home";
+    document.title = "Orcania | Home";
   }, []);
 
   return (
@@ -50,7 +50,7 @@ const Home = (props) => {
                 data-aos="fade-right"
               >
                 <h1 className="title has-text-light-purple is-2 mb-5">
-                  Welcome to the Crypto Family
+                  Welcome to the Orcania
                 </h1>
                 <h1 className="subtitle has-text-white is-4">
                   Building the future of blockchain technology
@@ -114,7 +114,7 @@ const Home = (props) => {
               <div className="columns ">
                 <div className="column has-text-right has-text-centered-mobile">
                   <h1 className="title is-3 primary has-text-white mb-5">
-                    Crypto Family
+                    Orcania
                   </h1>
                 </div>
                 <div className="column is-1-desktop has-text-centered">
@@ -172,7 +172,7 @@ const Home = (props) => {
                     </button>
                     <figure className="image is-16by9">
                       <iframe
-                        title="Crypto Family"
+                        title="Orcania"
                         className="has-ratio"
                         width="640"
                         height="360"
@@ -230,14 +230,14 @@ const Home = (props) => {
                   About us
                 </h1>
                 <p className="has-text-light  has-text-distriute is-size-5">
-                  Crypto Family is a technologically driven DAO (Decentralized
+                  Orcania is a technologically driven DAO (Decentralized
                   Autonomous Organization), focused on building the most
                   advanced of projects in the blockchain industry in order to
                   break the limits of blockchain technology and improve upon the
                   features it offers. We strive to achieve these goals through a
                   series of technologically and logically advanced projects
-                  never like before, the most significant being the Crypto
-                  Family Bridge series.
+                  never like before, the most significant being the Orcania
+                  Bridge series.
                   <br />
                   <br />
                   Our goals are many but are always focused on one concept...
@@ -260,8 +260,8 @@ const Home = (props) => {
                   Our work
                 </h1>
                 <p className="has-text-light  has-text-distribute is-size-5">
-                  Crypto Family is all about hard and smart work. We want what's
-                  best for the world and we know that no dream can be fulfilled
+                  Orcania is all about hard and smart work. We want what's best
+                  for the world and we know that no dream can be fulfilled
                   without an ambitious mind and a strong body willing to give it
                   all for the dream.
                 </p>
@@ -332,11 +332,11 @@ const Home = (props) => {
                   data-aos="fade-up"
                 >
                   <h1 className="title is-4 has-text-light-purple ">
-                    Crypto Family Coin
+                    Orcania Coin
                   </h1>
                   <img src={tokenIcon} alt="" />
                   <p className="has-text-light is-size-5">
-                    The technologically driven governance asset of Crypto Family
+                    The technologically driven governance asset of Orcania
                   </p>
                 </Link>
               </div>
@@ -348,7 +348,7 @@ const Home = (props) => {
                   data-aos="fade-up"
                 >
                   <h1 className="title is-4 has-text-light-purple ">
-                    Crypto Family Bridge
+                    Orcania Bridge
                   </h1>
                   <img src={bridgeIcon} alt="" />
                   <p className="has-text-light is-size-5">
@@ -365,7 +365,7 @@ const Home = (props) => {
                   data-aos="fade-up"
                 >
                   <h1 className="title is-4 has-text-light-purple ">
-                    Crypto Family DEX
+                    Orcania DEX
                   </h1>
                   <img src={exchangeIcon} alt="" />
                   <p className="has-text-light is-size-5">
@@ -1104,10 +1104,10 @@ const Home = (props) => {
                 What are you focusing on?
               </h1>
               <p className="has-text-light  has-text-distriute is-size-5">
-                Right now our focus is on the release of the Crypto Family
-                Bridge V1.0 and spreading it across multiple blockchains and
-                multiple communities, linking the world of blockchain finance
-                and technology all together in a decentralized, permisionless,
+                Right now our focus is on the release of the Orcania Bridge V1.0
+                and spreading it across multiple blockchains and multiple
+                communities, linking the world of blockchain finance and
+                technology all together in a decentralized, permisionless,
                 secure, cheap, and fast fashion.
               </p>
             </div>

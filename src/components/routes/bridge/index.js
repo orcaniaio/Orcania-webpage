@@ -26,7 +26,7 @@ const Bridge = (props) => {
   const [videoVisible, setVideoVisible] = useState(false);
 
   useEffect(() => {
-    document.title = "Crypto Family | Bridge";
+    document.title = "Orcania | Bridge";
   }, []);
 
   return (
@@ -41,7 +41,7 @@ const Bridge = (props) => {
                 data-aos="fade-right"
               >
                 <h1 className="title has-text-light-purple is-2 mb-5">
-                  Crypto Family Bridge
+                  Orcania Bridge
                 </h1>
                 <h1 className="subtitle has-text-white is-4">
                   Linking the world of blockchain together
@@ -92,7 +92,7 @@ const Bridge = (props) => {
             <div className="columns ">
               <div className="column has-text-right has-text-centered-mobile">
                 <h1 className="title is-3 primary has-text-white mb-5">
-                  Crypto Family
+                  Orcania
                 </h1>
               </div>
               <div className="column is-1-desktop has-text-centered">
@@ -208,7 +208,7 @@ const Bridge = (props) => {
                     About
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
-                    The Crypto Family Bridge is the first ever decentralized and
+                    The Orcania Bridge is the first ever decentralized and
                     permissionless inter blockchain data bridge that allows the
                     instant and cheap transfer of assets such as tokens and
                     NFTs, and data such as smart contracts interactions across
@@ -225,7 +225,7 @@ const Bridge = (props) => {
                     very fast and can process up to 6400 transaction per second
                     on certain blockchains, it's cheaper than most bridges for
                     it doesn't take a fee in % but only takes a fixed
-                    transaction fee, and thanks to the technology of Crypto Family,
+                    transaction fee, and thanks to the technology of Orcania,
                     transactions on the Bridge are even cheaper than an ERC20
                     token transfer.
                   </p>
@@ -263,7 +263,7 @@ const Bridge = (props) => {
                     The bridge inherits the security of the blockchains it
                     operates on and optimizes their performance. Bridge
                     transactions are finalized on these blockchains, and thanks
-                    to the Crypto Family Shared Processing Protocol, the bridge
+                    to the Orcania Shared Processing Protocol, the bridge
                     optimizes the finalization of these transactions and
                     decrease the cost of finalization the more transactions
                     there is.
@@ -283,7 +283,7 @@ const Bridge = (props) => {
                     For Developers
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
-                    The Crypto Family Bridge is developer friendly and very flexible,
+                    The Orcania Bridge is developer friendly and very flexible,
                     it allows developers to go crazy with it.
                     <br />
                     <br />
@@ -292,11 +292,11 @@ const Bridge = (props) => {
                     functions, developers can utilize the bridge for anything,
                     transfer of tokens, NFT's, custom transfer tokenomics, inter
                     blockchain smart contract interaction (a more proper bridge
-                    will be provided for this in the future 'Crypto Family Bridge
+                    will be provided for this in the future 'Orcania Bridge
                     V2.0').
                     <br />
                     <br />
-                    The only bounds here are your imagination, the Crypto Family
+                    The only bounds here are your imagination, the Orcania
                     Bridge opens a new route of development and many
                     opportunities, it breaks the limits lack of inter blockchain
                     communication has set. Some of the projects we already see
@@ -321,8 +321,7 @@ const Bridge = (props) => {
                     Fees
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
-<<<<<<< HEAD
-                    The Crypto Family Bridge is optimized for optimal performance and
+                    The Orcania Bridge is optimized for optimal performance and
                     the lowest of fees, and thanks to the bridge's Beacon Block
                     Protocol and Shared Processing Protocol aka reverse
                     congestive architecture, a transfer using the bridge costs
@@ -331,7 +330,7 @@ const Bridge = (props) => {
                     <br />
                     <br />
                     The transcation fee of the bridge is payed with the bridges
-                    governance coin CFC (Crypto Family Coin), this fee is payed to
+                    governance coin OCA (Orcania Coin), this fee is payed to
                     validator, signer and claimer nodes to cover their expenses.
                     In the case of custom contracts an extra fee might be needed
                     for claimer nodes to cover their expenses and get the
@@ -343,16 +342,29 @@ const Bridge = (props) => {
                     cheaper it becomes to process these transactions, thus
                     allowing users to set very low fees when the bridge usage is
                     high and their transactions would still be finalized almost
+                    immediately. ======= The Orcania Bridge is optimized for
+                    optimal performance and the lowest of fees, and thanks to
+                    the bridge's Beacon Block Protocol and Shared Processing
+                    Protocol aka reverse congestive architecture, a transfer
+                    using the bridge costs less than an ERC20 token transfer on
+                    the blockchain, making the bridge very cheap even on
+                    blockchains such as Ethereum.
+                    <br />
+                    <br />
+                    The transcation fee of the bridge is payed with the bridges
+                    governance coin OCA (Orcania Coin), this fee is payed to
+                    validator nodes to cover their expenses. In the case of
+                    custom contracts an extra fee might be needed for
+                    transactions to cover their expenses and get the transaction
+                    finalized.
+                    <br />
+                    <br />
+                    The reverse congestive architecture of the bridge means that
+                    the more transactions that the bridge has to process, the
+                    cheaper it becomes to process these transactions, thus
+                    allowing users to set very low fees when the bridge usage is
+                    high and their transactions would still be finalized almost
                     immediately.
-=======
-                    The Crypto Family Bridge is optimized for optimal performance and the lowest of fees, and thanks to the bridge's Beacon Block Protocol and Shared Processing Protocol aka reverse congestive architecture, a transfer using the bridge costs less than an ERC20 token transfer on the blockchain, making the bridge very cheap even on blockchains such as Ethereum.
-                    <br/>
-                    <br/>
-The transcation fee of the bridge is payed with the bridges governance coin CFC (Crypto Family Coin), this fee is payed to validator nodes to cover their expenses. In the case of custom contracts an extra fee might be needed for transactions to cover their expenses and get the transaction finalized.
-                    <br/>
-                    <br/>
-The reverse congestive architecture of the bridge means that the more transactions that the bridge has to process, the cheaper it becomes to process these transactions, thus allowing users to set very low fees when the bridge usage is high and their transactions would still be finalized almost immediately.
->>>>>>> ffc6b6d63788ccc0200bdcbaaf978893b292f2ea
                   </p>
                 </div>
               </div>
@@ -453,7 +465,7 @@ The reverse congestive architecture of the bridge means that the more transactio
                 Requirements of running a node ?
               </h1>
               <p className="has-text-light  has-text-distriute is-size-5">
-                Crypto Family Bridge nodes are very light yet so powerful.
+                Orcania Bridge nodes are very light yet so powerful.
                 <br />
                 Almost any device and any wifi connection can run any of the
                 nodes of the Bridge.
@@ -473,7 +485,7 @@ The reverse congestive architecture of the bridge means that the more transactio
               <p className="has-text-light  has-text-distriute is-size-5">
                 Validator nodes are the main nodes of the bridge and manage its
                 security and flow of transactions, to achieve that, validator
-                nodes have to stake a minimum of 1000 CFC (1000$) to earn the
+                nodes have to stake a minimum of 1000 OCA (1000$) to earn the
                 right to submit blocks of data and to earn voting power over
                 other blocks of data.
               </p>
@@ -496,7 +508,7 @@ The reverse congestive architecture of the bridge means that the more transactio
                 <br />
                 Further documentation will be provided by the team in the future
                 to better help developers integrate their projects with the
-                Crypto Family Bridge.
+                Orcania Bridge.
               </p>
             </div>
 
@@ -509,7 +521,7 @@ The reverse congestive architecture of the bridge means that the more transactio
                 Polygon, and Harmony ?
               </h1>
               <p className="has-text-light is-size-5">
-                The Crypto Family Bridge aims at linking more suitable blockchains
+                The Orcania Bridge aims at linking more suitable blockchains
                 that can help build a proper multichain infrastructure.
                 <br />
                 Such blockchains include Avalanche, MoonBeam, Celo, and Cosmos,

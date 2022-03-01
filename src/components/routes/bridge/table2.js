@@ -17,7 +17,7 @@ const Table = () => {
               <th>
                 <h1 className="subtitle is-4 has-text-contrast">
                   {" "}
-                  Crypto Family Bridge{" "}
+                  Orcania Bridge{" "}
                 </h1>
               </th>
             </tr>
@@ -27,8 +27,8 @@ const Table = () => {
               <th className="has-text-right">Token Support</th>
               <td>Limited support to selected tokens</td>
               <td className="has-text-contrast has-background-semi">
-                Support to all tokens and assets, the Crypto Family bridge
-                allows anyone to add any token they want to the bridge
+                Support to all tokens and assets, the Orcania bridge allows
+                anyone to add any token they want to the bridge
               </td>
             </tr>
             <tr>
