@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import {
   //baseURL,
-  homeBannerImg,
+  //homeBannerImg,
   homeArtwork1,
   homeArtwork2,
   homeArtwork3,
@@ -19,7 +19,7 @@ import {
   meconcash,
   polygon_logo,
   harmony_logo,
-  //welcomeScreenHome,
+  welcomeScreenHome,
 } from "../../../images";
 import brandLogos from "static/home/brand-logos";
 import { Link } from "react-router-dom";
@@ -84,7 +84,7 @@ const Home = (props) => {
 
               <div className="column">
                 <img
-                  src={homeBannerImg}
+                  src={welcomeScreenHome}
                   alt=""
                   data-aos="fade-left"
                   width="auto"
@@ -230,14 +230,13 @@ const Home = (props) => {
                   About us
                 </h1>
                 <p className="has-text-light  has-text-distriute is-size-5">
-                  Orcania is a technologically driven DAO (Decentralized
-                  Autonomous Organization), focused on building the most
-                  advanced of projects in the blockchain industry in order to
-                  break the limits of blockchain technology and improve upon the
-                  features it offers. We strive to achieve these goals through a
-                  series of technologically and logically advanced projects
-                  never like before, the most significant being the Orcania
-                  Bridge series.
+                  Orcania is a technologically driven team, focused on building
+                  the most advanced of projects in the blockchain industry in
+                  order to break the limits of blockchain technology and improve
+                  upon the features it offers. We strive to achieve these goals
+                  through a series of technologically and logically advanced
+                  projects never like before, the most significant being the
+                  Orcania Bridge series.
                   <br />
                   <br />
                   Our goals are many but are always focused on one concept...
