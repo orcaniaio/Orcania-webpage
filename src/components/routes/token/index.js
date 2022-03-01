@@ -30,20 +30,20 @@ const Token = (props) => {
         The ICO will be held after the nodes presale has been concluded.
         <br />
         <br />
-        Any OCA remaining from the nodes presale will be added to the public
-        ICO, it will allow everyone to aquire OCA on multiple blockchains.{" "}
+        Any CFC remaining from the nodes presale will be added to the public
+        ICO, it will allow everyone to aquire CFC on multiple blockchains.{" "}
         <br />
         <br />
         The ICO will either be held on centralized services such as Binance with
         part of the ICO being held on DAPPs on the supported blockchains of the
-        Orcania Bridge, or it will be fully held on DAPPs of the supported
+        Crypto Family Bridge, or it will be fully held on DAPPs of the supported
         blockchains.
       </p>
     ),
   });
 
   useEffect(() => {
-    document.title = "Orcania | Token";
+    document.title = "Crypto Family | Token";
   }, []);
 
   return (
@@ -58,11 +58,11 @@ const Token = (props) => {
                 data-aos="fade-right"
               >
                 <h1 className="title has-text-light-purple is-2 mb-5">
-                  Orcania Coin
+                  Crypto Family Coin
                 </h1>
                 <h1 className="subtitle has-text-white is-4">
                   The multichain technologically driven governance asset of the
-                  Orcania
+                  Crypto Family
                 </h1>
 
                 <br />
@@ -125,23 +125,23 @@ const Token = (props) => {
                     About
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
-                    Orcania Coin, or OCA, is a multichain technologically driven
-                    asset, used for the governance, security and payment of all
-                    the current and future projects of the Orcania.
+                    Crypto Family Coin, or CFC, is a multichain technologically
+                    driven asset, used for the governance, security and payment
+                    of all the current and future projects of the Crypto Family.
                     <br />
                     <br />
                     It is mostly used for governance, security, and fees on the
-                    multichain Beacons of the Orcania Bridge, to secure all of
-                    its transactions and pay its fees.
+                    multichain Beacons of the Crypto Family Bridge, to secure
+                    all of its transactions and pay its fees.
                     <br />
-                    Future use cases will also include OCA being the governance
-                    asset for the Orcania Bridge V2.0, voting asset for project
-                    ideas and recommendations, and payment asset for all
-                    services provided by the Orcania.
+                    Future use cases will also include CFC being the governance
+                    asset for the Crypto Family Bridge V2.0, voting asset for
+                    project ideas and recommendations, and payment asset for all
+                    services provided by the Crypto Family.
                     <br />
                     <br />
-                    In other words, OCA is the heart of the Orcania ecosystem,
-                    and the basis of it's security and foundation.
+                    In other words, CFC is the heart of the Crypto Family
+                    ecosystem, and the basis of it's security and foundation.
                   </p>
                 </div>
                 <div
@@ -168,20 +168,20 @@ const Token = (props) => {
                     Governance
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
-                    OCA is the coin used to manage voting power and pay fees on
-                    the Orcania Bridge. In order to gain voting power, validator
-                    nodes will need to acquire and stake OCA on the blockchain
-                    they wish to link.
+                    CFC is the coin used to manage voting power and pay fees on
+                    the Crypto Family Bridge. In order to gain voting power,
+                    validator nodes will need to acquire and stake CFC on the
+                    blockchain they wish to link.
                     <br />
                     <br />
                     The security of the Bridge and authenticity of its
-                    transactions is all determined by the amount of OCA staked
+                    transactions is all determined by the amount of CFC staked
                     on the Bridge and the voting power backing each transaction.
                     <br />
                     <br />
-                    Future projects such as the Orcania Bridge 2.0 will also
-                    rely on OCA for security among validator nodes and payment
-                    for its transaction fees.
+                    Future projects such as the Crypto Family Bridge 2.0 will
+                    also rely on CFC for security among validator nodes and
+                    payment for its transaction fees.
                   </p>
                 </div>
               </div>
@@ -194,17 +194,17 @@ const Token = (props) => {
                     Security
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
-                    OCA inherits the security of the many blockchains it
+                    CFC inherits the security of the many blockchains it
                     operates on, and comes equipped with unique security
                     features that accomplish a new standard of security in the
                     world of cryptos, and act as a teaser for the upcoming
-                    Orcania Vault project.
+                    Crypto Family Vault project.
                     <br />
                     <br />
-                    OCA helps users stay free, safe and secure, it is available
+                    CFC helps users stay free, safe and secure, it is available
                     on many blockchains in a non-wrapped form and can be
                     transfered across these blockchains in a decentralized and
-                    permisionless fashion using the Orcania Bridge.
+                    permisionless fashion using the Crypto Family Bridge.
                     <br />
                     It offers users security features such as clearance of
                     allowance, that takes away the allowance of any and all
@@ -243,27 +243,28 @@ const Token = (props) => {
                     Ecosystem
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
-                    OCA is a community controlled asset, meaning its developers
+                    CFC is a community controlled asset, meaning its developers
                     have no power of controlling it in any way.
                     <br />
-                    New OCA tokens can only be born by staking existing OCA,
-                    making OCA holders the only ones capable of providing more
-                    OCA to the community and to the Orcania projects.
+                    New CFC tokens can only be born by staking existing CFC,
+                    making CFC holders the only ones capable of providing more
+                    CFC to the community and to the Crypto Family projects.
                     <br />
-                    The OCA staking APY is 6%-20%, users participate in staking
-                    by running a Orcania Bridge node or delegating their OCA to
-                    one. This APY is composed of 5% staking reward and 1%-15%
-                    rewards from transaction fees on the bridge, this makes the
-                    inflation rate of OCA 2%-5% while its rewards rate 6%-20%.
+                    The CFC staking APY is 6%-20%, users participate in staking
+                    by running a Crypto Family Bridge node or delegating their
+                    CFC to one. This APY is composed of 5% staking reward and
+                    1%-15% rewards from transaction fees on the bridge, this
+                    makes the inflation rate of CFC 2%-5% while its rewards rate
+                    6%-20%.
                     <br />
                     <br />
-                    OCA was built to provide the best of performance, deliver
+                    CFC was built to provide the best of performance, deliver
                     the cheapest of gas usage and transactions, with the most
                     efficient of management tools to provide the best user and
                     industrial experience.
                     <br />
                     Some of these tools include the built in multi transfer
-                    functionality, which allows transfer of OCA to hundreds of
+                    functionality, which allows transfer of CFC to hundreds of
                     addresses using one transaction, that results in fast and
                     very cheap transfers that in most cases are cheaper than
                     regular coin transfers. (Use case example: Company paying
@@ -283,7 +284,7 @@ const Token = (props) => {
                         <div className="container is-max-desktop has-text-light is-size-5">
                             <ul>
                                 <li className="mb-6">FT didn't come to existence because we wanted it to be, it came because it needed to be.</li>
-                                <li className="mb-6">FT is the soul of governance and fees to all the Orcania projects, without it many of these projects would be impossible.</li>
+                                <li className="mb-6">FT is the soul of governance and fees to all the Crypto Family projects, without it many of these projects would be impossible.</li>
                                 <li className="mb-6">It was made to provide the blockchain community with a new view at technology and blockchain projects.</li>
                                 <li className="mb-6">And it lets our developer sleep at night knowing there isn't a contract out there with full allowance that can withdraw his tokens while he's taking a nap (not kidding)</li>
                             </ul>
@@ -310,7 +311,9 @@ const Token = (props) => {
                   <h1 className=" subtitle has-text-center has-text-light-purple">
                     Name of token
                   </h1>
-                  <p className="has-text-white has-text-center">Orcania Coin</p>
+                  <p className="has-text-white has-text-center">
+                    Crypto Family Coin
+                  </p>
                 </div>
               </div>
               <div className="column has-text-centered" data-aos="fade-up">
@@ -318,7 +321,7 @@ const Token = (props) => {
                   <h1 className=" subtitle has-text-center has-text-light-purple">
                     Symbol of token
                   </h1>
-                  <p className="has-text-white has-text-center">OCA</p>
+                  <p className="has-text-white has-text-center">CFC</p>
                 </div>
               </div>
             </div>
@@ -440,14 +443,14 @@ const Token = (props) => {
                     >
                       <li>
                         <h1 className="subtitle has-text-white is-5">
-                          Staking, governance and security for the Orcania
+                          Staking, governance and security for the Crypto Family
                           Bridge
                         </h1>
                       </li>{" "}
                       <br />
                       <li>
                         <h1 className="subtitle has-text-white is-5">
-                          Fees payment on the Orcania Bridge
+                          Fees payment on the Crypto Family Bridge
                         </h1>
                       </li>
                     </ul>
@@ -479,14 +482,14 @@ const Token = (props) => {
                     >
                       <li>
                         <h1 className="subtitle has-text-white is-5">
-                          Staking, governance and security for the Orcania
+                          Staking, governance and security for the Crypto Family
                           Multichain
                         </h1>
                       </li>{" "}
                       <br />
                       <li>
                         <h1 className="subtitle has-text-white is-5">
-                          Fees payment on the Orcania Multichain
+                          Fees payment on the Crypto Family Multichain
                         </h1>
                       </li>
                     </ul>
@@ -518,13 +521,14 @@ const Token = (props) => {
                     >
                       <li>
                         <h1 className="subtitle has-text-white is-5">
-                          Staking, governance and security for the Orcania Chain
+                          Staking, governance and security for the Crypto Family
+                          Chain
                         </h1>
                       </li>{" "}
                       <br />
                       <li>
                         <h1 className="subtitle has-text-white is-5">
-                          Fees payment on the Orcania Chain
+                          Fees payment on the Crypto Family Chain
                         </h1>
                       </li>
                     </ul>
@@ -563,13 +567,13 @@ const Token = (props) => {
               data-aos="fade-left"
             >
               <h1 className="title is-4 has-text-light-purple">
-                How to stake OCA?
+                How to stake CFC?
               </h1>
               <p className="has-text-light  has-text-distriute is-size-5">
-                Users can earn by running a validator node on the Orcania Bridge
-                or by delegating their OCA to one. For their help running and
-                securing the bridge, users get a 5% APY on their stake + rewards
-                from transaction fees of the bridge.
+                Users can earn by running a validator node on the Crypto Family
+                Bridge or by delegating their CFC to one. For their help running
+                and securing the bridge, users get a 5% APY on their stake +
+                rewards from transaction fees of the bridge.
               </p>
             </div>
             <div
@@ -577,7 +581,7 @@ const Token = (props) => {
               data-aos="fade-right"
             >
               <h1 className="title is-4 has-text-light-purple">
-                How to use OCA security and management features?
+                How to use CFC security and management features?
               </h1>
               <p className="has-text-light is-size-5">
                 A control panel interface will be provided for users to use in

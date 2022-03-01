@@ -12,7 +12,7 @@ const style = {
 
 const Vault = (props) => {
   useEffect(() => {
-    document.title = "Orcania | Vault";
+    document.title = "Crypto Family | Vault";
   }, []);
 
   return (
@@ -27,7 +27,7 @@ const Vault = (props) => {
                 data-aos="fade-right"
               >
                 <h1 className="title has-text-light-purple is-2 mb-5">
-                  Orcania Vault
+                  Crypto Family Vault
                 </h1>
                 <h1 className="subtitle has-text-white is-4">
                   Asset security made better than ever.
@@ -74,9 +74,9 @@ const Vault = (props) => {
                     About
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
-                    The Orcania Vault is an onchain security protocol under
-                    development with the purpose of improving the security and
-                    management of assets on blockchains.
+                    The Crypto Family Vault is an onchain security protocol
+                    under development with the purpose of improving the security
+                    and management of assets on blockchains.
                     <br />
                     <br />
                     The Vault offers a wide range of security and management
@@ -158,7 +158,7 @@ const Vault = (props) => {
                 <br />
                 While plans for the Vaults work flow are set, the Crypto
                 Family's team is currently occupied with projects such as the
-                Orcania Bridge.
+                Crypto Family Bridge.
               </p>
             </div>
 
@@ -171,7 +171,7 @@ const Vault = (props) => {
               </h1>
               <p className="has-text-light  has-text-distriute is-size-5">
                 The Vault will cover a wide range of blockchains (all
-                blockchains linked by the Orcania Bridge). <br />
+                blockchains linked by the Crypto Family Bridge). <br />
                 These blockchains will include: Ethereum, Polygon, BSC, Harmony,
                 etc...
               </p>

@@ -7,7 +7,7 @@ import "./downloads.scss";
 
 const BridgeApp = (props) => {
   useEffect(() => {
-    document.title = "Orcania | Downloads";
+    document.title = "Crypto Family | Downloads";
   }, []);
 
   return (
@@ -53,7 +53,7 @@ const BridgeApp = (props) => {
                   href="https://drive.google.com/file/d/1CmllHSKKDa_jc7MkCHoYNcYhjSMP4e5H/view?usp=sharing"
                   target="_blank"
                 >
-                  Orcania Bridge BSC Validator Node{" "}
+                  Crypto Family Bridge BSC Validator Node{" "}
                 </a>
               </div>
               <div className="column is-6">
@@ -62,7 +62,7 @@ const BridgeApp = (props) => {
                   href="https://drive.google.com/file/d/1xTLrHCqgXYIzQW_um31R_fIX6dJzIghB/view?usp=sharing"
                   target="_blank"
                 >
-                  Orcania Bridge Ethereum Validator Node
+                  Crypto Family Bridge Ethereum Validator Node
                 </a>
               </div>
               <div className="column is-6">
@@ -71,7 +71,7 @@ const BridgeApp = (props) => {
                   href="https://drive.google.com/file/d/1iEw41bzy5_ScpyLWNjKj-Df7o31n0zRc/view?usp=sharing"
                   target="_blank"
                 >
-                  Orcania Bridge Harmony Validator Node
+                  Crypto Family Bridge Harmony Validator Node
                 </a>
               </div>
               <div className="column is-6">
@@ -79,7 +79,7 @@ const BridgeApp = (props) => {
                   className="button is-fullwidth has-text-light-purple py-5 download-btn"
                   disabled
                 >
-                  Orcania Bridge Polygon Validator Node Coming Soon
+                  Crypto Family Bridge Polygon Validator Node Coming Soon
                 </button>
               </div>
             </div>

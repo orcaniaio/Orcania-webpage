@@ -27,7 +27,7 @@ const Bridge = (props) => {
   const [videoVisible, setVideoVisible] = useState(false);
 
   useEffect(() => {
-    document.title = "Orcania | Bridge";
+    document.title = "Crypto Family | Bridge";
   }, []);
 
   return (
@@ -42,11 +42,11 @@ const Bridge = (props) => {
                 data-aos="fade-right"
               >
                 <h1 className="title has-text-light-purple is-2 mb-5">
-                  Orcania Bridge
+                  Crypto Family Bridge
                 </h1>
                 <h1 className="subtitle has-text-white is-4">
-                  The Orcania Bridge and Multichain have merged, new page coming
-                  soon.{" "}
+                  The Crypto Family Bridge and Multichain have merged, new page
+                  coming soon.{" "}
                 </h1>
 
                 <br />

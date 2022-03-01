@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const BridgeApp = (props) => {
   useEffect(() => {
-    document.title = "Orcania | App";
+    document.title = "Crypto Family | App";
   }, []);
 
   return (

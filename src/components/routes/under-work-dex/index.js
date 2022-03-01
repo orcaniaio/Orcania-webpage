@@ -19,7 +19,7 @@ const style = {
 
 const Dex = (props) => {
   useEffect(() => {
-    document.title = "Orcania | Genesis DEX";
+    document.title = "Crypto Family | Genesis DEX";
   }, []);
 
   return (
@@ -34,7 +34,7 @@ const Dex = (props) => {
                 data-aos="fade-right"
               >
                 <h1 className="title has-text-light-purple is-2 mb-5">
-                  Orcania DEX
+                  Crypto Family DEX
                 </h1>
                 <h1 className="subtitle has-text-white is-4">
                   The DEX is undergoing rebranding and will be back soon

@@ -15,13 +15,13 @@ const data = {
     {
       title: "2022 Q1",
       subtitle: "Audit And Mainnet Release",
-      body: "Succeeding development testing, the Orcania Bridge will be submitted for auditing at Certik, during that period advertising will start to introduce the world to the project and prepare for ICO and mainnet release. After the audit results return as clean, the Bridge will be going live on the mainnet's of the supported blockchains with the Orcania nodes being the first to secure the bridge followed by early node operators to help decentralize and secure the bridge",
+      body: "Succeeding development testing, the Crypto Family Bridge will be submitted for auditing at Certik, during that period advertising will start to introduce the world to the project and prepare for ICO and mainnet release. After the audit results return as clean, the Bridge will be going live on the mainnet's of the supported blockchains with the Crypto Family nodes being the first to secure the bridge followed by early node operators to help decentralize and secure the bridge",
     },
     {},
     {
       title: "2022 Q3",
       subtitle: "Bridge 2.0 Testnet Release",
-      body: "Release of the public testing of Orcania Bridge 2.0 with its full features on testnet",
+      body: "Release of the public testing of Crypto Family Bridge 2.0 with its full features on testnet",
     },
     {},
   ],
@@ -42,13 +42,13 @@ const data = {
     {
       title: "2022 Q2",
       subtitle: "Hackathon And Bridge 2.0",
-      body: "Following the release of Orcania Bridge V1.0 the hackathon for it will begin to introduce decentralized multichain projects for the first time ever in blockchain history. At the same time Orcania Bridge V2.0 will have entered testing to provide full inter blockchain communication of smart contracts",
+      body: "Following the release of Crypto Family Bridge V1.0 the hackathon for it will begin to introduce decentralized multichain projects for the first time ever in blockchain history. At the same time Crypto Family Bridge V2.0 will have entered testing to provide full inter blockchain communication of smart contracts",
     },
     {},
     {
       title: "2022 Q4",
       subtitle: "Bridge 2.0 Audit And Mainnet Release",
-      body: "Mainnet release of Orcania Bridge 2.0, finalizing the Orcania Bridge series and creating a fully functional multichain infrastructure and a multichain world.",
+      body: "Mainnet release of Crypto Family Bridge 2.0, finalizing the Crypto Family Bridge series and creating a fully functional multichain infrastructure and a multichain world.",
     },
   ],
 };

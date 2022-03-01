@@ -26,7 +26,7 @@ const Table = () => {
               <th>
                 <h1 className="subtitle is-4 has-text-contrast">
                   {" "}
-                  Orcania Bridge
+                  Crypto Family Bridge
                 </h1>
               </th>
             </tr>

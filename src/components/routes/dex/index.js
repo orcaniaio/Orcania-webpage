@@ -19,7 +19,7 @@ const style = {
 
 const Dex = (props) => {
   useEffect(() => {
-    document.title = "Orcania | Genesis DEX";
+    document.title = "Crypto Family | Genesis DEX";
   }, []);
 
   return (
@@ -34,7 +34,7 @@ const Dex = (props) => {
                 data-aos="fade-right"
               >
                 <h1 className="title has-text-light-purple is-2 mb-5">
-                  Orcania DEX
+                  Crypto Family DEX
                 </h1>
                 <h1 className="subtitle has-text-white is-4">
                   Unbounded Self Sustaining Decentralized Finance
@@ -74,18 +74,19 @@ const Dex = (props) => {
                     About
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
-                    The Orcania DEX is a nonprofit multichain DEFI 2.0 DEX aimed
-                    at low gas swaps regardless of the swap pair, low DEX fees,
-                    increasing locked liquidity stability, and unbounded trading
-                    flexibility.<br></br>
+                    The Crypto Family DEX is a nonprofit multichain DEFI 2.0 DEX
+                    aimed at low gas swaps regardless of the swap pair, low DEX
+                    fees, increasing locked liquidity stability, and unbounded
+                    trading flexibility.<br></br>
                     The DEX is based on Harmony and will be using the Crypto
-                    Family Bridge and Orcania Multichain projects infrastructure
-                    to allow users across all blockchains to interact with it.
-                    Orcania DEX was built with the aim of revolutionizing
-                    decentralized finance and decentralized trading, and we
-                    believe the steps to achieve that is through low trading
-                    fees, low gas usage and gas fees, self-sustaining liquidity,
-                    and trading flexibility. This is what the DEX works towards.
+                    Family Bridge and Crypto Family Multichain projects
+                    infrastructure to allow users across all blockchains to
+                    interact with it. Crypto Family DEX was built with the aim
+                    of revolutionizing decentralized finance and decentralized
+                    trading, and we believe the steps to achieve that is through
+                    low trading fees, low gas usage and gas fees,
+                    self-sustaining liquidity, and trading flexibility. This is
+                    what the DEX works towards.
                   </p>
                 </div>
                 <div className="column has-text-centered" data-aos="fade-right">
@@ -123,19 +124,19 @@ const Dex = (props) => {
                 <div className="column" data-aos="fade-up">
                   <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">
                     {" "}
-                    Orcania Middle Crypto Protocol{" "}
+                    Crypto Family Middle Crypto Protocol{" "}
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
-                    The Orcania DEX liquidity and swap’s structure both follow
-                    this protocol. The protocol eliminates the separate
+                    The Crypto Family DEX liquidity and swap’s structure both
+                    follow this protocol. The protocol eliminates the separate
                     liquidity pair’s structure found in regular DEX’s and
                     introduces a united liquidity structure that in turn allows
                     any crypto on the DEX to be traded with any another, with no
                     extra gas fees. All liquidity on the DEX is provided in one
-                    liquidity pair ‘Token-OCA’, making OCA the middle crypto
+                    liquidity pair ‘Token-CFC’, making CFC the middle crypto
                     between all cryptos and allowing for flexible unlimited
                     trading across all tokens. We explain in the sections below
-                    what makes OCA most fit for this role and how it maintains
+                    what makes CFC most fit for this role and how it maintains
                     stability of the DEX.
                   </p>
                 </div>
@@ -152,7 +153,7 @@ const Dex = (props) => {
                 </div>
                 <div className="column" data-aos="fade-up">
                   <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">
-                    Orcania Expanding Liquidity Protocol
+                    Crypto Family Expanding Liquidity Protocol
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
                     The DEX focuses on building self-sustaining liquidity, and
@@ -178,10 +179,11 @@ const Dex = (props) => {
                     Trading Flexibility{" "}
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
-                    The Orcania Middle Crypto protocol allows for the most
-                    flexible of trades. The Orcania Coin acts as a rerouting
-                    crypto between all other cryptos on the DEX, allowing you to
-                    trade any pair you want at no extra gas fees or DEX fees.
+                    The Crypto Family Middle Crypto protocol allows for the most
+                    flexible of trades. The Crypto Family Coin acts as a
+                    rerouting crypto between all other cryptos on the DEX,
+                    allowing you to trade any pair you want at no extra gas fees
+                    or DEX fees.
                   </p>
                 </div>
                 <div className="column has-text-centered" data-aos="fade-right">
@@ -263,13 +265,13 @@ const Dex = (props) => {
               className="box has-background-dark has-shadow mb-6"
               data-aos="fade-left"
             >
-              <h1 className="title is-4 has-text-light-purple">Why OCA?</h1>
+              <h1 className="title is-4 has-text-light-purple">Why CFC?</h1>
               <p className="has-text-light  has-text-distriute is-size-5">
-                OCA is a new fully decentralized crypto not bound to any CEX or
+                CFC is a new fully decentralized crypto not bound to any CEX or
                 DEX, with no previous distribution or allocations other than the
-                Orcania DEX and team, and as such there is no outside influence
-                over it, it works as a link for all the cryptos on the DEX, and
-                as such it is fit to act as middle crypto.
+                Crypto Family DEX and team, and as such there is no outside
+                influence over it, it works as a link for all the cryptos on the
+                DEX, and as such it is fit to act as middle crypto.
               </p>
             </div>
 
@@ -297,12 +299,12 @@ const Dex = (props) => {
                 the Bridge ?
               </h1>
               <p className="has-text-light is-size-5">
-                On the Orcania-DEX there is OCA is in the middle of all swaps,
-                meaning if a user provides ONE-OCA liquidity, then no matter
-                what tokens the traders use to buy ONE or when traders use ONE
-                to buy other cryptos, the user providing ONE-OCA liquidity is
-                always gaining from the fees, resulting in 3x-20x higher yield
-                than other DEX's
+                On the Crypto Family-DEX there is CFC is in the middle of all
+                swaps, meaning if a user provides ONE-CFC liquidity, then no
+                matter what tokens the traders use to buy ONE or when traders
+                use ONE to buy other cryptos, the user providing ONE-CFC
+                liquidity is always gaining from the fees, resulting in 3x-20x
+                higher yield than other DEX's
               </p>
             </div>
           </div>

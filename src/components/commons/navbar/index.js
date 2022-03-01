@@ -69,9 +69,9 @@ function NavBar() {
           <Link to="/" className="navbar-item asd">
             &nbsp;&nbsp;
             <span className="navbar-item" alt="https://cryptofamily3.com">
-              <img src={logoLight} alt="Orcania logo" />
+              <img src={logoLight} alt="Crypto Family logo" />
             </span>
-            <h1 className="title is-5 has-text-white">&nbsp; Orcania</h1>
+            <h1 className="title is-5 has-text-white">&nbsp; Crypto Family</h1>
           </Link>
 
           <a
