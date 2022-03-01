@@ -16,6 +16,7 @@ import ScrollToTop from "./components/base/scroll-to-top";
 // import BridgeApp from "./components/routes/app";
 import UnderWorkBridge from "./components/routes/under-work-bridge";
 import UnderWorkDEX from "./components/routes/under-work-dex";
+import UnderWorkToken from "./components/routes/under-work-token";
 //import '@splidejs/splide/dist/css/splide.min.css';
 import "./scss/styles.scss";
 
@@ -31,7 +32,7 @@ function App() {
         </Route>
 
         <Route exact path="/token">
-          <Token />
+          <UnderWorkToken />
         </Route>
 
         <Route exact path="/bridge">
