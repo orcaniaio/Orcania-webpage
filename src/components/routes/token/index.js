@@ -65,7 +65,12 @@ const Token = (props) => {
                   Orcania
                 </h1>
 
-                <br />
+                <h1
+                  className="subtitle has-text-white is-4 has-text-weight-bold"
+                  style={{ paddingTop: "9rem" }}
+                >
+                  Token Not Yet Released
+                </h1>
                 {/*}<button className="button is-light-purple" style={{width: '150px'}}>Node sales</button>&nbsp;&nbsp;
                                 <button className="button is-light-purple" style={{width: '150px'}}>Presale</button> */}
               </div>

@@ -50,7 +50,7 @@ const Home = (props) => {
                 data-aos="fade-right"
               >
                 <h1 className="title has-text-light-purple is-2 mb-5">
-                  Welcome to the Orcania
+                  Welcome to Orcania
                 </h1>
                 <h1 className="subtitle has-text-white is-4">
                   Building the future of blockchain technology
