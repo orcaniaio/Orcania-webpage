@@ -1,7 +1,7 @@
 const data = [
   {
     title: "Nodes Sale Parallel",
-    body: () => {
+    body: () => (
       <p>
         This allocation of OCA is to provide liquidity to the funds raised from
         the nodes sale. <br />
@@ -14,13 +14,13 @@ const data = [
         utilized in securing the Orcania Bridge through delegating equally
         across all nodes, or burnt. <br />
         <br />
-      </p>;
-    },
+      </p>
+    ),
     percentage: 35,
   },
   {
     title: "Nodes sale",
-    body: () => {
+    body: () => (
       <p>
         The nodes sale is to help early node operators aquire OCA to run
         validator nodes and secure the Orcania Bridge on mainnet release. <br />
@@ -45,28 +45,29 @@ const data = [
         their OCA. After the lock period is over, users will be able to withdraw
         their OCA over the course of 1 year, where they can withdraw 1/12 of
         their bought OCA each months.
-      </p>;
-    },
+      </p>
+    ),
     percentage: 35,
   },
   {
     title: "Protocol development",
-    body: () => {
+    body: () => (
       <p>
         15% of the OCA launch supply has been allocated to further fund the
         development of the Orcania projects. <br />
         <br />
         This allocation is to cover the hard work of our developers as well as
         the current and future expenses of development, tests, servers, nodes
-        and others. <br />
-        <br />"
-      </p>;
-    },
+        and others.
+        <br />
+        <br />
+      </p>
+    ),
     percentage: 15,
   },
   {
     title: "Ecosystem development",
-    body: () => {
+    body: () => (
       <p>
         After the mainnet release of the Orcania Bridge and Orcania DEX, the
         Orcania will be contributing to the growth of the ecosystem of both.{" "}
@@ -89,13 +90,13 @@ const data = [
         bridge and how to interact with them.
         <br />
         <br />
-      </p>;
-    },
+      </p>
+    ),
     percentage: 10,
   },
   {
     title: "Orcania node",
-    body: () => {
+    body: () => (
       <p>
         The Orcania is gonna be running the first nodes of the Orcania Bridge,
         and to ensure a secure launch we have allocated 2.5% of the OCA release
@@ -104,20 +105,20 @@ const data = [
         <br />
         These OCA will forever be allocated to running Orcania validator nodes
         on the bridge, never to be sold or even transferred.
-      </p>;
-    },
+      </p>
+    ),
     percentage: 2.5,
   },
   {
     title: "Delegation to nodes",
-    body: () => {
+    body: () => (
       <p>
         To ensure the Orcania Bridge is fully decentralized on release, and to
         make sure no node has the upper hand over other nodes. We have allocated
         2.5% of the OCA total supply to be equally delegated among all validator
         nodes on the bridge.
-      </p>;
-    },
+      </p>
+    ),
     percentage: 2.5,
   },
 ];

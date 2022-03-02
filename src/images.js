@@ -33,6 +33,7 @@ import token_icon_png from "media/pages/home/token.png";
 import bridge_icon_png from "media/pages/home/bridge.png";
 import vault_icon_png from "media/pages/home/vault.png";
 import exchange_icon_png from "media/pages/home/exchange.png";
+import exchange_icon_home_png from "media/pages/home/exchange-home.png";
 
 import member1_png from "media/pages/home/member1.png";
 import member3_png from "media/pages/home/member3.png";
@@ -46,6 +47,7 @@ import token_about_svg from "media/pages/token/token_about.svg";
 import token_governance_svg from "media/pages/token/token_governance.svg";
 import token_security_svg from "media/pages/token/token_security.svg";
 import token_ecosystem_svg from "media/pages/token/token_ecosystem.svg";
+import token_about_v2_svg from "media/pages/token/CF-About-us-v2.svg";
 
 import bridge_banner_svg from "media/pages/bridge/bridge_banner.svg";
 import bridge_about_svg from "media/pages/bridge/bridge_about.svg";
@@ -100,6 +102,7 @@ export const tokenIcon = token_icon_png;
 export const bridgeIcon = bridge_icon_png;
 export const vaultIcon = vault_icon_png;
 export const exchangeIcon = exchange_icon_png;
+export const exchangeIconHome = exchange_icon_home_png;
 
 export const member1 = member1_png;
 export const member3 = member3_png;
@@ -125,6 +128,7 @@ export const tokenArtwork1 = token_about_svg;
 export const tokenArtwork2 = token_governance_svg;
 export const tokenArtwork3 = token_security_svg;
 export const tokenArtwork4 = token_ecosystem_svg;
+export const tokenArtWorkAboutV2 = token_about_v2_svg;
 
 export const bridgeIcon2 = baseURL + "1PqnTHGxxm2XT2YAkwWh-RNbEysbFxZuS";
 export const multichainIcon = baseURL + "1_a6a0G54WcGo09taAIE7RFqr_fGvfR_s";

@@ -39,10 +39,7 @@ const Tokenomics = (props) => {
               config.w.globals.labels[config.dataPointIndex].toLowerCase()
           );
 
-          setShowData({
-            body: data.body,
-            title: data.title,
-          });
+          setShowData(data);
         },
         dataPointMouseEnter: function (event, chartContext, config) {
           // console.log( config.w.globals.labels[config.dataPointIndex] );
@@ -53,10 +50,7 @@ const Tokenomics = (props) => {
               config.w.globals.labels[config.dataPointIndex].toLowerCase()
           );
 
-          setShowData({
-            body: data.body,
-            title: data.title,
-          });
+          setShowData(data);
         },
       },
       // background: '#000'

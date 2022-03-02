@@ -1,4 +1,4 @@
-import "../bridge/table.scss";
+import "../multichain/table.scss";
 
 const Table = () => {
   return (
