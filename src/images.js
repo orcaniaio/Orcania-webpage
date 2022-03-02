@@ -46,6 +46,7 @@ import token_about_svg from "media/pages/token/token_about.svg";
 import token_governance_svg from "media/pages/token/token_governance.svg";
 import token_security_svg from "media/pages/token/token_security.svg";
 import token_ecosystem_svg from "media/pages/token/token_ecosystem.svg";
+import token_about_v2_svg from "media/pages/token/CF-About-us-v2.svg";
 
 import bridge_banner_svg from "media/pages/bridge/bridge_banner.svg";
 import bridge_about_svg from "media/pages/bridge/bridge_about.svg";
@@ -125,6 +126,7 @@ export const tokenArtwork1 = token_about_svg;
 export const tokenArtwork2 = token_governance_svg;
 export const tokenArtwork3 = token_security_svg;
 export const tokenArtwork4 = token_ecosystem_svg;
+export const tokenArtWorkAboutV2 = token_about_v2_svg;
 
 export const bridgeIcon2 = baseURL + "1PqnTHGxxm2XT2YAkwWh-RNbEysbFxZuS";
 export const multichainIcon = baseURL + "1_a6a0G54WcGo09taAIE7RFqr_fGvfR_s";

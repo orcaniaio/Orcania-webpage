@@ -135,7 +135,7 @@ function NavBar() {
                 <i className="fa-solid fa-link-horizontal"></i>
               </span>
               &nbsp;
-              <h1>Bridge</h1>
+              <h1>Orcania Multichain</h1>
             </Link>
 
             <Link

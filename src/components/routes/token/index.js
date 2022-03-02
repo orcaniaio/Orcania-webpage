@@ -1,18 +1,19 @@
 import { useEffect, useState } from "react";
 import {
-  baseURL,
+  // baseURL,
   tokenBannerImg,
-  tokenArtwork1,
+  // tokenArtwork1,
   tokenArtwork2,
   tokenArtwork3,
   tokenArtwork4,
   bridgeIcon2,
   blockchainIcon,
   multichainIcon,
+  tokenArtWorkAboutV2,
 } from "../../../images";
 
-import bscscan from "./bscscan.svg";
-import cmc from "./cmc.svg";
+// import bscscan from "./bscscan.svg";
+// import cmc from "./cmc.svg";
 
 import Tokenomics from "./tokenomics";
 
@@ -130,23 +131,22 @@ const Token = (props) => {
                     About
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
-                    Orcania Coin, or OCA, is a multichain technologically driven
-                    asset, used for the governance, security and payment of all
-                    the current and future projects of the Orcania.
+                    Orcania Coin, or OCA, is used for the governance, security
+                    and fees payment on all current and future projects of
+                    Orcania ecosystem.
                     <br />
                     <br />
-                    It is mostly used for governance, security, and fees on the
-                    multichain Beacons of the Orcania Bridge, to secure all of
-                    its transactions and pay its fees.
-                    <br />
-                    Future use cases will also include OCA being the governance
-                    asset for the Orcania Bridge V2.0, voting asset for project
-                    ideas and recommendations, and payment asset for all
-                    services provided by the Orcania.
+                    It is planed to be used for governance, security, and fees
+                    on the Orcania Multichain, as well as act as the mother
+                    asset on the Orcania DEX.
                     <br />
                     <br />
-                    In other words, OCA is the heart of the Orcania ecosystem,
-                    and the basis of it's security and foundation.
+                    OCA is used for voting on project ideas and recommendations
+                    related to the Orcania ecosystem.
+                    <br />
+                    <br />
+                    OCA is the heart of the Orcania ecosystem, and the basis of
+                    it's security and governance.
                   </p>
                 </div>
                 <div
@@ -154,7 +154,7 @@ const Token = (props) => {
                   data-aos="fade-right"
                   style={{ display: "grid", placeItems: "center" }}
                 >
-                  <img src={tokenArtwork1} alt="" width="500px" />
+                  <img src={tokenArtWorkAboutV2} alt="" width="500px" />
                 </div>
               </div>
               <br />
@@ -173,20 +173,22 @@ const Token = (props) => {
                     Governance
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
-                    OCA is the coin used to manage voting power and pay fees on
-                    the Orcania Bridge. In order to gain voting power, validator
-                    nodes will need to acquire and stake OCA on the blockchain
-                    they wish to link.
+                    OCA is the governance asset for the Orcania ecosystem and
+                    projects. OCA holders hold the power over all security and
+                    ecosystem changes and they're approval is needed to
+                    implement such changes.
                     <br />
                     <br />
-                    The security of the Bridge and authenticity of its
-                    transactions is all determined by the amount of OCA staked
-                    on the Bridge and the voting power backing each transaction.
+                    This governance power is most valid in the Orcania
+                    Multichain and Chain projects, validator nodes in these
+                    projects hold the power to make changes in the projects
+                    structure and the Orcania ecosystem. OCA holders can
+                    delegate their OCA to the node they wish to represent them
+                    in order to increase their governance power over changes.
                     <br />
                     <br />
-                    Future projects such as the Orcania Bridge 2.0 will also
-                    rely on OCA for security among validator nodes and payment
-                    for its transaction fees.
+                    80% of the total governance power is required for a change
+                    in the projects or ecosystem.
                   </p>
                 </div>
               </div>
@@ -202,14 +204,14 @@ const Token = (props) => {
                     OCA inherits the security of the many blockchains it
                     operates on, and comes equipped with unique security
                     features that accomplish a new standard of security in the
-                    world of cryptos, and act as a teaser for the upcoming
-                    Orcania Vault project.
+                    world of cryptos.
                     <br />
                     <br />
                     OCA helps users stay free, safe and secure, it is available
                     on many blockchains in a non-wrapped form and can be
-                    transfered across these blockchains in a decentralized and
-                    permisionless fashion using the Orcania Bridge.
+                    transferred across these blockchains in a decentralized and
+                    permisionless fashion using the Orcania Multichain.
+                    <br />
                     <br />
                     It offers users security features such as clearance of
                     allowance, that takes away the allowance of any and all
@@ -219,9 +221,10 @@ const Token = (props) => {
                     contracts, hackers, or scam contracts.
                     <br />
                     <br />
-                    Some of the other features include 'Full Allowance', which
-                    helps acheive parental control or exterior management over
-                    funds, allowances, and staking.
+                    Some of the other features include 'Multi Transfer', which
+                    allows distribution of OCA to a wide variety of addresses
+                    for low cost. This is most efficient in companies and teams
+                    looking to pay a wide variety of addresses in OCA.
                   </p>
                 </div>
                 <div
@@ -249,30 +252,21 @@ const Token = (props) => {
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
                     OCA is a community controlled asset, meaning its developers
-                    have no power of controlling it in any way.
-                    <br />
-                    New OCA tokens can only be born by staking existing OCA,
-                    making OCA holders the only ones capable of providing more
-                    OCA to the community and to the Orcania projects.
-                    <br />
-                    The OCA staking APY is 6%-20%, users participate in staking
-                    by running a Orcania Bridge node or delegating their OCA to
-                    one. This APY is composed of 5% staking reward and 1%-15%
-                    rewards from transaction fees on the bridge, this makes the
-                    inflation rate of OCA 2%-5% while its rewards rate 6%-20%.
+                    have no power of controlling it in any way. New OCA tokens
+                    can only be born by staking existing OCA on the Orcania
+                    Multichain or the Orcania Chain, making OCA holders the only
+                    ones capable of providing more OCA to the community and to
+                    the Orcania projects.
                     <br />
                     <br />
-                    OCA was built to provide the best of performance, deliver
-                    the cheapest of gas usage and transactions, with the most
-                    efficient of management tools to provide the best user and
-                    industrial experience.
+                    The OCA staking APY is 3%-5%, users participate in staking
+                    by delegating their OCA to a validator node operating on the
+                    Multichain or Chain projects.
                     <br />
-                    Some of these tools include the built in multi transfer
-                    functionality, which allows transfer of OCA to hundreds of
-                    addresses using one transaction, that results in fast and
-                    very cheap transfers that in most cases are cheaper than
-                    regular coin transfers. (Use case example: Company paying
-                    its employees)
+                    <br />
+                    OCA has many deflationary protocols built into the Orcania
+                    DEX, Multichain, and Chain. This pushes the yearly inflation
+                    rate of OCA to less than 2% and possibly to negative values.
                     <br />
                     <br />
                   </p>
@@ -437,24 +431,19 @@ const Token = (props) => {
                     </div>
                     <br />
                     <h1 className="subtitle has-text-white has-text-centered is-3">
-                      Bridge
+                      DEX
                     </h1>
                     <ul
                       className="px-5"
                       style={{ listStyle: "disc", color: "white" }}
                     >
                       <li>
+                        {/* TODO: Need an icon for DEX */}
                         <h1 className="subtitle has-text-white is-5">
-                          Staking, governance and security for the Orcania
-                          Bridge
-                        </h1>
-                      </li>{" "}
-                      <br />
-                      <li>
-                        <h1 className="subtitle has-text-white is-5">
-                          Fees payment on the Orcania Bridge
+                          Middle crypto of the Orcania DEX
                         </h1>
                       </li>
+                      <br />
                     </ul>
                   </div>
                 </div>

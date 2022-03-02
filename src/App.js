@@ -8,7 +8,7 @@ import Navbar from "./components/commons/navbar";
 import Footer from "./components/commons/footer";
 import Home from "./components/routes/home";
 import Token from "./components/routes/token";
-import Bridge from "./components/routes/bridge";
+import Multichain from "./components/routes/multichain";
 // import Vault from "./components/routes/vault";
 import Dex from "./components/routes/dex";
 import Downloads from "./components/routes/downloads";
@@ -36,7 +36,7 @@ function App() {
         </Route>
 
         <Route exact path="/bridge">
-          <UnderWorkBridge />
+          <Multichain />
         </Route>
 
         <Route exact path="/dex">
