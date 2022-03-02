@@ -36,7 +36,7 @@ function App() {
         </Route>
 
         <Route exact path="/bridge">
-          <Multichain />
+          <UnderWorkBridge />
         </Route>
 
         <Route exact path="/dex">

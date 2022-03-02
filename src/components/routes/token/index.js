@@ -6,7 +6,7 @@ import {
   tokenArtwork2,
   tokenArtwork3,
   tokenArtwork4,
-  bridgeIcon2,
+  exchangeIconHome,
   blockchainIcon,
   multichainIcon,
   tokenArtWorkAboutV2,
@@ -15,7 +15,7 @@ import {
 // import bscscan from "./bscscan.svg";
 // import cmc from "./cmc.svg";
 
-import Tokenomics from "./tokenomics";
+// import Tokenomics from "./tokenomics";
 
 // import ReactHtml from "raw-html-react";
 
@@ -89,7 +89,7 @@ const Token = (props) => {
         </div>
       </section>
 
-      <section className="has-background-light px-4">
+      {/* <section className="has-background-light px-4">
         <div className="head pt-6 mb-6">
           <div className="container pt-6">
             <h1 className="title is-3 has-text-primary has-text-centered has-liae-text primary mb-5">
@@ -118,7 +118,7 @@ const Token = (props) => {
         <div className="body pb-6">
           <div className="container is-max-desktop"></div>
         </div>
-      </section>
+      </section> */}
 
       <section className="has-background-d2p2d ">
         <div className="head pt-6"></div>
@@ -414,7 +414,10 @@ const Token = (props) => {
             <div className="container px-3">
               <div className="columns">
                 <div className="column">
-                  <div className="box has-background-primary2dark-v py-6">
+                  <div
+                    className="box has-background-primary2dark-v py-6"
+                    style={{ height: "100%" }}
+                  >
                     <div style={{ display: "grid", placeItems: "center" }}>
                       <div
                         className="has-background-light-purple"
@@ -426,7 +429,7 @@ const Token = (props) => {
                           placeItems: "center",
                         }}
                       >
-                        <img src={bridgeIcon2} alt="" width="100" />
+                        <img src={exchangeIconHome} alt="" width="90" />
                       </div>
                     </div>
                     <br />
@@ -448,7 +451,10 @@ const Token = (props) => {
                   </div>
                 </div>
                 <div className="column">
-                  <div className="box has-background-primary2dark-v py-6">
+                  <div
+                    className="box has-background-primary2dark-v py-6"
+                    style={{ height: "100%" }}
+                  >
                     <div style={{ display: "grid", placeItems: "center" }}>
                       <div
                         className="has-background-light-purple"
@@ -487,7 +493,10 @@ const Token = (props) => {
                   </div>
                 </div>
                 <div className="column">
-                  <div className="box has-background-primary2dark-v py-6">
+                  <div
+                    className="box has-background-primary2dark-v py-6"
+                    style={{ height: "100%" }}
+                  >
                     <div style={{ display: "grid", placeItems: "center" }}>
                       <div
                         className="has-background-light-purple"
@@ -541,6 +550,7 @@ const Token = (props) => {
             <div
               className="box has-background-dark has-shadow mb-6"
               data-aos="fade-right"
+              style={{ height: "100%" }}
             >
               <h1 className="title is-4 has-text-light-purple">
                 When is the ICO?

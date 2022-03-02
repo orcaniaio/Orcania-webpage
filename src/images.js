@@ -33,6 +33,7 @@ import token_icon_png from "media/pages/home/token.png";
 import bridge_icon_png from "media/pages/home/bridge.png";
 import vault_icon_png from "media/pages/home/vault.png";
 import exchange_icon_png from "media/pages/home/exchange.png";
+import exchange_icon_home_png from "media/pages/home/exchange-home.png";
 
 import member1_png from "media/pages/home/member1.png";
 import member3_png from "media/pages/home/member3.png";
@@ -101,6 +102,7 @@ export const tokenIcon = token_icon_png;
 export const bridgeIcon = bridge_icon_png;
 export const vaultIcon = vault_icon_png;
 export const exchangeIcon = exchange_icon_png;
+export const exchangeIconHome = exchange_icon_home_png;
 
 export const member1 = member1_png;
 export const member3 = member3_png;

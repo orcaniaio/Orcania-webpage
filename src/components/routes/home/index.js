@@ -1,30 +1,24 @@
 import { useState, useEffect } from "react";
 import {
-  //baseURL,
-  //homeBannerImg,
   homeArtwork1,
   homeArtwork2,
   homeArtwork3,
   member1,
   member3,
-  //member4,
   member5,
   member6,
   tokenIcon,
   bridgeIcon,
-  //vaultIcon,
   exchangeIcon,
-  traf,
-  //surreal,
-  meconcash,
-  polygon_logo,
-  harmony_logo,
   welcomeScreenHome,
 } from "../../../images";
 import brandLogos from "static/home/brand-logos";
 import { Link } from "react-router-dom";
 import TeamCard from "../../base/team-card";
-//import PatnersSection from './patners.section';
+import {
+  partnerSection,
+  partnerSectionSecondDivision,
+} from "static/home/partners-section";
 
 const style = {
   // height: '100%',
@@ -388,167 +382,18 @@ const Home = (props) => {
           <div id="infinite" className="highway-slider">
             <div className="highway-barrier">
               <ul className="highway-lane">
-                <li className="highway-car ml">
-                  <a
-                    href="https://polygon.technology/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={polygon_logo} alt="Polygon" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.harmony.one/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={harmony_logo} alt="Harmony" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://polygon.technology/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={polygon_logo} alt="Polygon" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.harmony.one/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={harmony_logo} alt="Harmony" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://polygon.technology/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={polygon_logo} alt="Polygon" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.harmony.one/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={harmony_logo} alt="Harmony" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://polygon.technology/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={polygon_logo} alt="Polygon" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.harmony.one/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={harmony_logo} alt="Harmony" />
-                  </a>
-                </li>
-
-                <li className="highway-car ml">
-                  <a
-                    href="https://polygon.technology/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={polygon_logo} alt="Polygon" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.harmony.one/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={harmony_logo} alt="Harmony" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://polygon.technology/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={polygon_logo} alt="Polygon" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.harmony.one/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={harmony_logo} alt="Harmony" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://polygon.technology/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={polygon_logo} alt="Polygon" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.harmony.one/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={harmony_logo} alt="Harmony" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://polygon.technology/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={polygon_logo} alt="Polygon" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.harmony.one/"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={harmony_logo} alt="Harmony" />
-                  </a>
-                </li>
+                {partnerSection.map((item, index) => (
+                  <li className="highway-car ml" key={index}>
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      className="box has-background-dark has-no-box-shadow"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={item.logo} alt={item.alt} />
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
@@ -556,168 +401,18 @@ const Home = (props) => {
           <div id="infinite" className="highway-slider">
             <div className="highway-barrier">
               <ul className="highway-lane phase2">
-                <li className="highway-car ml">
-                  <a
-                    href="https://theredapefamily.com/home"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={traf} alt="The red ape family" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.meconcash.com/index_en.html"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={meconcash} alt="Meconcash" />
-                  </a>
-                </li>
-
-                <li className="highway-car ml">
-                  <a
-                    href="https://theredapefamily.com/home"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={traf} alt="The red ape family" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.meconcash.com/index_en.html"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={meconcash} alt="Meconcash" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://theredapefamily.com/home"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={traf} alt="The red ape family" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.meconcash.com/index_en.html"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={meconcash} alt="Meconcash" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://theredapefamily.com/home"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={traf} alt="the red ape family" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.meconcash.com/index_en.html"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={meconcash} alt="meconcash" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://theredapefamily.com/home"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={traf} alt="the red ape family" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.meconcash.com/index_en.html"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={meconcash} alt="meconcash" />
-                  </a>
-                </li>
-
-                <li className="highway-car ml">
-                  <a
-                    href="https://theredapefamily.com/home"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={traf} alt="The red ape family" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.meconcash.com/index_en.html"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={meconcash} alt="meconcash" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://theredapefamily.com/home"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={traf} alt="The red ape family" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.meconcash.com/index_en.html"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={meconcash} alt="meconcash" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://theredapefamily.com/home"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={traf} alt="The red ape family" />
-                  </a>
-                </li>
-                <li className="highway-car ml">
-                  <a
-                    href="https://www.meconcash.com/index_en.html"
-                    target="_blank"
-                    className="box has-background-dark has-no-box-shadow"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={meconcash} alt="meconcash" />
-                  </a>
-                </li>
+                {partnerSectionSecondDivision.map((item, index) => (
+                  <li className="highway-car ml" key={index}>
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      className="box has-background-dark has-no-box-shadow"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={item.logo} alt={item.alt} />
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
