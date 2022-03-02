@@ -557,8 +557,7 @@ const Token = (props) => {
               </h1>
               <p className="has-text-light  has-text-distriute is-size-5">
                 The ICO is still not defined due to development improvements
-                that pushed release date, nevertheless it is expected before
-                2022.
+                that pushed the release date.
               </p>
             </div>
 
@@ -570,10 +569,7 @@ const Token = (props) => {
                 How to stake OCA?
               </h1>
               <p className="has-text-light  has-text-distriute is-size-5">
-                Users can earn by running a validator node on the Orcania Bridge
-                or by delegating their OCA to one. For their help running and
-                securing the bridge, users get a 5% APY on their stake + rewards
-                from transaction fees of the bridge.
+                In the future, users can earn by running a validator node on the Orcania Multichain or by delegating their OCA to one. For their help running and securing the Multichain, users can get up to 5% APY on their stake .
               </p>
             </div>
             <div
