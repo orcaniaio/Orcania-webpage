@@ -1,4 +1,10 @@
-import { polygon_logo, harmony_logo, traf, meconcash } from "images.js";
+import {
+  polygon_logo,
+  harmony_logo,
+  traf,
+  meconcash,
+  chaocticDjs,
+} from "images.js";
 
 const templatePartnerSection = [
   {
@@ -23,6 +29,11 @@ const templatePartnerSecondDiv = [
     link: "https://www.meconcash.com/index_en.html",
     logo: meconcash,
     alt: "Meconcash",
+  },
+  {
+    link: "https://www.chaoticdjs.com/",
+    logo: chaocticDjs,
+    alt: "Chaoctic DJs",
   },
 ];
 

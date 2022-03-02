@@ -142,11 +142,9 @@ const Token = (props) => {
                     <br />
                     <br />
                     OCA is used for voting on project ideas and recommendations
-                    related to the Orcania ecosystem.
-                    <br />
-                    <br />
-                    OCA is the heart of the Orcania ecosystem, and the basis of
-                    it's security and governance.
+                    related to the Orcania ecosystem. It is the heart of the
+                    Orcania ecosystem, and the basis of it's security and
+                    governance.
                   </p>
                 </div>
                 <div
@@ -248,7 +246,7 @@ const Token = (props) => {
                 </div>
                 <div className="column" data-aos="fade-up">
                   <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered">
-                    Ecosystem
+                    Inflation
                   </h1>
                   <p className="has-text-light  has-text-distriute is-size-5">
                     OCA is a community controlled asset, meaning its developers
@@ -569,7 +567,10 @@ const Token = (props) => {
                 How to stake OCA?
               </h1>
               <p className="has-text-light  has-text-distriute is-size-5">
-                In the future, users can earn by running a validator node on the Orcania Multichain or by delegating their OCA to one. For their help running and securing the Multichain, users can get up to 5% APY on their stake .
+                In the future, users can earn by running a validator node on the
+                Orcania Multichain or by delegating their OCA to one. For their
+                help running and securing the Multichain, users can get up to 5%
+                APY on their stake .
               </p>
             </div>
             <div

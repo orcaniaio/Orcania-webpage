@@ -11,6 +11,7 @@ import {
   bridgeIcon,
   exchangeIcon,
   welcomeScreenHome,
+  multichainIconForHome,
 } from "../../../images";
 import brandLogos from "static/home/brand-logos";
 import { Link } from "react-router-dom";
@@ -224,13 +225,12 @@ const Home = (props) => {
                   About us
                 </h1>
                 <p className="has-text-light  has-text-distriute is-size-5">
-                  Orcania is a technologically driven team, focused on building
-                  the most advanced of projects in the blockchain industry in
-                  order to break the limits of blockchain technology and improve
-                  upon the features it offers. We strive to achieve these goals
-                  through a series of technologically and logically advanced
-                  projects never like before, the most significant being the
-                  Orcania Bridge series.
+                  Orcania is a technologically driven team focused on efficient
+                  blockchain development and growth, we aim to break the limits
+                  of blockchain technology and improve upon the features it
+                  offers. We strive to achieve these goals through a series of
+                  technologically and logically advanced projects such as the
+                  Orcania DEX, Multichain, and Chain projects.
                   <br />
                   <br />
                   Our goals are many but are always focused on one concept...
@@ -321,7 +321,7 @@ const Home = (props) => {
                 <Link
                   to="/token"
                   className="box has-background-primary2dark-box has-text-centered"
-                  style={{ minHeight: "280px" }}
+                  style={{ minHeight: "280px",height:"100%" }}
                   data-aos="fade-up"
                 >
                   <h1 className="title is-4 has-text-light-purple ">
@@ -335,15 +335,15 @@ const Home = (props) => {
               </div>
               <div className="column">
                 <Link
-                  to="/bridge"
+                  to="/multichain"
                   className="box has-background-primary2dark-box has-text-centered"
-                  style={{ minHeight: "280px" }}
+                  style={{ minHeight: "280px",height:"100%" }}
                   data-aos="fade-up"
                 >
                   <h1 className="title is-4 has-text-light-purple ">
-                    Orcania Bridge
+                    Orcania Multichain
                   </h1>
-                  <img src={bridgeIcon} alt="" />
+                  <img src={multichainIconForHome} alt="" style={{width:"40%"}} />
                   <p className="has-text-light is-size-5">
                     Linking the world of blockchains together
                     <br />
@@ -354,7 +354,7 @@ const Home = (props) => {
                 <Link
                   to="/dex"
                   className="box has-background-primary2dark-box has-text-centered"
-                  style={{ minHeight: "280px" }}
+                  style={{ minHeight: "280px",height:"100%" }}
                   data-aos="fade-up"
                 >
                   <h1 className="title is-4 has-text-light-purple ">

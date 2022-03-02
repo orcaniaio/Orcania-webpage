@@ -125,9 +125,9 @@ function NavBar() {
             </Link>
 
             <Link
-              to="/bridge"
+              to="/multichain"
               className={`navbar-item has-text-light  ${
-                location.pathname === "/bridge" ? "is-active" : ""
+                location.pathname === "/multichain" ? "is-active" : ""
               }`}
               onClick={onBurgerIClicked}
             >

@@ -20,17 +20,19 @@ import home_work_svg from "media/pages/home/home_work.svg";
 import home_goals_svg from "media/pages/home/home_goals.svg";
 import orcania_welcome_screen from "media/pages/home/orcania-welcome-screen.gif";
 
-import polygon_logo_svg from "media/patners/polygon.svg";
-import harmony_logo_svg from "media/patners/harmony.svg";
+import polygon_logo_svg from "media/partners/polygon.svg";
+import harmony_logo_svg from "media/partners/harmony.svg";
 
-import traf_svg from "media/patners/traf.svg";
-import cc_svg from "media/patners/cryptoclerks.svg";
-import bigtoys_svg from "media/patners/bigtoys.svg";
-import meconcash_png from "media/patners/meconcash.png";
-import surreal_svg from "media/patners/surreal.svg";
+import traf_svg from "media/partners/traf.svg";
+import cc_svg from "media/partners/cryptoclerks.svg";
+import bigtoys_svg from "media/partners/bigtoys.svg";
+import meconcash_png from "media/partners/meconcash.png";
+import surreal_svg from "media/partners/surreal.svg";
+import chaoctic_djs_png from "media/partners/chaotic_djs.png";
 
 import token_icon_png from "media/pages/home/token.png";
 import bridge_icon_png from "media/pages/home/bridge.png";
+import multichain_png from "media/pages/home/multichain.png";
 import vault_icon_png from "media/pages/home/vault.png";
 import exchange_icon_png from "media/pages/home/exchange.png";
 import exchange_icon_home_png from "media/pages/home/exchange-home.png";
@@ -101,6 +103,7 @@ export const homeArtwork3 = home_goals_svg;
 export const tokenIcon = token_icon_png;
 export const bridgeIcon = bridge_icon_png;
 export const vaultIcon = vault_icon_png;
+export const multichainIconForHome = multichain_png;
 export const exchangeIcon = exchange_icon_png;
 export const exchangeIconHome = exchange_icon_home_png;
 
@@ -115,6 +118,7 @@ export const cc = cc_svg;
 export const bigtoys = bigtoys_svg;
 export const meconcash = meconcash_png;
 export const surreal = surreal_svg;
+export const chaocticDjs = chaoctic_djs_png;
 
 export const polygon_logo = polygon_logo_svg;
 export const harmony_logo = harmony_logo_svg;

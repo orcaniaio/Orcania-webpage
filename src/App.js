@@ -35,7 +35,7 @@ function App() {
           <Token />
         </Route>
 
-        <Route exact path="/bridge">
+        <Route exact path="/multichain">
           <UnderWorkBridge />
         </Route>
 
