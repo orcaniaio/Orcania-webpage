@@ -42,7 +42,7 @@ const Bridge = (props) => {
                 data-aos="fade-right"
               >
                 <h1 className="title has-text-light-purple is-2 mb-5">
-                  Orcania Bridge
+                  Orcania Multichain
                 </h1>
                 <h1 className="subtitle has-text-white is-4">
                   The Orcania Bridge and Multichain have merged, new page coming
