@@ -26,22 +26,12 @@ const Footer = () => {
                   © Copyright Orcania. All Rights Reserved
                 </h1>
                 <a
-                  href="https://twitter.com/cryptofamily3?lang=es"
+                  href="https://twitter.com/orcania_io"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span className="icon has-text-dark is-size-3">
                     <i className="fab fa-twitter"></i>
-                  </span>
-                </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a
-                  href="https://t.me/CryptoFamilyTechnology"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span className="icon has-text-dark is-size-3">
-                    <i className="fab fa-telegram-plane"></i>
                   </span>
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
