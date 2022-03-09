@@ -63,6 +63,31 @@ const Wallet = () => {
                 <h1 className="subtitle has-text-white is-4">
                   Decentralized, open source, free, self owned wallet
                 </h1>
+                <br />
+                <div className="buttons">
+                  <a
+                    href="https://github.com/EAOE3/Orcania-Wallet"
+                    className="button is-light-purple"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ width: "150px" }}
+                  >
+                    <span className="icon">
+                      <i className="fab fa-github"></i>
+                    </span>
+                    <span className="is-size-5">Github</span>
+                  </a>
+                  <a
+                    href="#downloads"
+                    className="button is-light-purple"
+                    style={{ width: "150px" }}
+                  >
+                    <span className="icon">
+                      <i className="fas fa-download"></i>
+                    </span>
+                    <span className="is-size-5">Download</span>
+                  </a>
+                </div>
               </div>
 
               <div className="column" data-aos="flip-left">
@@ -154,7 +179,7 @@ const Wallet = () => {
         </div>
       </section>
 
-      <section className="has-background-d2p2d is-last-section ">
+      <section className="has-background-d2p2d is-last-section " id="downloads">
         <div className="head pt-6 mb-6">
           <div className="container">
             <h1 className="title has-line-text contrast is-3 has-text-contrast has-text-centered mb-5">
