@@ -9,6 +9,7 @@ import Footer from "./components/commons/footer";
 import Home from "./components/routes/home";
 import Token from "./components/routes/token";
 import Multichain from "./components/routes/multichain";
+import Wallet from "./components/routes/wallet";
 // import Vault from "./components/routes/vault";
 import Dex from "./components/routes/dex";
 import Downloads from "./components/routes/downloads";
@@ -31,8 +32,16 @@ function App() {
           <Home />
         </Route>
 
+        <Route exact path="/home">
+          <Home />
+        </Route>
+
         <Route exact path="/token">
           <Token />
+        </Route>
+
+        <Route exact path="/wallet">
+          <Wallet />
         </Route>
 
         <Route exact path="/multichain">

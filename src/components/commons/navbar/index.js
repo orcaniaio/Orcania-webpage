@@ -123,6 +123,19 @@ function NavBar() {
               &nbsp;
               <h1>Coin</h1>
             </Link>
+            <Link
+              to="/wallet"
+              className={`navbar-item has-text-light  ${
+                location.pathname === "/wallet" ? "is-active" : ""
+              }`}
+              onClick={onBurgerIClicked}
+            >
+              <span className="icon">
+                <i className="fas fa-wallet"></i>
+              </span>
+              &nbsp;
+              <h1>Wallet</h1>
+            </Link>
 
             <Link
               to="/multichain"

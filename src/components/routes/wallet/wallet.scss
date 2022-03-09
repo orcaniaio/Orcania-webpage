@@ -1,0 +1,19 @@
+.bordered-table {
+  border-bottom: 2px solid white !important;
+  border-left: 3px solid white !important;
+  border-right: 3px solid white !important;
+  border-collapse: collapse !important;
+
+  border-spacing: 0 !important;
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+}
+
+.custom-table-mobile {
+  @media (min-width: 768px) {
+    width: 100%;
+  }
+}
