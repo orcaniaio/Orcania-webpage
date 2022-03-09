@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useMemo } from "react";
-import { vaultArtwork1 } from "../../../images";
+import { vaultBannerImg } from "../../../images";
 import "./wallet.scss";
 import { useTable } from "react-table";
 
@@ -70,7 +70,7 @@ const Wallet = () => {
                   className="image is-square"
                   style={{ transform: "scale(0.8)" }}
                 >
-                  <img src={vaultArtwork1} alt="" />
+                  <img src={vaultBannerImg} alt="" />
                 </figure>
               </div>
             </div>
@@ -114,9 +114,9 @@ const Wallet = () => {
                     <br />
                     <br />
                     The wallet is built in Java so any OS (Windows, Linus, Mac)
-                    can run it smoothly. Java Runtime Environment (JRE) to run
-                    the wallet, most devices nowadays have JRE in them by
-                    default, but to those that doesn't have it you can download
+                    can run it smoothly. Java Runtime Environment (JRE) is
+                    required to run the wallet, most devices nowadays have JRE
+                    by default, but to those that don't have it you can download
                     it from&nbsp;
                     <a
                       href="https://java.com/en"
