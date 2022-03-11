@@ -145,6 +145,8 @@ const Wallet = () => {
                     it from&nbsp;
                     <a
                       href="https://java.com/en"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="has-text-light is-underlined"
                     >
                       here
