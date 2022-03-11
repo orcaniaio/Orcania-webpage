@@ -165,12 +165,16 @@ const Wallet = () => {
                   <div className="column is-mobile has-text-centered">
                     <iframe
                       title="Orcania Wallet"
-                      style={{ maxWidth: "100%", maxHeight: "100%" }}
+                      style={{
+                        maxWidth: "100%",
+                        maxHeight: "100%",
+                        borderRadius: "20px",
+                      }}
                       width={560}
-                      height={315}
-                      src="https://www.youtube.com/embed/Q_Z-_7_Zz-Q"
+                      height={400}
+                      src="https://www.youtube-nocookie.com/embed/A4TPFYRIIKg"
                       frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
                   </div>
