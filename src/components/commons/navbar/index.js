@@ -123,7 +123,7 @@ function NavBar() {
               &nbsp;
               <h1>Coin</h1>
             </Link>
-            <Link
+            {/* <Link
               to="/wallet"
               className={`navbar-item has-text-light  ${
                 location.pathname === "/wallet" ? "is-active" : ""
@@ -135,7 +135,7 @@ function NavBar() {
               </span>
               &nbsp;
               <h1>Wallet</h1>
-            </Link>
+            </Link> */}
 
             <Link
               to="/multichain"

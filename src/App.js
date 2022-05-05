@@ -40,9 +40,9 @@ function App() {
           <Token />
         </Route>
 
-        <Route exact path="/wallet">
+        {/* <Route exact path="/wallet">
           <Wallet />
-        </Route>
+        </Route> */}
 
         <Route exact path="/multichain">
           <UnderWorkBridge />
