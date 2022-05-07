@@ -321,7 +321,7 @@ const Home = (props) => {
                 <Link
                   to="/token"
                   className="box has-background-primary2dark-box has-text-centered"
-                  style={{ minHeight: "280px",height:"100%" }}
+                  style={{ minHeight: "280px", height: "100%" }}
                   data-aos="fade-up"
                 >
                   <h1 className="title is-4 has-text-light-purple ">
@@ -337,13 +337,17 @@ const Home = (props) => {
                 <Link
                   to="/multichain"
                   className="box has-background-primary2dark-box has-text-centered"
-                  style={{ minHeight: "280px",height:"100%" }}
+                  style={{ minHeight: "280px", height: "100%" }}
                   data-aos="fade-up"
                 >
                   <h1 className="title is-4 has-text-light-purple ">
                     Orcania Multichain
                   </h1>
-                  <img src={multichainIconForHome} alt="" style={{width:"40%"}} />
+                  <img
+                    src={multichainIconForHome}
+                    alt=""
+                    style={{ width: "40%" }}
+                  />
                   <p className="has-text-light is-size-5">
                     Linking the world of blockchains together
                     <br />
@@ -354,7 +358,7 @@ const Home = (props) => {
                 <Link
                   to="/dex"
                   className="box has-background-primary2dark-box has-text-centered"
-                  style={{ minHeight: "280px",height:"100%" }}
+                  style={{ minHeight: "280px", height: "100%" }}
                   data-aos="fade-up"
                 >
                   <h1 className="title is-4 has-text-light-purple ">
@@ -691,9 +695,9 @@ const Home = (props) => {
                 className="column has-text-centered"
                 style={{ display: "grid", placeItems: "center" }}
               >
-                <div style={{ width: "300px" }} data-aos="fade-up">
+                <div style={{ width: "330px" }} data-aos="fade-up">
                   <TeamCard
-                    name="Professor Youakim Badr"
+                    name="Full Professor Youakim Badr"
                     charge="Advisor"
                     imgsrc={member3}
                     chargeIcon={<i className="fas fa-chalkboard-teacher"></i>}
