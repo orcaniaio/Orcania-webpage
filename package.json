@@ -10,6 +10,7 @@
     "bulma": "^0.9.3",
     "bulma-timeline": "^3.0.4",
     "bulma-tooltip": "^3.0.2",
+    "celeste-framework": "^1.3.6",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-apexcharts": "^1.3.9",

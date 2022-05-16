@@ -1,0 +1,7 @@
+@media (max-width: 769px) {
+    /* <== You can change this break point as per your  needs */
+    .is-reverse {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}

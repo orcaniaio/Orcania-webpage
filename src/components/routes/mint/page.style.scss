@@ -1,0 +1,57 @@
+@import '../../../scss/vars.scss';
+
+.box-wrapper {
+    background-color: rgba(0, 0, 0, 0) !important;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(145deg, #ff00c7 0%, rgba(black, 0) 25%, rgba(black, 0) 75%, #00d1ff 100%);
+
+    padding: 3px !important;
+}
+
+.has-background-dark2 {
+    background-color: rgba($dark, 0.8) !important;
+}
+
+.logo-bloom {
+    background-image: url(../../../media/brand/cf-logo-white.png) !important;
+    filter: drop-shadow(0px 0px 25px rgba(255, 255, 255, 0.42));
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.mint-button {
+    background: rgba($light-purple, 0.25) !important;
+    border: 2px solid $light-purple !important;
+    color: $light-purple !important;
+
+    &:hover {
+        background: $light-purple !important;
+        border: 2px solid $light-purple !important;
+        color: $dark !important;
+    }
+}
+
+.symbol-button {
+    color: $light-purple !important;
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    font-size: 2rem !important;
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.mint-input {
+    background: $dark !important;
+    border: none !important;
+    color: $light-purple !important;
+    box-shadow: none !important;
+
+    text-align: center;
+
+    &:hover {
+        background: $dark !important;
+        color: $light-purple;
+    }
+}
