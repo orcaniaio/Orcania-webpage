@@ -120,16 +120,17 @@ const Token = props => {
                                         About
                                     </h1>
                                     <p className="has-text-light  has-text-distriute is-size-5">
-                                        Orcania Coin, or OCA, is used for the governance, security and fees payment on
-                                        all current and future projects of Orcania ecosystem.
+                                        OCA is the most advanced ERC20 token on the Ethereum blockchain. It was developed by the Orcania team with transaction fees 40%-80% 
+                                        cheaper than any other token, and management tools that allow for better security and scalability. OCA is used for the governance, security, 
+                                        rewards and fees payment on all current and future projects of the Orcania ecosystem.
                                         <br />
                                         <br />
                                         It is planed to be used for governance, security, and fees on the Orcania
-                                        Multichain, as well as act as the mother asset on the Orcania DEX.
+                                        Multichain, the mother asset on the Orcania DEX, main asset of the Orcania Chain, and rewards asset of the TRAF DEFI Program.
                                         <br />
                                         <br />
-                                        OCA is used for voting on project ideas and recommendations related to the
-                                        Orcania ecosystem. It is the heart of the Orcania ecosystem, and the basis of
+                                        OCA is further used for voting on project ideas and recommendations related to the
+                                        Orcania ecosystem. It is the heart of this ecosystem, and the basis of
                                         it's security and governance.
                                     </p>
                                 </div>
