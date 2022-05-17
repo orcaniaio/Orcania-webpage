@@ -48,11 +48,11 @@ function App() {
         </Route> */}
 
                 <Route exact path="/multichain">
-                    <UnderWorkBridge />
+                    <Multichain />
                 </Route>
 
                 <Route exact path="/dex">
-                    <UnderWorkDEX />
+                    <Dex />
                 </Route>
 
                 <Route exact path="/mint">
