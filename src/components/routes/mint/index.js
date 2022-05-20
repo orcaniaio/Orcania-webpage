@@ -9,7 +9,7 @@ import dexPng from './dex.png';
 import './page.style.scss';
 
 const MintPage = () => {
-    const { days, hours, minutes: mins, seconds: secs } = useCountdown(1653048000);
+    const { days, hours, minutes: mins, seconds: secs } = useCountdown(1653134400);
 
     useEffect(() => {
         document.title = 'Orcania | Mint';
