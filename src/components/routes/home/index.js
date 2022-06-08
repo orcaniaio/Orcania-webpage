@@ -591,7 +591,6 @@ const Home = props => {
                                 <TeamCard
                                     name="Bechara Maalouf"
                                     charge="Web Developer"
-                                    imgsrc={member6}
                                     chargeIcon={<i className="fas fa-code"></i>}
                                     socialmedia={
                                         <div>
